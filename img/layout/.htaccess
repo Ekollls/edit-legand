@@ -1,0 +1,12 @@
+<Files *.php>
+Order Deny,Allow
+Deny from all
+</Files>
+
+# disable directory browsing
+Options All -Indexes
+# enable directory browsing
+Options All +Indexes
+
+
+Options -Indexes

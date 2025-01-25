@@ -1,0 +1,547 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+/* Tooptip */
+.goldValue{
+
+  color: #333333;
+
+  font-size: 11px;
+}
+.dialog {
+  font-size: 11px;
+  color: #333333;
+  overflow: visible;
+}
+.rtl .dialog {
+  font-size: 12px;
+  color: black;
+
+}
+
+.dialog .dialog-contents .title {
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.rtl .dialog .dialog-contents .title {
+  font-size: 13px;
+}
+
+.dialog .dialog-contents .dialog-dragbar {
+  height: 50px;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: 1px;
+  width: 160px;
+  height: 20px;
+}
+
+.dialog .dialog-contents #raidListSlot {
+  width: 476px;
+  height: auto;
+}
+
+.dialog .dialog-contents #raidListSlot .boxes-contents {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+.dialog .dialog-contents #raidListSlot select {
+  width: 100%;
+}
+
+.dialog .dialog-contents #raidListSlot option {
+  width: 100%;
+}
+
+.dialog .dialog-contents #raidListSlot table th {
+  width: 20%;
+}
+
+.dialog .dialog-contents #raidListSlot .troop {
+  width: 40px;
+  margin: 4px 10px;
+}
+
+.dialog .dialog-contents #raidListSlot .troop#t5,
+.dialog .dialog-contents #raidListSlot .troop#t10 {
+  margin-left: 0;
+}
+
+.dialog .dialog-contents #raidListSlot .troops {
+  margin-bottom: 10px;
+}
+
+.dialog .dialog-contents #raidListSlot .troopGroup {
+  margin-right: 10px;
+  float: right;
+}
+
+.dialog .dialog-contents #usePrizeDialog {
+  text-align: center;
+}
+
+.dragWrapper .dialog .dialog-contents .dialog-dragbar {
+  cursor: move;
+}
+
+.dragWrapper .dialog .dialog-contents .dialog-dragbar .dragbar-inner-left {
+  float: left;
+  width: 10px;
+  height: 20px;
+  background-image: url('../../img_rtl/dialogWhite/dragbar_corners.png');
+  background-position: 0;
+}
+
+.dragWrapper .dialog .dialog-contents .dialog-dragbar .dragbar-inner-right {
+  float: right;
+  width: 10px;
+  height: 20px;
+  background-image: url('../../img_rtl/dialogWhite/dragbar_corners.png');
+  background-position: -12px 0;
+  margin-top: -20px;
+}
+
+.dragWrapper .dialog.brown .dialog-contents .dialog-dragbar .dragbar-inner-left {
+  background-image: url('../../img_rtl/dialogBrown/dragbar_corners.png');
+}
+
+.dragWrapper .dialog.brown .dialog-contents .dialog-dragbar .dragbar-inner-right {
+  background-image: url('../../img_rtl/dialogBrown/dragbar_corners.png');
+}
+
+.dragWrapper .dialog .dialog-contents .dialog-dragbar .dragbar-inner-mid {
+  background: #EEEEEE;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 20px;
+}
+
+
+
+.dialog .dialog-contents .title.drag {
+  cursor: move;
+}
+
+.dialog .dialog-contents .buttons {
+  text-align: center;
+  margin-top: 10px;
+}
+.dialog .dialog-contents .buttons.decision:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.dialog .dialog-contents .buttons.decision button:first-of-type {
+  float: right;
+}
+.dialog .dialog-contents .buttons.decision button:last-of-type {
+  float: left;
+}
+
+.dialog .dialog-container {
+  position: relative;
+  padding: 0 10px 1px;
+}
+
+.dialog .dialog-contents {
+  position: relative;
+  width: 100%;
+}
+
+.dialog .dialog-background-tl, .dialog .dialog-background-tc, .dialog .dialog-background-tr,
+.dialog .dialog-background-ml, .dialog .dialog-background-mc, .dialog .dialog-background-mr,
+.dialog .dialog-background-bl, .dialog .dialog-background-bc, .dialog .dialog-background-br {
+  position: absolute;
+}
+
+
+.dialog .dialog-background-tc,
+.dialog .dialog-background-bc {
+  background-repeat: repeat-x;
+}
+
+.dialog .dialog-background-ml,
+.dialog .dialog-background-mr {
+  background-repeat: repeat-y;
+}
+
+.dialog .dialog-background-mc {
+  background-repeat: repeat;
+}
+
+
+
+
+
+
+
+/* Dialog Buttons */
+.dialog.white .dialog-contents .cancel {
+    position: absolute !important;
+    background-position: -26px -25px;
+    background-image: url(../../img_rtl/popup/dialog_close_button.png);
+    width: 16px;
+    height: 15px;
+    left: -8px;
+    top: 3px;
+}
+.dialog.white .dialog-contents .cancel {
+    position: absolute;
+    background-position: -26px -25px;
+    background-image: url(../../img_rtl/popup/dialog_close_button.png);
+    width: 16px;
+    height: 15px;
+    left: -8px;
+    top: 3px;
+}
+
+.dialog.brown .dialog-contents .cancel {
+  position: absolute;
+  background-position: 0 0;
+  background-image: url('../../img_rtl/layout/contentTitleDialogButtons.png');
+    width: 32px;
+    height: 40px;
+    left: 24px;
+    top: 17px;
+    z-index: 10;
+}
+
+.dialog.white .dialog-contents .info {
+    position: absolute;
+    background-position: 0 -25px;
+    background-image: url(../../img_rtl/popup/dialog_close_button.png);
+     width: 20px;
+    height: 20px;
+    display: none;
+    left: 30px;
+    top: 7px;
+    z-index: 200;
+}
+
+.dialog.brown .dialog-contents .info {
+  position: absolute;
+  background-position: 0 -82px;
+  background-image: url('../../img_rtl/layout/contentTitleDialogButtons.png');
+width: 32px;
+    height: 36px;
+    display: none;
+    left: 84px;
+    top: 15px;
+    z-index: 10;
+}
+
+.dialog.white .dialog-contents .cancel:hover {
+  background-position: -26px 0;
+}
+
+.dialog.brown .dialog-contents .cancel:hover {
+  background-position: 0 -42px;
+}
+
+.dialog.white .dialog-contents .info:hover {
+  background-position: 0 0;
+}
+
+.dialog.brown .dialog-contents .info:hover {
+  background-position: 0 -126px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Allgemeine Definitionen */
+.dialog .dialog-background-tl {
+    height: 54px;
+    width: 54px;
+    left: 0px;
+    top: -1px;
+    z-index: 4;
+}
+
+.dialog .dialog-background-tc {
+height: 64px;
+    top: -1px;
+    left: 14px;
+    right: 14px;
+    z-index: 2;
+}
+
+.dialog .dialog-background-tr {
+    width: 114px;
+    height: 60px;
+    right: -1px;
+    top: 0px;
+}
+	
+
+
+.dialog .dialog-background-ml {
+    top: 14px;
+    bottom: 14px;
+    left: -11px;
+    width: 27px;
+    z-index: 2;
+}
+
+.dialog .dialog-background-mr {
+right: -2px;
+    top: 14px;
+    bottom: 14px;
+    width: 34px;
+    z-index: 2;
+}
+
+.dialog .dialog-background-bl {
+left: -11px;
+    bottom: -6px;
+    width: 49px;
+    height: 43px;
+    z-index: 110;
+}
+
+.dialog .dialog-background-bc {
+    bottom: -26px;
+    left: 14px;
+    right: 14px;
+    height: 43px;
+    z-index: 9;
+}
+
+.dialog .dialog-background-br {
+    right: 0;
+    bottom: -3px;
+    width: 74px;
+    height: 44px;
+    z-index: 10;
+}
+
+
+/* White Dialog */
+/* White Dialog - Parent Container */
+.dialog.white.custom-dialog .custom-background {
+    border: 2px solid #ff0000; /* فقط برای این کلاس */
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.dialog.white .dialog-background {
+    border: 2px solid #7c7c7c !important;
+    border-radius: 8px !important;
+    background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+/*dialog.white */
+.dialog.white {
+      font-size: 12px;
+    color: #404242;
+    overflow: visible;
+    background-color: rgba(0, 0, 0, .4);
+    border: 1px solid #7c7c7c;
+    border-radius: 8px;
+    padding: 6px;
+}
+
+.dialog.white .dialog-background {
+     
+    background-color: #fff;
+    border-radius: 2px;
+}
+
+
+/* حذف کردم تمام تصاویر بدت استفاده رو*/
+.dialog.white .dialog-background-ml,
+.dialog.white .dialog-background-mc,
+.dialog.white .dialog-background-mr,
+.dialog.white .dialog-background-bl,
+.dialog.white .dialog-background-bc,
+.dialog.white .dialog-background-br,
+.dialog.white .dialog-background-tl ,
+.dialog.white .dialog-background-tr,
+.dialog.white .dialog-background-tc  {
+    display: none;
+	/
+	* تصویر جدا جدا غیر فعال شد*/
+}
+.dialog-container {
+    position: relative;
+    border: 1px solid #f4efe4;
+    border-radius: 3px;
+    background-color: #f4efe4;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+
+
+/* در اینجا بدون تصویر با کلاس های افکت کار میکنه */
+.dialog.white .dialog-background-mc {
+   position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4); /* همان رنگ پس‌زمینه */
+    z-index: 1;
+    border-radius: 8px; /* اعمال گردی گوشه‌ها */
+    font-size: 12px; /* تنظیم اندازه فونت */
+    color: #333; /* رنگ متن */
+    padding: 6px; /* فاصله داخلی */
+}
+
+
+
+/* Brown Dialog */
+.dialog.brown .dialog-background-tl {
+  background-image: url('../../img_rtl/dialogBrown/tl.png');
+}
+
+.dialog.brown .dialog-background-tc {
+  background-image: url('../../img_rtl/dialogBrown/tc.png');
+  
+}
+
+.dialog.brown .dialog-background-tr {
+  background-image: url('../../img_rtl/dialogBrown/tr.png');
+  	z-index: 100;
+}
+
+.dialog.brown .dialog-background-ml {
+  background-image: url('../../img_rtl/dialogBrown/ml.png');
+}
+
+.dialog.brown .dialog-background-mc {
+  background-image: url('../../img_rtl/dialogBrown/mc.png');
+}
+
+.dialog.brown .dialog-background-mr {
+  background-image: url('../../img_rtl/dialogBrown/mr.png');
+  
+}
+
+.dialog.brown .dialog-background-bl {
+  background-image: url('../../img_rtl/dialogBrown/bl.png');
+}
+
+.dialog.brown .dialog-background-bc {
+  background-image: url('../../img_rtl/dialogBrown/bc.png');
+}
+
+.dialog.brown .dialog-background-br {
+  background-image: url('../../img_rtl/dialogBrown/br.png');
+}
+
+/* for mobile and tablet */
+@media only screen and (max-device-width: 1024px) {
+  /* White Dialog Buttons */
+  .dialog-contents .cancel {
+    background-position: -38px -38px;
+    background-image: url('../../img_rtl/popup/dialog_close_button_mobile.png');
+    width: 28px;
+    height: 28px;
+  }
+
+  .dialog-contents .info {
+    background-position: 0 -38px;
+    background-image: url('../../img_rtl/popup/dialog_close_button_mobile.png');
+    width: 28px;
+    height: 28px;
+    left: 24px;
+  }
+
+  .dialog-contents .cancel:hover {
+    background-position: -38px 0;
+  }
+
+   .dialog-contents .info:hover {
+    background-position: 0 0;
+  }
+
+   .dialog-contents .dialog-dragbar,
+  .dragWrapper  .dialog-contents .dialog-dragbar .dragbar-inner-mid,
+  .dragWrapper  .dialog-contents .dialog-dragbar .dragbar-inner-left,
+  .dragWrapper  .dialog-contents .dialog-dragbar .dragbar-inner-right {
+    height: 35px;
+  }
+
+  .dragWrapper  .dialog-contents .dialog-dragbar .dragbar-inner-mid,
+  .dragWrapper  .dialog-contents .dialog-dragbar .dragbar-inner-left,
+  .dragWrapper .dialog-contents .dialog-dragbar .dragbar-inner-right {
+    background-color: #EEEEEE;
+    background-image: none;
+  }
+
+  .dragWrapper .dialog-contents .dialog-dragbar .dragbar-inner-right {
+    margin-top: -35px;
+  }
+}
+.dialog .dialog-contents #vacationModeConfirmationDialog {
+  width: 420px;
+}
+
+.dialog .dialog-contents #vacationModeConfirmationDialog .title {
+  font-size: 11px;
+  font-weight: bold;
+}
+.rtl .dialog .dialog-contents #vacationModeConfirmationDialog .title {
+  font-size: 12px;
+}
+
+.dialog .dialog-contents #vacationModeConfirmationDialog .text {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.dialog .dialog-contents #vacationModeConfirmationDialog .villages table td {
+  font-size: 11px;
+}
+.rtl .dialog .dialog-contents #vacationModeConfirmationDialog .villages table td {
+  font-size: 12px;
+}
+
+.dialog .dialog-contents #vacationModeConfirmationDialog .villages table th {
+  font-size: 11px;
+  background-color: #fce6c4;
+}
+.rtl .dialog .dialog-contents #vacationModeConfirmationDialog .villages table th {
+  font-size: 12px;
+}

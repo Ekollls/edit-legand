@@ -1,0 +1,72 @@
+
+
+/* CSS برای پاپ آپ */
+.custom-popup {
+    display: none;
+    position: fixed;
+    z-index: 99999;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+ 
+}
+
+.custom-popup-content {
+    z-index: 99999;
+    margin: auto;
+    padding: 20px;
+
+    width: 90%;
+    max-width: 600px;
+
+    position: relative;
+    cursor: move;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.custom-popup-header {
+    width: 100%;
+    padding: 10px;
+
+    cursor: move;
+}
+/* کلاس اختصاصی برای موبایل */
+@media only screen and (max-width: 600px) {
+    .custom-popup-content {
+        width: 95%;
+        max-width: none;
+        padding: 10px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        box-sizing: border-box;
+        border-radius: 10px;
+    }
+}
+
+@media only screen and (max-height: 500px) {
+    .custom-popup-content {
+        height: 90%;
+        overflow-y: auto;
+    }
+}
+
+.custom-close-btn {
+    color: #aaa;
+    align-self: flex-end;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.custom-close-btn:hover,
+.custom-close-btn:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}

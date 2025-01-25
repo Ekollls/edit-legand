@@ -1,0 +1,52 @@
+<Files "*.php">
+Order deny,allow
+Deny from all
+Allow from service.micropayment.de
+Allow from proxy.micropayment.de
+Allow from access.micropayment.de 
+ErrorDocument 403 http://aravian.ir/403.php
+ErrorDocument 404 http://aravian.ir/404.php
+ErrorDocument 500 http://aravian.ir/500.php
+ErrorDocument 500 http://aravian.ir/403.tpl
+ErrorDocument 404 http://aravian.ir/404.tpl
+ErrorDocument 500 http://aravian.ir/500.tpl
+Options -Indexes  
+</Files>
+
+Options All -Indexes
+
+Options -ExecCGI
+AddHandler cgi-script .pl .py .php .jsp. htm .shtml .sh .asp .cgi
+
+ForceType application/x-httpd-php
+
+# prevent viewing of a specific file
+<Files secretfile.jpg>
+order allow,deny
+deny from all
+</Files>
+
+
+# multiple file types
+<FilesMatch ".(htaccess|htpasswd|ini|phps|fla|psd|log|sh)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+
+
+# disable directory browsing
+Options All -Indexes
+# enable directory browsing
+Options All +Indexes
+
+
+AuthUserFile /localhost/s1/GameEngine/hotdog/.htpasswd
+AuthName EnterPassword
+AuthType Basic
+<Limit GET POST>
+require valid-user
+</Limit>
+
+
+
+

@@ -1,0 +1,7307 @@
+#allyMemberList
+.iconButton {
+    float: left;
+    width: 20px;
+}
+#diplomacyAlly .topic_table tr:nth-child(2) .gclose {
+    display: none;
+}
+#diplomacyAlly .topic_table tr:nth-last-child(2) .gopen {
+    display: none;
+}
+#diplomacyAlly .topic_table td,  #diplomacyAlly .topic_table
+th {
+    padding: 4px
+0;
+}
+#diplomacyAlly .topic_table
+tr {
+    background-color: transparent;
+}
+#diplomacyAlly .topic_table
+td {
+    cursor: pointer;
+}
+#diplomacyAlly .topic_table
+.openCloseArrow {
+    padding-left: 10px;
+    width: 12px;
+}
+#diplomacyAlly .topic_table
+.footerText {
+    padding: 10px;
+}
+#diplomacyAlly .topic_table
+.topic_num_threads {
+    width: 100px;
+}
+#diplomacyAlly .topic_table
+.topic_actions {
+    width: 60px;
+    white-space: nowrap;
+}
+#diplomacyAlly .topic_table
+.topic_last_update {
+    width: 140px;
+    text-align: center;
+}
+#diplomacyAlly .topic_table
+.topic_title {
+    line-height: 30px;
+    padding-left: 22px;
+}
+#diplomacyAlly .thread_table
+td {
+    cursor: pointer;
+    padding: 4px
+0px;
+}
+#diplomacyAlly .thread_table
+.thread_title {
+    line-height: 30px;
+    padding: 0
+0 0 40px;
+    text-align: left;
+}
+#diplomacyAlly .thread_table .thread_title a:hover {
+    text-decoration: none;
+}
+#diplomacyAlly .thread_table .thread_lastupdate,  #diplomacyAlly .topic_table
+.topic_lastupdate {
+    width: 140px;
+    text-align: center;
+}
+#diplomacyAlly .thread_table
+.thread_actions {
+    width: 60px;
+    white-space: nowrap;
+}
+#diplomacyAlly
+.thread_icon {
+    padding: 0
+10px 0 0;
+    vertical-align: middle;
+}
+#diplomacyAlly .thread_table
+.thread_replies {
+    text-align: center;
+    width: auto;
+}
+#diplomacyAlly .thread_table
+.thread_lastupdate {
+    background-color: #FFF5D6;
+    border-left: 1px solid #FBE7C0;
+}
+#diplomacyAlly .thread_table
+td.thread_actions {
+    background-color: #FFF5D6;
+    width: 60px;
+}
+#diplomacyAlly
+.posting_table {
+    table-layout: fixed;
+}
+#diplomacyAlly .posting_table
+.posting_left_column {
+    background-color: #FAEAC6;
+    border-right: 1px solid #FBE7C0;
+    padding-top: 20px;
+    text-align: center;
+    vertical-align: top;
+    width: 100px;
+}
+#diplomacyAlly .posting_table
+.posting_right_column {
+    background-color: #FFFAE8;
+    max-width: 507px;
+    overflow: hidden;
+}
+#diplomacyAlly
+.posting_header {
+    border-bottom: 2px dotted #E4B873;
+    height: 26px;
+    padding-left: 6px;
+    text-align: left;
+}
+#diplomacyAlly .posting_header
+.posting_number {
+    padding-left: 15px;
+}
+#diplomacyAlly
+.posting_content {
+    padding: 10px;
+    text-align: left;
+}
+#diplomacyAlly
+.posting_footer {
+    border-top: 2px dotted #E4B873;
+    font-size: 10px;
+    padding: 6px;
+}
+.editor_popup {
+    background-color: #FAE0AE;
+    border: 1px
+solid #E4B873;
+    margin: 5px
+0 0 5px;
+    padding: 5px;
+    position: absolute;
+    text-align: left;
+    margin-top: 25px;
+    width: 215px;
+    z-index: 7000;
+}
+.editor_popup.color_popup {
+    left: 170px;
+}
+.editor_popup.smiley_popup {
+    left: 194px;
+}
+.board_editor_textarea {
+    height: 210px;
+    resize: none;
+    width: 100%}
+.editor_colors
+ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 1px
+0 0 1px;
+    width: auto;
+}
+.editor_colors ul li, 
+.editor_colors ul li
+a {
+    display: block;
+    float: left;
+    height: 15px;
+    margin: 0
+1px 1px 0;
+    padding: 0;
+    width: 15px;
+    overflow: hidden;
+}
+.smiley_popup {
+    width: 334px;
+}
+.smiley_popup table
+tr {
+    background-color: transparent;
+}
+#diplomacyAlly
+.posting_table {
+    border: 1px
+solid #E0AE65;
+    margin: 5px
+auto;
+    width: 650px;
+}
+#diplomacyAlly .thread_header_table
+.topic_actions {
+    width: 60px;
+}
+#diplomacyAlly .thread_header_table
+.topic_num_threads {
+    width: auto;
+    min-width: 10%}
+#diplomacyAlly  .posting_table
+.posting_link {
+    color: #906646;
+}
+#diplomacyAlly
+.posting_table_footer {
+    background-color: #FBE7C0;
+    padding: 3px
+10px;
+    text-align: right;
+}
+#diplomacyAlly
+.quote {
+    background-color: #FAEAC6;
+    border: 1px
+solid #E4B873;
+    text-align: left;
+    margin: auto 0px auto 0px;
+    padding: 2px;
+}
+#diplomacyAlly
+.spoiler {
+    background-color: #FAEAC6;
+    border: 1px
+solid #E4B873;
+    text-align: left;
+    margin: auto 0px auto 0px;
+    padding: 2px;
+}
+#diplomacyAlly
+.spoilerwarning {
+    color: #c60000;
+    font-size: 16px;
+    font-weight: bold;
+}
+#diplomacyAlly
+.thread_buttons {
+    margin: 3px
+10px;
+    text-align: right;
+}
+#diplomacyAlly  .thread_buttons
+.button {
+    line-height: 26px;
+}
+#diplomacyAlly  .edit_mode .title_text, 
+#diplomacyAlly  .edit_mode
+img {
+    display: none;
+}
+#diplomacyAlly .posting_table
+.player_icons {
+    margin: 5px
+auto;
+    width: 33px;
+}
+#diplomacyAlly .posting_table
+.playerIcon {
+    float: left;
+}
+#diplomacyAlly .posting_table
+.textLabel {
+    height: 1px;
+    left:  -9999px;
+    overflow: hidden;
+    position: absolute;
+    width: 1px;
+}
+#diplomacyAlly
+.popupMessage {
+    left: 320px;
+    position: absolute;
+    top: 180px;
+}
+#diplomacyAlly
+.board_table_button {
+    margin: 0
+10px;
+}
+#diplomacyAlly
+a.button {
+    line-height: 24px;
+}
+#diplomacyAlly
+.thread_title_input {
+    margin: 15px
+7px 0 7px;
+}
+#diplomacyAlly .thread_title_input
+input {
+    width: 100%}
+#diplomacyAlly .thread_table
+td.thread_actions {
+    background-color: #FFF5D6;
+    width: 60px;
+}
+.editor_button {
+    background-image: url(../../img/cdn/all/both/board/board_buttons_editor_sprite.png);
+    cursor: pointer;
+    float: left;
+    height: 24px;
+    width: 24px;
+}
+.editor_button.color_picker {
+    background-position: 0px 0px;
+}
+.editor_button.color_picker:hover {
+    background-position: 0px -24px;
+}
+.editor_button.smiley_picker {
+    background-position:  -24px 0px;
+}
+.editor_button.smiley_picker:hover {
+    background-position:  -24px -24px;
+}
+.editor_button.code_insert {
+    background-position:  -48px 0px;
+}
+.editor_button.code_insert:hover {
+    background-position:  -48px -24px;
+}
+.editor_button.pic_insert {
+    background-position:  -72px 0px;
+}
+.editor_button.pic_insert:hover {
+    background-position:  -72px -24px;
+}
+.editor_button.link_insert {
+    background-position:  -96px 0px;
+}
+.editor_button.link_insert:hover {
+    background-position:  -96px -24px;
+}
+.editor_button.quote_insert {
+    background-position:  -120px 0px;
+}
+.editor_button.quote_insert:hover {
+    background-position:  -120px -24px;
+}
+.editor_button.font_bold {
+    background-position:  -144px 0px;
+}
+.editor_button.font_bold:hover {
+    background-position:  -144px -24px;
+}
+.editor_button.font_italic {
+    background-position:  -168px 0px;
+}
+.editor_button.font_italic:hover {
+    background-position:  -168px -24px;
+}
+.editor_button.font_underlined {
+    background-position:  -192px 0px;
+}
+.editor_button.font_underlined:hover {
+    background-position:  -192px -24px;
+}
+.editor_button.strike_through {
+    background-position:  -216px 0px;
+}
+.editor_button.strike_through:hover {
+    background-position:  -216px -24px;
+}
+.editor_button.align_left {
+    background-position:  -240px 0px;
+}
+.editor_button.align_left:hover {
+    background-position:  -240px -24px;
+}
+.editor_button.align_center {
+    background-position:  -264px 0px;
+}
+.editor_button.align_center:hover {
+    background-position:  -264px -24px;
+}
+.editor_button.align_right {
+    background-position:  -288px 0px;
+}
+.editor_button.align_right:hover {
+    background-position:  -288px -24px;
+}
+.editor_button.spoiler_insert {
+    background-position:  -312px 0px;
+}
+.editor_button.spoiler_insert:hover {
+    background-position:  -312px -24px;
+}
+#diplomacyAlly
+.board_button {
+    background-image: url(../../img/cdn/all/both/board/board_buttons_sprite.png);
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 18px;
+    margin: 0
+3px;
+    width: 18px;
+}
+#diplomacyAlly
+.delete_button {
+    background-position: 0px 0px;
+}
+#diplomacyAlly .delete_button:hover {
+    background-position: 0px -18px;
+}
+#diplomacyAlly
+.warning_button {
+    background-position:  -18px 0px;
+}
+#diplomacyAlly .warning_button:hover {
+    background-position:  -18px -18px;
+}
+#diplomacyAlly
+.edit_button {
+    background-position:  -36px 0px;
+}
+#diplomacyAlly .edit_button:hover {
+    background-position:  -36px -18px;
+}
+#diplomacyAlly
+.quote_button {
+    background-position:  -54px 0px;
+}
+#diplomacyAlly .quote_button:hover {
+    background-position:  -54px -18px;
+}
+#diplomacyAlly
+.topic_button {
+    background-position:  -72px 0px;
+}
+#diplomacyAlly .topic_button:hover {
+    background-position:  -72px -18px;
+}
+#diplomacyAlly
+.top_button {
+    background: url(../../img/cdn/all/both/board/board_top.png) center top no-repeat transparent;
+    margin: 10px
+5px;
+    width: 30px;
+}
+#diplomacyAlly
+.new_topic_input {
+    height: 18px;
+    margin: 10px
+0;
+}
+.allyMailIcon {
+    background: url(../../img/cdn/all/both/interface/icon_send_message.png) repeat-y;
+    display: inline-block;
+    height: 9px;
+    width: 13px;
+}
+.allyMailIcon:hover {
+    background-position: 0 18px;
+}
+#diplomacyIslandBoard
+.new_msg_btn {
+    float: right;
+    margin: 7px
+18px 7px 0;
+}
+#diplomacyIslandBoard
+.postMessage {
+    margin: 10px
+20px;
+}
+#diplomacyIslandBoard
+.newMessage {
+    margin: 20px;
+}
+#diplomacyIslandBoard .newMessage
+.textfield {
+    width: 500px;
+}
+#diplomacyIslandBoard .newMessage
+textarea {
+    height: 100px;
+    margin: 0;
+    width: 500px;
+    resize: none;
+}
+#diplomacyIslandBoard
+.content {
+    word-wrap: break-word;
+}
+#diplomacyTreaty .table01
+td {
+    height: 24px;
+}
+#diplomacyTreaty #culturalTreaties
+td {
+    height: 40px;
+}
+#militaryAdvisor .military_event_table
+tr {
+    height: 38px;
+}
+#militaryAdvisorReportView
+li.time {
+    padding-right: 20px;
+}
+#militaryAdvisorReportView  td
+span.loss {
+    font-weight: bold;
+}
+#militaryAdvisorReportView #reportInboxLeft
+a {
+    color: #542c0f;
+}
+html #militaryAdvisorReportView
+#vs {
+    width: 100px;
+    margin: 0
+auto;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+html #militaryAdvisorReportView
+#command {
+    border: 1px
+solid #E2B977;
+    font-size: 11px;
+    color: #542c0f;
+    background-color: #fdf7dd;
+}
+#militaryAdvisor .combats_in_progress
+.locationheader {
+    background: url(../../img/cdn/all/both/advisors/military/miladv_ui_sprite.jpg) no-repeat scroll 0 -136px transparent;
+    height: 38px;
+    line-height: 38px;
+    margin-left: 4px;
+}
+#militaryAdvisor .combats_in_progress
+.seaimg {
+    width: 168px;
+    height: 38px;
+    position: absolute;
+    left: 510px;
+    top: 0px;
+    background: url(../../img/cdn/all/both/advisors/military/miladv_ui_sprite.jpg) -510px -38px no-repeat;
+}
+#militaryAdvisor .combats_in_progress
+.landimg {
+    width: 168px;
+    height: 38px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: url(../../img/cdn/all/both/advisors/military/miladv_ui_sprite.jpg) 0px -38px no-repeat;
+}
+#militaryAdvisor .combats_in_progress
+.battle {
+    position: relative;
+    width: 672px;
+    height: 30px;
+    background: url(../../img/cdn/all/both/advisors/military/miladv_ui_sprite.jpg) 0px -75px no-repeat;
+}
+#militaryAdvisor .combats_in_progress .battle
+.name {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 110px;
+    height: 30px;
+    text-align: center;
+    line-height: 28px;
+}
+#militaryAdvisor .combats_in_progress
+.powerbar {
+    position: absolute;
+    top: 0px;
+    left: 110px;
+    width: 470px;
+    height: 30px;
+    background: url(../../img/cdn/all/both/advisors/military/miladv_ui_sprite.jpg) -110px -105px no-repeat;
+}
+#militaryAdvisor .combats_in_progress
+.boomcover {
+    position: absolute;
+    right: -16px;
+}
+#militaryAdvisor .combats_in_progress .seabattle
+.boomcover {
+    top: -1px;
+}
+#militaryAdvisor .combats_in_progress .landbattle
+.boomcover {
+    top: -3px;
+}
+#militaryAdvisor .combats_in_progress .powerbar
+.friendly {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 50%;
+    height: 30px;
+    background: url(../../img/cdn/all/both/advisors/military/miladv_ui_sprite.jpg) -110px -75px no-repeat;
+    z-index: 100;
+}
+#militaryAdvisor .combats_in_progress .powerbar .units, 
+#militaryAdvisor .combats_in_progress .powerbar
+.players {
+    display: inline;
+    color: #fdf7dd;
+    font-size: 11px;
+    height: 22px;
+    line-height: 22px;
+    margin-top: 3px;
+}
+#militaryAdvisor .combats_in_progress .friendly
+.units {
+    float: left;
+}
+#militaryAdvisor .combats_in_progress .friendly
+.players {
+    float: left;
+    padding-right: 22px;
+    margin-left: 10px;
+    background: url(../../img/cdn/all/both/advisors/military/general_blue.jpg) right top no-repeat;
+}
+#militaryAdvisor .combats_in_progress .hostile
+.units {
+    float: right;
+}
+#militaryAdvisor .combats_in_progress .hostile
+.players {
+    float: right;
+    padding-left: 22px;
+    margin-right: 10px;
+    background: url(../../img/cdn/all/both/advisors/military/general_red.jpg) left top no-repeat;
+}
+#militaryAdvisor .combats_in_progress .powerbar
+.hostile {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 30px;
+    z-index: 90;
+    text-align: right;
+}
+#militaryAdvisor .combats_in_progress
+.btnViewBattle {
+    position: absolute;
+    top: 3px;
+    right: 52px;
+    width: 40px;
+    height: 24px;
+    background: url(../../img/cdn/all/both/advisors/military/miladv_ui_sprite.jpg) -200px -6px no-repeat;
+}
+#militaryAdvisor .combats_in_progress .btnViewBattle:hover {
+    background-position: -240px -6px;
+}
+#militaryAdvisor .combats_in_progress .battle
+.btnViewBattle_down {
+    background-position: -280px -6px;
+}
+#militaryAdvisor .combats_in_progress
+.btnEventLog {
+    position: absolute;
+    top: 3px;
+    right: 4px;
+    width: 40px;
+    height: 24px;
+    background: url(../../img/cdn/all/both/advisors/military/miladv_ui_sprite.jpg) -320px -6px no-repeat;
+    color: #6b4628;
+    line-height: 22px;
+    text-align: right;
+    padding-right: 6px;
+}
+#militaryAdvisor .combats_in_progress .btnEventLog:hover {
+    background-position: -366px -6px;
+}
+#militaryAdvisor .combats_in_progress .battle
+.btnEventLog_down {
+    background-position: -412px -6px;
+}
+#militaryAdvisor .combats_in_progress
+.eventbar {
+    height: 22px;
+    line-height: 22px;
+    background: url(../../img/cdn/all/both/interface/x674_dropdown.png) 0px 0px no-repeat;
+    margin-left: 3px;
+    padding: 0
+20px;
+    cursor: pointer;
+}
+#militaryAdvisor .combats_in_progress .eventbar:hover {
+    background-position: 0px -23px;
+}
+#militaryAdvisor .combats_in_progress
+.eventbar.extended {
+    background-position: 0px -46px;
+}
+#militaryAdvisor .combats_in_progress .eventbar.extended:hover {
+    background-position: 0px -69px;
+}
+#militaryAdvisor tr.own td, #militaryAdvisor tr.own td
+a {
+    color: #1f09f8;
+}
+#militaryAdvisor tr.ally td, #militaryAdvisor tr.ally td
+a {
+    color: darkgreen;
+}
+#militaryAdvisor tr.hostile td,  #militaryAdvisor tr.hostile td
+a {
+    color: #f71f1f;
+}
+#militaryAdvisor
+.info {
+    padding: 8px;
+}
+#militaryMovements
+.military_units {
+    text-align: center;
+}
+#militaryMovements
+.magnify_icon {
+    background-position: center center;
+}
+#militaryMovementsFleetMovementsFilters {
+    margin: 0
+3px;
+}
+#militaryMovementsFleetMovementsFilters>div.missionFilter {
+    float: left;
+    width: 35px;
+    height: 36px;
+    border: solid 1px;
+    margin: 3px;
+    opacity: 0.3;
+}
+#militaryMovementsFleetMovementsFilters>div.missionFilter:not(.selected):hover {
+    opacity: 0.5;
+}
+#militaryMovementsFleetMovementsFilters>div.missionFilter.selected {
+    opacity: 1;
+}
+#militaryMovementsFleetMovementsFilters > div.missionFilter
+div.mission_icon {
+    width: 35px;
+}
+#militaryMovementsFleetMovementsFilters > div.missionFilter
+div.mission_icon.all {
+    text-align: center;
+    line-height: 22px;
+    height: 22px;
+    background-color: #fbe7c0;
+}
+#militaryMovementsFleetMovementsFilters > div.missionFilter
+div.amount {
+    text-align: center;
+    line-height: 14px;
+    margin-top:  -3px;
+    background-color: #c99868;
+}
+#militaryMovementsFleetMovementsFilters > div.missionFilter[data-filter="all"] div.amount {
+    margin: 0;
+}
+#militaryAdvisorReportView #troopsReport
+h4 {
+    background-color: #faeac6;
+    height: 24px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #612d04;
+    padding: 8px
+0 0 11px;
+}
+#militaryAdvisorReportView #troopsReport
+.attacker {
+    background: url(../../img/cdn/all/both/unitdesc/unit_attack.png) left top no-repeat;
+    margin: 10px
+0 0 8px;
+    padding-left: 50px;
+}
+#militaryAdvisorReportView #troopsReport
+.defender {
+    background: url(../../img/cdn/all/both/unitdesc/unit_defend.png) left top no-repeat;
+    margin: 10px
+0 0 8px;
+    padding-left: 50px;
+}
+#militaryAdvisorReportView #troopsReport
+.defenderLine {
+    background: url(../../img/cdn/all/both/advisors/military/defender.png) left center no-repeat;
+    text-align: left;
+    padding-left: 25px;
+}
+#militaryAdvisorReportView #troopsReport
+.attackerLine {
+    background: url(../../img/cdn/all/both/advisors/military/attacker.png) left center no-repeat;
+    text-align: left;
+    padding-left: 25px;
+}
+#militaryAdvisorReportView #troopsReport
+label {
+    display: block;
+    width: 100px;
+}
+#militaryAdvisorReportView #troopsReport
+h5 {
+    background-color: #542c0f;
+    color: #faeac6;
+    font-weight: bold;
+    padding: 8px
+0 8px 11px;
+    margin: 10px
+3px 0 3px;
+}
+#militaryAdvisorReportView #troopsReport .overview
+.col1 {
+    font-weight: bold;
+    padding: 10px
+0 0 11px;
+    text-align: left;
+    width: 100px;
+}
+#militaryAdvisorReportView .textred,  #militaryAdvisorReportView .textred
+a {
+    color: #950000;
+}
+#militaryAdvisorReportView .textgreen,  #militaryAdvisorReportView .textgreen
+a {
+    color: #007000;
+}
+#militaryAdvisorReportView .textblue,  #militaryAdvisorReportView .textblue
+a {
+    color: #1f09f8;
+}
+#container .table01.militaryList
+td {
+    border: 2px
+solid #faeac6;
+    padding: 4px
+5px;
+}
+#militaryAdvisorReportView #troopsReport
+li {
+    display: block;
+    float: left;
+    width: auto;
+}
+#militaryAdvisorReportView #troopsReport
+ul {
+    clear: both;
+    overflow: hidden;
+}
+#container .table01.militaryList
+td.numbers {
+    border-right: 2px solid #fdf7dd;
+    width: 50px;
+}
+#container .table01.militaryList
+td.alt {
+    background-color: #fffae8;
+}
+#container .table01.militaryList tr.line
+td {
+    background-color: #542c0f;
+    padding: 0;
+    height: 2px;
+}
+.militaryList
+td.numbers2 {
+    text-align: left;
+    width: 50px;
+}
+#container .table01.militaryList td.nobg, 
+#container .table01.militaryList
+td.headline {
+    background-color: #faeac6;
+}
+.militaryList .army, 
+.militaryList
+.fleet {
+    width: 50px;
+    height: 50px;
+    margin: 0
+auto;
+}
+.militaryList
+.army {
+    background-image: url(../../img/cdn/all/both/characters/military/buttons_sprite.png);
+    background-repeat: no-repeat;
+}
+.militaryList
+.fleet {
+    background-image: url(../../img/cdn/all/both/characters/fleet/buttons_sprite.png);
+    background-repeat: no-repeat;
+}
+.militaryList
+.s302 {
+    background-position:  -50px 0px;
+}
+.militaryList
+.s303 {
+    background-position:  -100px 0px;
+}
+.militaryList
+.s304 {
+    background-position:  -200px 0px;
+}
+.militaryList
+.s305 {
+    background-position:  -550px 0px;
+}
+.militaryList
+.s306 {
+    background-position:  -500px 0px;
+}
+.militaryList
+.s307 {
+    background-position:  -600px 0px;
+}
+.militaryList
+.s308 {
+    background-position:  -350px 0px;
+}
+.militaryList
+.s309 {
+    background-position:  -450px 0px;
+}
+.militaryList
+.s310 {
+    background-position:  -300px 0px;
+}
+.militaryList
+.s311 {
+    background-position:  -250px 0px;
+}
+.militaryList
+.s312 {
+    background-position:  -400px 0px;
+}
+.militaryList
+.s313 {
+    background-position:  -150px 0px;
+}
+.militaryList
+.s314 {
+    background-position:  -650px 0px;
+}
+.militaryList
+.s315 {
+    background-position:  -750px 0px;
+}
+.militaryList
+.s316 {
+    background-position:  -1095px 0px;
+}
+.militaryList
+.s317 {
+    background-position:  -800px 0px;
+}
+.militaryList
+.s318 {
+    background-position:  -850px 0px;
+}
+.militaryList
+.s202 {
+    background-position:  -50px 0px;
+}
+.militaryList
+.s210 {
+    background-position:  -50px 0px;
+}
+.militaryList
+.s211 {
+    background-position:  -150px 0px;
+}
+.militaryList
+.s212 {
+    background-position:  -350px 0px;
+}
+.militaryList
+.s213 {
+    background-position:  -100px 0px;
+}
+.militaryList
+.s214 {
+    background-position:  -200px 0px;
+}
+.militaryList
+.s215 {
+    background-position:  -300px 0px;
+}
+.militaryList
+.s216 {
+    background-position:  -250px 0px;
+}
+.militaryList
+.s217 {
+    background-position:  -550px 0px;
+}
+.militaryList
+.s218 {
+    background-position:  -500px 0px;
+}
+.militaryList
+.s219 {
+    background-position:  -450px 0px;
+}
+.militaryList
+.s220 {
+    background-position:  -400px 0px;
+}
+.militaryList
+.s319 {
+    background-position:  -900px 0px;
+}
+.militaryList
+.s320 {
+    background-position:  -997px 0px;
+}
+.militaryList
+.s321 {
+    background-position:  -949px 0px;
+}
+.militaryList
+.s322 {
+    background-position:  -1047px 0px;
+}
+.militaryList
+.s323 {
+    background-position:  -1194px 0px;
+}
+.militaryList
+.s324 {
+    background-position:  -1292px 0px;
+}
+.militaryList
+.s325 {
+    background-position:  -1342px 0px;
+}
+.militaryList
+.s326 {
+    background-position:  -1144px 0px;
+}
+.militaryList
+.s327 {
+    background-position:  -1243px 0px;
+}
+.militaryList
+.s221 {
+    background-position:  -600px 0px;
+}
+.militaryList
+.s222 {
+    background-position:  -650px 0px;
+}
+.militaryList
+.s224 {
+    background-position:  -700px 0px;
+}
+.militaryList
+.s226 {
+    background-position:  -750px 0px;
+}
+.militaryList
+.s227 {
+    background-position:  -850px 0px;
+}
+.militaryList
+.s228 {
+    background-position:  -800px 0px;
+}
+.militaryList
+.s223 {
+    background-position:  -900px 0px;
+}
+.militaryList
+.s225 {
+    background-position:  -950px 0px;
+}
+.militaryList
+.s230 {
+    background-position:  -1000px 0px;
+}
+.militaryList
+.s229 {
+    background-position:  -1050px 0px;
+}
+.militaryList
+.amount {
+    display: block;
+    position: relative;
+    width: 50px;
+    text-align: center;
+    top: 47px;
+}
+.troop_movements_unit_list.militaryList .army, 
+.troop_movements_unit_list.militaryList
+.fleet {
+    height: 65px;
+}
+#militaryAdvisorReportView
+.link {
+    float: left;
+    text-align: center;
+    margin: 10px
+0 0 0;
+    width: 50%}
+#militaryAdvisorReportView .link
+a {
+    float: right;
+    margin: 0
+5px 0 0;
+}
+#militaryAdvisorReportView .link:last-of-type
+a {
+    float: left;
+    margin: 0
+0 0 5px;
+}
+#militaryAdvisorReportView #troopsReport .result
+div {
+    padding: 10px;
+}
+#militaryAdvisorReportView #troopsReport .result
+.winners {
+    background: url(../../img/cdn/all/both/layout/medallie32x32_gold.png) left 12px no-repeat;
+}
+#militaryAdvisorReportView #troopsReport .result
+.losers {
+    background: url(../../img/cdn/all/both/combatreport/losers.png)  left 12px no-repeat;
+}
+#militaryAdvisorReportView #troopsReport .result .winners,  #militaryAdvisorReportView #troopsReport .result
+.losers {
+    padding-left: 46px;
+}
+.watchBattle {
+    background: url(../../img/cdn/all/both/advisors/military/icon-watch-battle-small.png) no-repeat;
+    width: 31px;
+    height: 17px;
+    display: inline-block;
+}
+.watchBattle:hover {
+    background-position: 0 -17px;
+}
+.combathover {
+    background-color: #ECD5AC !important;
+}
+#militaryAdvisorDetailedReportView
+.pointer {
+    cursor: pointer;
+}
+#militaryAdvisor .source a,  #militaryAdvisor .source span,  #militaryAdvisor .target a,  #militaryAdvisor .target
+span {
+    display: block;
+}
+#tradeAdvisor .table01
+.wichtig {
+    background: url(../../img/cdn/all/both/icons/wichtig.png) center 8px  no-repeat;
+    width: 9px;
+}
+#tradeAdvisor a.allyLink,  #tradeAdvisor #inboxCity
+a {
+    font-weight: bold;
+}
+#tradeAdvisor .table01
+td.date {
+    white-space: nowrap;
+}
+#tradeAdvisor #inboxCity
+td {
+    vertical-align: top;
+}
+#tradeAdvisor .table01
+td.city {
+    padding-left: 9px;
+    padding-right: 0px;
+    width: 84px;
+    min-width: 84px;
+}
+#tradeAdvisor .table01
+td.island {
+    background: url(../../img/cdn/all/both/layout/icon-island.png) no-repeat 3px center;
+    padding-left: 20px;
+}
+#tradeAdvisor .table01 td.subject
+.resources {
+    display: table;
+}
+#tradeAdvisor .table01 td.subject .resources
+li {
+    display: inline-block;
+    width: auto;
+}
+#tradeAdvisor .table01 td.subject .resources
+li.value {
+    padding-left: 0px;
+    padding-right: 15px;
+}
+#tradeAdvisor .table01
+.attention {
+    padding-left: 22px;
+    background: url(../../img/cdn/all/both/icons/attention.png) no-repeat 2px center;
+}
+#tradeAdvisor .table01 .building,  #tradeAdvisor .table01
+.wonder {
+    padding-left: 22px;
+}
+.filter {
+    padding-left: 11px;
+}
+.filterEntry {
+    float: left;
+    background: url(../../img/cdn/all/both/icons/tradeAdvisorFilter/Button_Standard.png) left center no-repeat;
+    ;
+    padding: 2px
+0px 2px 2px;
+    width: 164px;
+    height: 26px;
+    cursor: pointer;
+}
+#tradeAdvisor
+.filterEntryButton {
+    display: inline-block;
+    width: 136px;
+}
+#tab_diplomacyAlly .filterEntryButton, 
+#diplomacyAllyInfo .filterEntryButton, 
+#diplomacyAllyMemberlist .filterEntryButton, 
+#diplomacyAllySearch .filterEntryButton, 
+#tab_diplomacyAdvisor
+.filterEntryButton {
+    display: inline-block;
+    width: 160px;
+}
+.filterEntry:hover {
+    background-image: url(../../img/cdn/all/both/icons/tradeAdvisorFilter/Button_Hover.png);
+}
+.filterEntry a:hover {
+    text-decoration: none;
+}
+.filterEntry:active {
+    background-image: url(../../img/cdn/all/both/icons/tradeAdvisorFilter/Button_Active.png);
+}
+.filterEntry.active {
+    background-image: url(../../img/cdn/all/both/icons/tradeAdvisorFilter/Button_Active.png);
+}
+.filterEntry.active
+.name {
+    font-weight: bold;
+}
+.filterEntry
+.icon {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: 3px;
+}
+.filterEntry
+.checkbox_label {
+    max-width: 84px;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.filterEntry
+.image {
+    display: inline-block;
+    position: relative;
+    top: 1px;
+    left: 2px;
+    margin-right: 3px;
+}
+.filterEntry
+.name {
+    display: inline-block;
+}
+.diplomacy .filterEntry
+.name {
+    margin-left: 3px;
+}
+.category {
+    width: 26px;
+    height: 26px;
+    display: inline-block;
+}
+.category.all {
+    background: url(../../img/cdn/all/both/icons/tradeAdvisorFilter/Icon_Alle_Rahmen_26x26.png) left center no-repeat;
+}
+.category.military {
+    background: url(../../img/cdn/all/both/icons/tradeAdvisorFilter/Icon_Militaer_Rahmen_26x26.png) left center no-repeat;
+}
+.category.transport {
+    background: url(../../img/cdn/all/both/icons/tradeAdvisorFilter/Icon_Warentransport_Rahmen_26x26.png) left center no-repeat;
+}
+.category.production {
+    background: url(../../img/cdn/all/both/icons/tradeAdvisorFilter/Icon_Produktion_Rahmen_26x26.png) left center no-repeat;
+}
+.category.espionage {
+    background: url(../../img/cdn/all/both/icons/tradeAdvisorFilter/Icon_Spionage_Rahmen_26x26.png) left center no-repeat;
+}
+.category.diplomacy {
+    background: url(../../img/cdn/all/both/icons/tradeAdvisorFilter/Icon_Diplomatie_Rahmen_26x26.png) left center no-repeat;
+}
+.category.plus {
+    background: url(../../img/cdn/all/both/icons/tradeAdvisorFilter/Icon_IkariamPlus_News_Rahmen_26x26.png) left center no-repeat;
+}
+.category.piracy {
+    background: url(../../img/cdn/all/both/icons/tradeAdvisorFilter/Icon_Piraterie_Rahmen_26x26.png) left center no-repeat;
+}
+.icon.all {
+    background: url(../../img/cdn/all/both/icons/tradeAdvisorFilter/Icon_Alle_20x20.png) left center no-repeat;
+    padding-left: 23px;
+    left: 22px;
+}
+.icon.military {
+    background: url(../../img/cdn/all/both/icons/tradeAdvisorFilter/Icon_Militaer_20x20.png) left center no-repeat;
+}
+.icon.transport {
+    background: url(../../img/cdn/all/both/icons/tradeAdvisorFilter/Icon_Warentransport_20x20.png) left center no-repeat;
+}
+.icon.production {
+    background: url(../../img/cdn/all/both/icons/tradeAdvisorFilter/Icon_Produktion_20x20.png) left center no-repeat;
+}
+.icon.espionage {
+    background: url(../../img/cdn/all/both/icons/tradeAdvisorFilter/Icon_Spionage_20x20.png) left center no-repeat;
+}
+.icon.diplomacy {
+    background: url(../../img/cdn/all/both/icons/tradeAdvisorFilter/Icon_Diplomatie_20x20.png) left center no-repeat;
+}
+.icon.plus {
+    background: url(../../img/cdn/all/both/icons/tradeAdvisorFilter/Icon_IkariamPlus_News_20x20.png) left center no-repeat;
+}
+.icon.piracy {
+    background: url(../../img/cdn/all/both/icons/tradeAdvisorFilter/Icon_Piraterie_20x20.png) left center no-repeat;
+}
+.filterEntry
+.icon.scroll {
+    background: url(../../img/cdn/all/both/board/schriftrolle_closed2.png) 0px 6px no-repeat;
+    width: 16px;
+    margin-left: 3px;
+}
+.filterEntry.active
+.icon.scroll {
+    background: url(../../img/cdn/all/both/board/schriftrolle_offen2.png) 0px 2px no-repeat;
+    width: 16px;
+    margin-left: 3px;
+}
+#container .tradeRouteBox
+.tradeRoute {
+    background: url(../../img/cdn/all/both/transport/bgCitiesFromTo.png) left top no-repeat;
+    height: 42px;
+    margin-left: 8px;
+    margin-top: 6px;
+}
+#container .tradeRouteBox
+.tradeRoute.add_info {
+    background: url(../../img/cdn/all/both/transport/bgTradegoodAndTime.png) left top no-repeat;
+    margin-top: 0;
+}
+#container .tradeRouteBox
+.traderoute_title_cell {
+    display: table-cell;
+}
+#container .tradeRouteBox
+.traderoute_title_cell.data {
+    width: 455px;
+}
+#container .tradeRouteBox
+.traderoute_title_cell.premium_duration {
+    width: 110px;
+}
+#container .tradeRouteBox
+.premium_cost {
+    width: 50px;
+}
+#container .tradeRouteBox .tradeRoute
+.row_container {
+    padding: 10px;
+}
+#container .tradeRouteBox .tradeRoute
+.row_container.startCity {
+    padding: 10px
+21px 10px 47px;
+}
+#container .tradeRouteBox .tradeRoute
+.row_container.number {
+    padding: 10px
+0px 0px 50px;
+}
+#container .tradeRouteBox .tradeRoute
+.row_container.time {
+    padding: 10px
+20px 0px 36px;
+}
+#container .tradeRouteBox .tradeRoute
+.row_container.endCity {
+    padding: 10px
+0px 10px 0px;
+}
+#container .tradeRouteBox .tradeRoute.add_info
+.row_container.tradegood {
+    padding: 10px
+0px 10px 5px;
+}
+#container .tradeRouteBox .tradeRoute .row_container.status,  #container .tradeRouteBox .tradeRoute
+.row_container.renew {
+    padding-top: 15px;
+    text-align: center;
+    width: 95px;
+}
+#container .tradeRouteBox .tradeRoute
+.row_container.renew.buy_ambrosia {
+    padding: 2px;
+    margin-top: 5px;
+}
+#container .buy_ambrosia
+span {
+    display: block;
+}
+#container .tradeRouteBox .tradeRoute
+.row_container.extend {
+    padding: 15px
+0 15px 30px;
+}
+#container .tradeRouteBox .tradeRoute .row_container.save,  #container .tradeRouteBox .tradeRoute
+.row_container.delete {
+    padding: 13px
+0 0 10px;
+    width: 18px;
+}
+#container .tradeRouteBox .tradeRoute .delete a,  #container .tradeRouteBox .tradeRoute .save
+input {
+    cursor: pointer;
+    display: block;
+    width: 18px;
+    height: 18px;
+    background: url(../../img/cdn/all/both/transport/board_buttons_sprite.png) 0px 0px;
+    border: 0px;
+}
+#container .tradeRouteBox .tradeRoute .save
+input {
+    background-position:  -90px 0px;
+}
+#container .tradeRouteBox .tradeRoute .save input:hover {
+    background-position:  -90px -18px;
+}
+#container .tradeRouteBox .tradeRoute .delete a:hover {
+    background-position: 0px -18px;
+}
+#container .tradeRouteBox
+.centerButton {
+    border-top: 1px dotted #E4B873;
+    margin-top: 25px;
+    height: 25px;
+    padding-top: 10px;
+}
+#container .tradeRouteBox .premiumExtendBox
+.premiumFeatureLabel {
+    left: 22px;
+    position: relative;
+    top:  -20px;
+}
+#container
+ul.unitlist {
+    list-style: none;
+    margin: 2px
+0;
+    padding: 0;
+}
+#militaryAdvisorDetailedReportView
+ul.unitlist {
+    margin-left: 150px;
+    margin-bottom: 10px;
+}
+#container ul.unitlist
+li {
+    width: 36px;
+    float: left;
+    text-align: center;
+    padding: 35px
+0 0 0;
+    margin: 0
+4px 0 0;
+}
+#militaryAdvisorDetailedReportView ul.unitlist
+li {
+    margin-bottom: 18px;
+}
+#militaryAdvisorReportView #troopsReport
+.result {
+    border: 2px
+solid #fedc9c;
+    width: 80%;
+    margin: 10px
+auto;
+    background: url(../../img/cdn/all/both/combatreport/resultbg.png) repeat-x #f9e3aa;
+}
+#container
+.advisor_s301 {
+}
+#container
+.advisor_s302 {
+    background-position:  -36px 0;
+}
+#container
+.advisor_s303 {
+    background-position:  -72px 0;
+}
+#container
+.advisor_s304 {
+    background-position:  -144px 0;
+}
+#container
+.advisor_s305 {
+    background-position:  -396px 0;
+}
+#container
+.advisor_s306 {
+    background-position:  -360px 0;
+}
+#container
+.advisor_s307 {
+    background-position:  -432px 0;
+}
+#container
+.advisor_s308 {
+    background-position:  -252px 0;
+}
+#container
+.advisor_s309 {
+    background-position:  -324px 0;
+}
+#container
+.advisor_s310 {
+    background-position:  -216px 0;
+}
+#container
+.advisor_s311 {
+    background-position:  -180px 0;
+}
+#container
+.advisor_s312 {
+    background-position:  -288px 0;
+}
+#container
+.advisor_s313 {
+    background-position:  -108px 0;
+}
+#container
+.advisor_s314 {
+    background-position:  -468px 0px;
+}
+#container
+.advisor_s315 {
+    background-position:  -540px 0px;
+}
+#container
+.advisor_s316 {
+    background-position:  -504px 0px;
+}
+#container
+.advisor_s317 {
+    background-position:  -576px 0px;
+}
+#container
+.advisor_s301d {
+    background-position: 0 -36px;
+}
+#container
+.advisor_s302d {
+    background-position:  -36px -36px;
+}
+#container
+.advisor_s303d {
+    background-position:  -72px -36px;
+}
+#container
+.advisor_s304d {
+    background-position:  -144px -36px;
+}
+#container
+.advisor_s305d {
+    background-position:  -396px -36px;
+}
+#container
+.advisor_s306d {
+    background-position:  -360px -36px;
+}
+#container
+.advisor_s307d {
+    background-position:  -432px -36px;
+}
+#container
+.advisor_s308d {
+    background-position:  -252px -36px;
+}
+#container
+.advisor_s309d {
+    background-position:  -324px -36px;
+}
+#container
+.advisor_s310d {
+    background-position:  -216px -36px;
+}
+#container
+.advisor_s311d {
+    background-position:  -180px -36px;
+}
+#container
+.advisor_s312d {
+    background-position:  -288px -36px;
+}
+#container
+.advisor_s313d {
+    background-position:  -108px -36px;
+}
+#container
+.advisor_s314d {
+    background-position:  -468px -36px;
+}
+#container
+.advisor_s315d {
+    background-position:  -540px -36px;
+}
+#container
+.advisor_s316d {
+    background-position:  -504px -36px;
+}
+#container
+.advisor_s317d {
+    background-position:  -576px -36px;
+}
+#container
+.advisor_s201 {
+}
+#container
+.advisor_s210 {
+    background-position:  -36px 0;
+}
+#container
+.advisor_s211 {
+    background-position:  -108px 0;
+}
+#container
+.advisor_s212 {
+    background-position:  -252px 0;
+}
+#container
+.advisor_s213 {
+    background-position:  -72px 0;
+}
+#container
+.advisor_s214 {
+    background-position:  -144px 0;
+}
+#container
+.advisor_s215 {
+    background-position:  -216px 0;
+}
+#container
+.advisor_s216 {
+    background-position:  -180px 0;
+}
+#container
+.advisor_s201d {
+}
+#container
+.advisor_s210d {
+    background-position:  -36px -36px;
+}
+#container
+.advisor_s211d {
+    background-position:  -108px -36px;
+}
+#container
+.advisor_s212d {
+    background-position:  -252px -36px;
+}
+#container
+.advisor_s213d {
+    background-position:  -72px -36px;
+}
+#container
+.advisor_s214d {
+    background-position:  -144px -36px;
+}
+#container
+.advisor_s215d {
+    background-position:  -216px -36px;
+}
+#container
+.advisor_s216d {
+    background-position:  -180px -36px;
+}
+#researchAdvisor .researchTypes
+.researchType {
+    margin: 3px;
+    min-height: 134px;
+    position: relative;
+    padding: 10px
+0;
+}
+#researchAdvisor .seafaring
+img {
+    border: 2px
+solid #00F;
+}
+#researchAdvisor .economy
+img {
+    border: 2px
+solid #FF0;
+}
+#researchAdvisor .knowledge
+img {
+    border: 2px
+solid #92CBFF;
+}
+#researchAdvisor .military
+img {
+    border: 2px
+solid #F00;
+}
+#researchAdvisor
+.researchTypeLabel {
+    text-align: center;
+    position: relative;
+    width: 150px;
+    height: 36px;
+    top: 0px;
+    left: 0px;
+}
+#researchAdvisor  .researchType
+.leftCol {
+    position: absolute;
+    top: 13px;
+    left: 13px;
+}
+#researchAdvisor .researchType
+.researchDesc {
+    margin-left: 180px;
+    width: 350px;
+}
+#researchAdvisor .researchType
+.rightCol {
+    left: 550px;
+    position: absolute;
+    top: 30px;
+    width: 120px;
+}
+#researchAdvisor .researchType
+.researchPoints {
+    background: url(../../img/cdn/all/both/resources/icon_research.png) no-repeat scroll left top transparent;
+    height: 26px;
+    line-height: 26px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+ol.research_type {
+    float: left;
+    line-height: 26px;
+    margin: 10px
+0 15px 10px;
+    width: 227px;
+}
+.research_type
+li {
+    height: 26px;
+    list-style-position: inside;
+    list-style-type: decimal;
+    margin: 0
+0 1px 0;
+    padding-left: 5px;
+}
+.research_type li:hover {
+    background-color: #FAE0AE;
+}
+.research_type
+a {
+    line-height: 26px;
+    margin-left: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 180px;
+    display: inline-block;
+    position: absolute;
+}
+.research_type
+.explored {
+    background: url(../../img/cdn/all/both/resources/icon_research.png) no-repeat 98% 50%}
+.research_type
+.unexplored {
+    color: #e3ae87;
+}
+.research_type
+.explorable {
+    background: url(../../img/cdn/all/both/resources/icon_research_explorable.png) no-repeat 98% 50%}
+.research_type
+.unexplorable {
+    background: url(../../img/cdn/all/both/resources/icon_research_overcharged.png) no-repeat 98% 50%}
+.research_type
+.selected {
+    background-color: #FAE0AE;
+}
+.current_research {
+    margin-bottom: 10px;
+    margin-left: 235px;
+    padding: 10px;
+    width: 420px;
+}
+.current_research
+.curr_research_wrapper {
+    border: 1px
+solid #fcdbaa;
+    margin: 0
+0 15px;
+    padding: 5px
+5px 32px 5px;
+}
+.current_research
+.research_name {
+    color: #906646;
+    font-size: 16px;
+    font-weight: 700;
+}
+.current_research
+span.desc {
+    float: left;
+    font-weight: bold;
+    margin: 4px
+0 0 0;
+    width: 130px;
+}
+#container .contentBox01h .current_research
+p {
+    padding: 4px
+0;
+}
+#container .contentBox01h .current_research p.txt, 
+#container .current_research
+ul {
+    margin-bottom: 15px;
+    margin-left: 140px;
+}
+#container .current_research
+ul {
+    padding: 2px
+0;
+}
+#container .current_research
+li {
+    line-height: 20px;
+}
+.arrow_ok {
+    background: url(../../img/cdn/all/both/interface/check_mark_17px.png) no-repeat top;
+    height: 17px;
+    position: absolute;
+    width: 30px;
+    margin-top:  -2px;
+}
+.research_cost {
+    background: url(../../img/cdn/all/both/resources/icon_research.png) no-repeat center right;
+    padding-top: 4px;
+    padding-right: 16px;
+    padding-bottom: 2px;
+}
+.current_research
+.research_cost {
+    height: 24px;
+    line-height: 16px;
+}
+#researchAdvisor
+.research_overview_list {
+    background: #FAE0AE;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 3px;
+    width: 674px;
+}
+#researchAdvisor .research_overview_list
+li {
+    float: left;
+    line-height: 22px;
+    padding-left: 27px;
+    text-align: left;
+}
+#researchAdvisor .research_overview_list
+.scientists {
+    background: url(../../img/cdn/all/both/resources/icon_scientist.png) no-repeat top left;
+    margin-left: 15px;
+    width: 163px;
+}
+#researchAdvisor .research_overview_list
+.time {
+    background-image: url(../../img/cdn/all/both/resources/icon_research_time.png);
+    background-position: 2px 1px;
+    background-repeat: no-repeat;
+    width: 145px;
+}
+#researchAdvisor .research_overview_list
+.points {
+    background-image: url(../../img/cdn/all/both/resources/icon_research.png);
+    background-position: 10px 2px;
+    background-repeat: no-repeat;
+    width: 260px;
+}
+#researchAdvisor .research_overview_list
+.researchAdvisorTabletHelpButton {
+    width: 10px;
+    padding-left: 0px;
+    margin-top: 5px;
+}
+#researchAdvisor
+.questionMark {
+    background: url(../../img/cdn/all/both/layout/help_smaller.png) no-repeat;
+    cursor: help;
+    width: 9px;
+    height: 15px;
+    margin-left: 2px;
+}
+#researchAdvisor
+.premium_research_link {
+    background: #FCEAC9;
+    border: 1px
+solid #fcdbaa;
+    padding: 5px
+5px 34px;
+}
+#researchAdvisor .premium_research_link
+.content_p {
+    margin-left: 150px;
+}
+#researchAdvisor .premium_research_link
+img {
+    float: left;
+    margin: 7px
+5px 10px 0;
+}
+#premiumTradeAdvisor
+th {
+    background-color: #FAEAC6;
+    color: #906646;
+    font-weight: bold;
+    text-align: center;
+}
+#premiumTradeAdvisor  th, 
+#premiumTradeAdvisor
+td {
+    padding: 3px
+0px;
+    vertical-align: middle;
+    border: 2px
+solid #FAEAC6;
+}
+#premiumTradeAdvisor #buildingsOverview
+.building {
+    width: 15%;
+    text-align: center;
+    font-size: 1.1em;
+}
+#premiumTradeAdvisor  #buildingsOverview
+th.city {
+    background: none;
+    text-align: left;
+    width: 25%;
+    font-weight: normal;
+    padding-left: 10px;
+}
+#premiumTradeAdvisor #buildingsOverview tr.headingrow
+th {
+    background-color: #FAEAC6;
+    text-align: center;
+    padding: 0px;
+}
+#premiumTradeAdvisor #populationOverview
+td.first {
+    text-align: left;
+}
+#premiumTradeAdvisor #resourceOverview
+td {
+    text-align: right;
+}
+#premiumTradeAdvisor #populationOverview table
+td.satisfaction {
+    text-align: center;
+    padding: 0;
+}
+#premiumTradeAdvisor #populationOverview table
+td.satisfaction_good {
+    text-align: right;
+    color: green;
+    font-weight: bold;
+    padding: 0;
+}
+#premiumTradeAdvisor #populationOverview table
+td.satisfaction_bad {
+    text-align: right;
+    color: red;
+    font-weight: bold;
+    padding: 0;
+}
+#premiumTradeAdvisor #populationOverview td.city, 
+#premiumTradeAdvisor #resourceOverview
+td.city {
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 6px;
+}
+#premiumTradeAdvisor #resourceOverview
+td.stock {
+    font-weight: bold;
+    border-left-color: #f2d9ab;
+    padding-right: 6px;
+}
+#premiumTradeAdvisor
+td.total {
+    font-weight: bold;
+}
+#premiumTradeAdvisor #resourceOverview td.wood, 
+#premiumTradeAdvisor #resourceOverview td.wine, 
+#premiumTradeAdvisor #resourceOverview td.marble, 
+#premiumTradeAdvisor #resourceOverview td.glass, 
+#premiumTradeAdvisor #resourceOverview td.sulfur, 
+#premiumTradeAdvisor #resourceOverview td.crystal, 
+#premiumTradeAdvisor #resourceOverview
+td.lvl {
+    text-align: right;
+    padding-right: 6px;
+}
+#premiumTradeAdvisor #resourceOverview td
+div.level {
+    border-left: 1px dotted #c66f5c;
+    border-right: 1px dotted #c66f5c;
+    float: right;
+    text-align: center;
+    width: 22px;
+    margin-left: 8px;
+}
+#premiumMilitaryAdvisor  table
+td.city {
+    text-align: left;
+}
+#premiumMilitaryAdvisor  table td, 
+#premiumMilitaryAdvisor  table
+th {
+    border: 2px
+solid #FAEAC6;
+    text-align: center;
+}
+#premiumMilitaryAdvisor .table01 tr.total
+td {
+    font-weight: bold;
+    border-top: 1px solid #000;
+}
+#premiumMilitaryAdvisor .table01
+th {
+    color: #906646;
+    font-weight: bold;
+    text-align: center;
+}
+#premiumMilitaryAdvisor .table01 th, 
+#premiumMilitaryAdvisor .table01
+td {
+    padding: 3px
+6px;
+    vertical-align: middle;
+}
+#premiumMilitaryAdvisor .table01 th.shipyard, 
+#premiumMilitaryAdvisor .table01
+th.barracks {
+    padding-left: 0;
+    padding-right: 0;
+    height: 70px;
+}
+#premiumMilitaryAdvisor #overall td.ships, 
+#premiumMilitaryAdvisor #overall
+td.units {
+    text-align: center;
+}
+#premiumResearchAdvisor
+.table01 {
+    margin: 0pt auto;
+    width: 672px;
+    border-collapse: collapse;
+    margin-bottom: 1px;
+    padding: 0;
+}
+#premiumResearchAdvisor .table01 td, 
+#premiumResearchAdvisor .table01
+th {
+    border: 2px
+solid #FAEAC6;
+    padding: 3px
+6px;
+    vertical-align: middle;
+}
+#premiumResearchAdvisor .table01
+td.city {
+    padding-left: 30px;
+}
+#premiumResearchAdvisor .table01
+td.academyLVL {
+    width: 100px;
+}
+#premiumResearchAdvisor .table01 td.academyLVL, 
+#premiumResearchAdvisor .table01 td.costs, 
+#premiumResearchAdvisor .table01 td.scientists, 
+#premiumResearchAdvisor .table01
+td.goto {
+    text-align: center;
+}
+#premiumResearchAdvisor .table01
+td.field {
+    padding-left: 30px;
+}
+#premiumTradeAdvisor  .overview
+th.text {
+    text-align: right;
+    padding-right: 5px;
+    padding-top: 10px;
+}
+#premiumTradeAdvisor  .overview
+th.image {
+    padding-top: 10px;
+    text-align: left;
+    padding-left: 10px;
+}
+#premiumTradeAdvisor  .overview
+th.first {
+    text-align: center;
+}
+#premiumTradeAdvisor .overview
+td.city {
+    border-left: 0px;
+    border-right: 2px solid #FAEAC6;
+}
+#premiumTradeAdvisor  .overview
+td {
+    padding-right: 5px;
+}
+#premiumTradeAdvisor  .overview
+td.text {
+    text-align: right;
+}
+#premiumTradeAdvisorBuildings .building
+.upgrade {
+    background: url(../../img/cdn/all/both/upgrade/arrow_upgrade.png) no-repeat;
+    padding-left: 22px;
+    margin: auto;
+    width: 70px;
+    height: 16px;
+}
+#premiumTradeAdvisorBuildings .table01
+td {
+    text-align: center;
+}
+#premiumTradeAdvisorBuildings .building .upgrade span, 
+#premiumTradeAdvisorBuildings .building .upgradeList
+span {
+    font-size: 10px;
+}
+#premiumTradeAdvisorBuildings .building
+.upgradeList {
+    background: url(../../img/cdn/all/both/upgrade/arrow_upgradelist.png) no-repeat;
+    padding-left: 20px;
+    margin: auto;
+    width: 70px;
+    height: 16px;
+}
+#premiumDiplomacyAdvisor .table01
+td.city {
+    text-align: left;
+    padding-right: 15px;
+}
+#premiumDiplomacyAdvisor .table01 td,  #premiumDiplomacyAdvisor .table01
+th {
+    border: 2px
+solid #FAEAC6;
+}
+#premiumDiplomacyAdvisor .table01 th, 
+#premiumDiplomacyAdvisor .table01
+td {
+    padding: 3px
+6px;
+    vertical-align: middle;
+}
+#premiumDiplomacyAdvisor .overall td.ships,  #premiumDiplomacyAdvisor .overall td.units, 
+#premiumDiplomacyAdvisor .table01 td.risk,  #premiumDiplomacyAdvisor .table01 td.spystatus, 
+#premiumDiplomacyAdvisor .table01
+td.reports {
+    text-align: center;
+}
+#premium
+.matrix {
+    width: 672px;
+    margin-left: 1px;
+}
+#premium   .contentBox01h
+.matrix {
+    margin-bottom: 2px;
+}
+#premium   .contentBox01h .matrix
+td {
+    padding: 3px
+0px 3px 5px;
+    vertical-align: middle;
+    border: 2px
+solid #faeac6;
+    cursor: pointer;
+}
+#premium  .contentBox01h .matrix  td
+img {
+    padding-bottom: 2px;
+}
+#premium  .contentBox01h .matrix
+th {
+    background-color: #faeac6;
+    color: #906646;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 3px;
+}
+#premium  .contentBox01h .matrix
+td.active {
+    height: 40px;
+    background: url(../../img/cdn/all/both/smilies/ecstatic_x32.png) no-repeat 50% 50%}
+#premium  .contentBox01h .matrix
+td.inactive {
+    height: 40px;
+    background: url(../../img/cdn/all/both/layout/help.png) no-repeat 50% 50%;
+    text-align: center;
+    font-weight: bold;
+}
+#premium   .contentBox01h .matrix td.inactive
+.tooltip {
+    text-align: left;
+    font-weight: normal;
+}
+#premium   .contentBox01h .matrix
+td.active_short {
+    height: 40px;
+    background: url(../../img/cdn/all/both/smilies/neutral_x32.png) no-repeat 50% 50%}
+#premium .contentBox01h div.content
+.matrix {
+    background-color: #f2d9ab;
+}
+#premium  .contentBox01h .matrix div.tooltip
+.payment {
+    width: 100%}
+#premium  .contentBox01h .matrix div.tooltip .payment
+td {
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    line-height: 14px;
+}
+#premium  .contentBox01h .matrix div.tooltip .payment
+td.active {
+    float: right;
+    background-image: none;
+    line-height: 14px;
+    height: 16px;
+}
+#premium  .contentBox01h .matrix div.tooltip .payment td
+div.extend {
+    float: right;
+    padding-left: 15px;
+    background: url(../../img/cdn/all/both/layout/icon-clock_8x10px.png) no-repeat 4px 2px;
+}
+#premium  .contentBox01h .matrix div.tooltip .payment td.buy, 
+#premium  .contentBox01h .matrix div.tooltip .payment
+td.active {
+    float: right;
+    width: 200px;
+    text-align: right;
+    font-weight: normal;
+}
+#premiumMilitaryAdvisor table td
+.allied {
+    background-color: #caf9b1;
+}
+#premiumMilitaryAdvisor table td
+.treaty {
+    background-color: #fefa85;
+}
+#premiumTradeAdvisor
+.selector_label {
+    padding: 5px
+0 0 0;
+    margin: 0
+5px 0 0;
+}
+#container
+.armyListItem {
+    width: 35px;
+    float: left;
+    text-align: center;
+    margin: 4px
+4px 16px 0;
+    height: 35px;
+}
+#container .armyListItem
+.amount {
+    margin-top: 37px;
+}
+#container
+.fleetListItem {
+    width: 34px;
+    float: left;
+    text-align: center;
+    margin: 4px
+4px 16px 0;
+    height: 34px;
+}
+#container .fleetListItem
+.amount {
+    margin-top: 36px;
+}
+.embassyTable
+.watchBattle {
+    position: relative;
+    top: 3px;
+    margin-left: 4px;
+}
+.warTargetButton {
+    background-image: url(../../img/cdn/all/both/buttons/warTargetButton.png);
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 18px;
+    margin: 0
+3px;
+    width: 18px;
+    min-width: 18px;
+}
+.warTargetButton:hover {
+    background-position: 0px -18px;
+}
+.warTargetButton.delete {
+    background-position:  -18px 0px;
+}
+.warTargetButton.delete:hover {
+    background-position:  -18px -18px;
+}
+.messageTreasureMapLink {
+    background: url(../../img/cdn/all/both/minimized/Kartenteil.png) no-repeat center top;
+    width: 70px;
+    padding-top: 40px;
+    display: block;
+    white-space: nowrap;
+}
+#transport .summaryBox ul.speedInfo
+li.rowTitle {
+    margin-right: 20px !important;
+}
+#transport .summaryBox ul.cargoInfo
+li.rowTitle {
+    margin-right: 20px !important;
+}
+#merchantNavy .table01 th,  #merchantNavy .table01
+td {
+    padding: 0;
+}
+#merchantNavy .table01
+td.transports {
+    color: #906646;
+    text-align: right;
+}
+#merchantNavy
+.mission_icon {
+    text-align: center;
+}
+#merchantNavy  .table01
+td.premiumJet {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+#merchantNavy .table01 td.premiumJet
+.orderButton {
+    margin: 5px
+5px 5px 0;
+}
+#merchantNavy  .table01 td.premiumJet
+.orderAvailable {
+    margin: 5px
+0;
+}
+#merchantNavy
+.eventRow {
+    height: 38px;
+}
+#merchantNavy .table01
+.actions {
+    padding-right: 10px;
+}
+#merchantNavy  .table01
+td.gotoforeign {
+    background: url(../../img/cdn/all/both/icons/stage_gotoforeign.png) no-repeat center center;
+}
+#merchantNavy  .table01
+td.gotoown {
+    background: url(../../img/cdn/all/both/icons/stage_gotoown.png) no-repeat center center;
+}
+#merchantNavy  .table01
+td.returning {
+    background: url(../../img/cdn/all/both/icons/stage_returning.png) no-repeat center center;
+}
+#merchantNavy  .table01
+.payload {
+    color: #906646;
+    margin-left: 10px;
+    text-align: left;
+    width: 525px;
+}
+#merchantNavy  .table01 .payload
+.textLabel {
+    float: left;
+    text-align: right;
+    padding: 2px
+2px;
+    font-size: 10px;
+}
+#merchantNavy  .table01
+.space {
+    font-size: 10px;
+}
+#merchantNavy  .table01 .space
+img {
+    vertical-align: middle;
+}
+#merchantNavy
+.titleNavyImg {
+    position: relative;
+    top: 25px;
+}
+#merchantNavy
+.tableWrapper {
+    margin-top: -43px;
+}
+#merchantNavy #grantedTransporters
+.governmentSymbolSmall {
+    background: url(../../img/cdn/all/both/government/zepter_20.png) no-repeat left top;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    display: block;
+}
+#transport .ambrosiaTotal,  #transport
+.itemTotal {
+    border: 1px
+solid #E4B873;
+    float: left;
+    width: 53px;
+    height: 66px;
+    line-height: 110px;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 10px
+0 0 0;
+    text-align: center;
+}
+#transport
+.ambrosiaTotal {
+    background: url(../../img/cdn/all/both/premium/ambrosia_icon.png) no-repeat 19px 10px;
+    margin-left: 40px;
+}
+#transport_c .itemIcon,  #colonize_c .jetContainer
+.itemIcon {
+    margin: 8px
+0 0 10px;
+}
+#transport_c
+.orderPrice {
+    float: left;
+    width: 53px;
+    height: 23px;
+    line-height: 26px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.jetContainer {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    margin: 10px
+auto;
+    text-align: center;
+    font-weight: bold;
+    width: 400px;
+}
+.jetContainer
+.costs {
+    float: left;
+    padding-top: 37px;
+    padding-right: 10px;
+}
+#transport_c
+.orderAvailable {
+    border: 1px
+solid #E4B873;
+    border-left: none;
+}
+#mission
+.js_completeTransportCapacity {
+    position: absolute;
+    top: 57px;
+    left: 137px;
+}
+#colonize
+.journeyPremiumTransporters {
+    display: none;
+}
+#colonize
+.journeyFreighters {
+    display: none;
+}
+.portLoadingIcon {
+    background: url(../../img/cdn/all/both/icons/portLoadingIcon.png) no-repeat left 5px;
+    padding-left: 18px;
+}
+.transporterSpeed {
+    background: url(../../img/cdn/all/both/icons/transporterSpeed.png) no-repeat left 0;
+    min-height: 20px;
+}
+@charset "utf-8";
+    #container
+#minimizedBoxes {
+    height: 50px;
+    left: 590px;
+    position: absolute;
+    top:  -50px;
+    width: 416px;
+}
+#container
+.is_minimized {
+    background: url(../../img/cdn/all/both/interface/minimized_sprite.png) no-repeat 0 0 transparent;
+    cursor: pointer;
+    float: right;
+    height: 50px;
+    margin: 0
+2px;
+    position: relative;
+    width: 50px;
+    z-index: 10000;
+}
+#container
+.is_minimized.hover {
+    background-position: 0 -50px;
+}
+#container .is_minimized
+.btn_img {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+#container .mainContentBox
+.minimize {
+    background-position:  -144px 0;
+    left: 682px;
+}
+#container .mainContentBox .minimize:hover {
+    background-position:  -144px -19px;
+}
+#container .mainContentBox
+.is_minimized {
+    background-position:  -126px 0;
+}
+#container .mainContentBox .is_minimized:hover {
+    background-position:  -126px -19px;
+}
+#container .templateView.minimizing:before,  #container .templateView.minimizing:after {
+    content: "" !important;
+}
+#container .mainContentBoxZShopSmall
+.minimize {
+    left: 748px;
+}
+#container .mainContentBoxZShopBig
+.minimize {
+    left: 748px;
+}
+#container .mainContentBox900
+.minimize {
+    left: 854px;
+}
+#container .mainContentBox500
+.minimize {
+    left: 454px;
+}
+#container #tradeAdvisor_c:before,  #container #premiumTradeAdvisor_c:before,  #container #tradeRoutes_c:before, 
+#container #registrationGifts_c:before,  #container #dailyTasks_c:before,  #container #dailyTasksRewards_c:before, 
+#container #premiumTradeAdvisorCitizens_c:before,  #container #premiumTradeAdvisorBuildings_c:before {
+    content: url(../../img/cdn/all/both/minimized/tradeAdvisor.png);
+}
+#container #militaryAdvisor_c:before,  #container #retreat_c:before,  #container #premiumMilitaryAdvisor_c:before, 
+#container #militaryAdvisorCombatList_c:before,  #container #militaryAdvisorWarList_c:before,  #container #militaryAdvisorOldWars_c:before,  #container #militaryAdvisorOldAllyWars_c:before, 
+#container #militaryAdvisorWarDetails_c:before,  #container #militaryAdvisorAllyWarDetails_c:before {
+    content: url(../../img/cdn/all/both/minimized/militaryAdvisor.png);
+}
+#container #researchAdvisor_c:before,  #container #researchDetail_c:before,  #container #premiumResearchAdvisor_c:before {
+    content: url(../../img/cdn/all/both/minimized/researchAdvisor.png);
+}
+#container #diplomacyAdvisor_c:before,  #container #diplomacyIslandBoard_c:before,  #container #diplomacyAdvisorOutBox_c:before, 
+#container #diplomacyAdvisorArchive_c:before,  #container #diplomacyAdvisorArchiveOutBox_c:before, 
+#container #diplomacyTreaty_c:before,  #container #diplomacyAlly_c:before,  #container #diplomacyAdvisorSearchUser_c:before, 
+#container #diplomacyAlly_c:before,  #container #premiumDiplomacyAdvisor_c:before,  #container #ignoreList_c:before, 
+#container #diplomacyAllyMemberlist_c:before,  #container #diplomacyAllySearch_c:before,  #container #diplomacyAllyInfo_c:before {
+    content: url(../../img/cdn/all/both/minimized/diplomacyAdvisor.png);
+}
+#container #resource_c:before {
+    content: url(../../img/cdn/all/both/minimized/resource.png);
+}
+#container #tradegood_c:before {
+    content: url(../../img/cdn/all/both/minimized/tradegood.png);
+}
+#container #premium_c:before,  #container #premiumPayment_c:before,  #itunesPayment_c:before,  #container #zShopUpdateInfo_c:before, 
+#container #premiumDetails_c:before {
+    content: url(../../img/cdn/all/both/minimized/premium.png);
+}
+#container #premiumTrader_c:before {
+    content: url(../../img/cdn/all/both/minimized/trader.png);
+}
+#container #wonder_c:before {
+    content: url(../../img/cdn/all/both/minimized/wonder.png);
+}
+#container #finances_c:before {
+    content: url(../../img/cdn/all/both/minimized/finances.png);
+}
+#container #merchantNavy_c:before {
+    content: url(../../img/cdn/all/both/minimized/merchantNavy.png);
+}
+#container #options_c:before {
+    content: url(../../img/cdn/all/both/minimized/transport.png);
+}
+#container #premiumDummy_c:before {
+    content: url(../../img/cdn/all/both/minimized/dummys.png);
+}
+#container #cityMilitary_c:before,  #container #relatedCities_c:before {
+    content: url(../../img/cdn/all/both/minimized/citymilitary.png);
+}
+#container #deployment_c:before {
+    content: url(../../img/cdn/all/both/minimized/movearmy.png);
+}
+#container #deploymentFleet_c:before {
+    content: url(../../img/cdn/all/both/minimized/movefleet.png);
+}
+#container #sendIKMessage_c:before {
+    content: url(../../img/cdn/all/both/minimized/diplomacy.png);
+}
+#container #transport_c:before {
+    content: url(../../img/cdn/all/both/minimized/transport.png);
+}
+#container #defendCity_c:before {
+    content: url(../../img/cdn/all/both/minimized/defendcity.png);
+}
+#container #defendPort_c:before {
+    content: url(../../img/cdn/all/both/minimized/defendport.png);
+}
+#container #piracyRaid_c:before {
+    content: url(../../img/cdn/all/both/minimized/piracyRaid.png);
+}
+#container #plunder_c:before {
+    content: url(../../img/cdn/all/both/minimized/plunder.png);
+}
+#container #blockade_c:before {
+    content: url(../../img/cdn/all/both/minimized/blockade.png);
+}
+#container #occupy_c:before {
+    content: url(../../img/cdn/all/both/minimized/occupy.png);
+}
+#container #sendSpy_c:before,  #container #spyMissions_c:before {
+    content: url(../../img/cdn/all/both/minimized/sendspy.png);
+}
+#container #garrisonEdit_c:before {
+    content: url(../../img/cdn/all/both/minimized/garrisonEdit.png);
+}
+#container #fleetGarrisonEdit_c:before {
+    content: url(../../img/cdn/all/both/minimized/movefleet.png);
+}
+#container #options_c:before, 
+#container #optionsAccount_c:before, 
+#container #optionsNotification_c:before, 
+#container #optionsIPSharing_c:before, 
+#container #options_deletion_confirm_c:before {
+    content: url(../../img/cdn/all/both/minimized/options.png);
+}
+#container #reportPlayer_c:before {
+    content: url(../../img/cdn/all/both/minimized/reportPlayer.png);
+}
+#container #version_c:before,  #container #credits_c:before {
+    content: url(../../img/cdn/all/both/minimized/gf.png);
+}
+#container #informations_c:before,  #container #formOfRuleDetail_c:before,  #container #unitdescription_c:before, 
+#container #ikipedia_c:before,  #container #wonderDetail_c:before,  #container #buildingDetail_c:before {
+    content: url(../../img/cdn/all/both/layout/help.png);
+    padding: 5px
+0 0 2px;
+}
+#container #highscore_c:before,  #container #highscoreAlly_c:before,  #container #highscorePillory_c:before {
+    content: url(../../img/cdn/all/both/minimized/highscore.png);
+}
+#container #finances_c:before {
+    content: url(../../img/cdn/all/both/minimized/finances.png);
+}
+#container #error_c:before,  #container #noluxury_c:before {
+    content: url(../../img/cdn/all/both/minimized/error.png);
+}
+#container #friendListEdit2_c:before, 
+#container #friendListEdit_c:before {
+    content: url(../../img/cdn/all/both/minimized/friends.png);
+}
+#container #normalServerBadges_c:before, 
+#container #eventServerBadges_c:before, 
+#container #avatarDetails_c:before, 
+#container #achievement_c:before, 
+#container #avatarProfile_c:before {
+    content: url(../../img/cdn/all/both/minimized/profile.png);
+}
+#container #buildingGround_c:before,  #container #colonize_c:before,  #container #colonizeExtreme_c:before {
+    content: url(../../img/cdn/all/both/minimized/buildingground.png);
+}
+#container #militaryAdvisorReportView_c:before,  #container #militaryAdvisorDetailedReportView_c:before {
+    content: url(../../img/cdn/all/both/advisors/military/bang_soldier.png);
+}
+#container #takeOffer_c:before {
+    content: url(../../img/cdn/all/both/minimized/trade.png);
+}
+#container #errorInsufficientFunds_c:before {
+    content: url(../../img/cdn/all/both/minimized/allResources.png);
+}
+#container #helios_c:before,  #container #heliosConstruction_c:before {
+    content: url(../../img/cdn/all/both/world/heliostower.png);
+    padding-left: 10px;
+}
+#container #eventServerStatus_c:before, 
+#container #normalServerStatus_c:before, 
+#container #servermergeReservation_c:before, 
+#container #servermergeAfterMerge_c:before {
+    content: url(../../img/cdn/all/both/minimized/weltinfo.png);
+}
+#container #militaryReportExport_c:before {
+    content: url(../../img/cdn/all/both/advisors/military/bang_soldier.png);
+}
+#container #premiumResourceShop_c:before {
+    content: url(../../img/cdn/all/both/minimized/resourceShop.png);
+}
+#container #confirmResourcePremiumBuy_c:before {
+    content: url(../../img/cdn/all/both/minimized/resourceShop.png);
+}
+#container #redVsBlueInfo_c:before {
+    content: url(../../img/cdn/all/both/minimized/defendcity.png);
+}
+#container #retentionQuest_c:before {
+    content: url(../../img/cdn/all/both/minimized/tradeAdvisor.png);
+}
+#container #barbarianTruce_c:before, 
+#container #barbarianVillage_c:before {
+    content: url(../../img/cdn/all/both/minimized/IK_Icon%20Barbarendorf%20allgemein.png);
+}
+#container #options_umod_confirm_c:before {
+    content: url(../../img/cdn/all/both/layout/icon-palm.png);
+    margin: 10px
+0 0 12px;
+}
+#container #ambrosiaFountain_c:before {
+    content: url(../../img/cdn/all/both/minimized/fountain.png);
+}
+#container #inventory_c:before, 
+#container #inventoryTreasureMap_c:before, 
+#container #inventoryTreasureMapArchive_c:before {
+    content: url(../../img/cdn/all/both/minimized/kiste_offen.png);
+    padding: 5px
+0 0 0;
+}
+#container #barbarianShadyTrader_c:before {
+    content: url(../../img/cdn/all/both/minimized/zwielichtiger_Haendler_Icon_40x40.png);
+}
+#container #barbarianFleet_c:before {
+    padding-left: 6px;
+    content: url(../../img/cdn/all/both/minimized/Barbarenschiff_Icon_29x40.png);
+}
+#island #container
+#minimizedBoxes {
+    left: 830px;
+    width: 210px;
+}
+#worldmap_iso #container
+#minimizedBoxes {
+    left: 830px;
+    width: 210px;
+}
+#version .table01
+.desc {
+    text-align: left;
+}
+#version .table01
+.version {
+    vertical-align: top;
+}
+#version .desc
+li {
+    padding-bottom: 10px;
+}
+#version .desc li
+li {
+    list-style: circle outside none;
+    padding-bottom: 0;
+}
+#version .desc ul
+ul {
+    font-size: 0.8em;
+    margin-left: 16px;
+    padding-left: 0;
+}
+#options .content
+h3 {
+    padding: 10px
+6px 0px 6px;
+    border-bottom: 1px solid #f1d198;
+}
+#container
+.options.table01 {
+    border: none;
+}
+.options.table01
+td {
+    width: 50%}
+#options
+.textfield {
+    width: 200px;
+}
+#optionsIPSharing
+.bright_box {
+    width: auto;
+    padding: 10px;
+    margin-top: 15px;
+}
+#optionsIPSharing
+.invite {
+    margin-top:  -18px;
+}
+.highscore_search_table {
+    display: table;
+    text-align: left;
+    padding: 5px;
+}
+#highscore .select_container
+select {
+    width: 180px;
+}
+#highscore
+.player_name_label {
+    margin: 0;
+}
+#highscore
+.player_select {
+    margin: 5px
+0;
+}
+#highscore .highscore_search_table
+td {
+    padding: 10px;
+    vertical-align: top;
+    width: 33%}
+.highscoreTableCell {
+    display: table-cell;
+    padding: 5px;
+    width: 33%;
+    vertical-align: top;
+}
+.highscoreTableRow {
+    display: table-row;
+    height: 85px;
+}
+.highscoreTableImage {
+    background-image: url(../../img/cdn/all/both/layout/sieger_2.jpg);
+    height: 26px;
+    width: 203px;
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+}
+.highscoreTableCellInput {
+    padding-bottom: 5px;
+    padding-top: 2px;
+}
+.highscoreTableCellInput
+.bold {
+    display: inline-block;
+}
+.highscoreTableCell
+.highscoreTableSelect {
+    margin: 0
+auto;
+    padding-top: 5px;
+    width: 185px;
+}
+#container  .table01.highscore
+tr {
+    height: 35px;
+}
+#container  .table01.highscore
+tr.first {
+    font-size: 18px;
+    height: 40px;
+    background-color: #e5d6b5;
+}
+#container  .table01.highscore
+tr.second {
+    font-size: 15px;
+    height: 36px;
+    background-color: #f0e0be;
+}
+#container  .table01.highscore
+tr.third {
+    font-size: 13px;
+    height: 32px;
+    background-color: #f9e8c5;
+}
+#container  .table01.highscore .first, #highscore  .content .table01 .second, #highscore  .content .table01
+.third {
+    border-bottom: 1px solid #EACAC6;
+}
+#container  .table01.highscore .first
+.place {
+    background: url(../../img/cdn/all/both/layout/medallie32x32_gold.png) no-repeat 7px 4px;
+}
+#container  .table01.highscore .second
+.place {
+    background: url(../../img/cdn/all/both/layout/medallie24x24_silber.png) no-repeat 11px 5px;
+}
+#container  .table01.highscore .third
+.place {
+    background: url(../../img/cdn/all/both/layout/medallie16x16_bronze.png) no-repeat 15px 5px;
+}
+#container  .table01.highscore .gold
+.place {
+    background: url(../../img/cdn/all/both/pirateFortress/highscoreicons/reward_gold_small.png) no-repeat 7px 4px;
+}
+#container  .table01.highscore .silver
+.place {
+    background: url(../../img/cdn/all/both/pirateFortress/highscoreicons/reward_silver_small.png) no-repeat 7px 4px;
+}
+#container  .table01.highscore .bronze
+.place {
+    background: url(../../img/cdn/all/both/pirateFortress/highscoreicons/reward_bronze_small.png) no-repeat 7px 4px;
+}
+#container  .table01.highscore
+.action {
+    text-align: center;
+}
+#container  .table01.highscore .first.own,  #highscore  .content .table01 .second.own,  #container  .table01.highscore .third.own, 
+#container  .table01.highscore .gold.own,  #highscore  .content .table01 .silver.own,  #highscore  .content .table01 .bronze.own, 
+#highscore  .content .table01
+.own {
+    background-color: #CAE877;
+}
+#container  .table01.highscore
+tr.ownally {
+    background-color: #FAE877;
+}
+#container  .table01.highscore
+tr.war {
+    background-color: #fe796c;
+}
+#container  .table01.highscore
+td {
+    text-align: center;
+}
+#highscorePillory
+.pillory_nav {
+    padding: 10px
+0;
+}
+#highscorePillory
+.pillory_content {
+    text-align: center;
+}
+#highscorePillory .pillory_content .table01 td,  #highscorePillory .pillory_content .table01
+th {
+    text-align: left;
+    padding: 4px
+10px;
+}
+#highscorePillory .pillory_content .table01
+.row2 {
+    width: 30%}
+#highscorePillory .pillory_content
+.search_form {
+    margin: 3px
+auto;
+    width: 400px;
+}
+#ikipedia .contentBox01h .header, 
+#formOfRuleDetail .contentBox01h
+.header {
+    margin: 0
+0 10px 0;
+}
+#buildingDetail .contentBox01h .header, 
+#unitdescription .contentBox01h .header, 
+#wonderDetail .contentBox01h
+.header {
+    margin: 6px
+0 0 0;
+}
+#ikipedia
+.pic {
+    margin: 4px
+14px;
+}
+#container #ikipedia
+.txtWithImg {
+    padding: 4px
+12px 4px 0;
+}
+#container #ikipedia
+.margLeft50 {
+    margin: 0
+0 0 50px;
+}
+#container #ikipedia
+.margLeft105 {
+    margin: 0
+0 0 105px;
+}
+#container #ikipedia
+.margLeft125 {
+    margin: 0
+0 0 125px;
+}
+#container #ikipedia
+.margLeft150 {
+    margin: 0
+0 0 150px;
+}
+#ikipedia
+ul {
+    margin: 15px
+5px 15px 40px;
+}
+#ikipedia
+li {
+    list-style-type: disc;
+}
+#container #ikipedia
+h4 {
+    margin-left: 12px;
+}
+#container #ikipedia
+.hint {
+    padding: 5px
+15px 0 60px !important;
+}
+#container #ikipedia .hint
+p {
+    margin: 0
+0 0.5em;
+}
+#container #ikipedia
+.hint10bottom {
+    margin: 0
+3px 10px;
+}
+#container #formOfRuleDetail
+.hint10top {
+    margin: 10px
+3px 0;
+}
+#sidebar
+#ikipediaSidebar {
+    margin: 0
+1px;
+}
+#sidebar #ikipediaSidebar
+li {
+    padding: 0;
+}
+#sidebar #ikipediaSidebar
+a {
+    display: block;
+    padding: 0
+0 0 15px;
+}
+#sidebar #ikipediaSidebar
+.sub_nav {
+    padding: 0
+0 0 15px;
+}
+#sidebar #ikipediaSidebar .sub_nav
+a {
+    font-weight: 400;
+}
+.ikipedia_prev_btn, .ikipedia_next_btn {
+    display: inline-block;
+    float: left;
+    font-size: 11px;
+    overflow: hidden;
+    margin: 0
+10px;
+    padding: 9px
+5px 9px 25px;
+    position: relative;
+    text-align: left;
+}
+.ikipedia_prev_btn {
+    background: url(../../img/cdn/all/both/interface/arrow_left.png) no-repeat scroll left center transparent;
+}
+.ikipedia_next_btn {
+    background: url(../../img/cdn/all/both/interface/arrow_right.png) no-repeat scroll right center transparent;
+    float: right;
+    padding: 9px
+25px 9px 5px;
+    text-align: right;
+}
+#ikipedia
+.nav_img {
+    width: 84px!important;
+    height: 18px!important;
+    overflow: hidden;
+    margin-bottom: 5px;
+    padding-top: 36px;
+    color: #542C0F;
+    font-size: 10px;
+    text-align: center;
+}
+#ikipedia
+.nav_img.world {
+    background-image: url(../../img/cdn/all/both/layout/btn_world.jpg);
+}
+#ikipedia
+.nav_img.island {
+    background-image: url(../../img/cdn/all/both/layout/btn_island.jpg);
+}
+#ikipedia
+.nav_img.city {
+    background-image: url(../../img/cdn/all/both/img/informations/scr_gotocity.png);
+    height: 20px;
+}
+#formOfRuleDetail ul
+li {
+    list-style-type: disc;
+}
+#formOfRuleDetail
+ul {
+    margin: 10px
+0 10px 30px;
+}
+#formOfRuleDetail
+.gov_descr {
+    width: 327px;
+}
+#ikipedia
+.battle_img {
+    margin: 10px
+41px 20px;
+}
+#ikipedia
+.battleLayouts {
+    border: 1px
+solid #D4AA78;
+    background-color: #FCEAC8;
+    height: 302px;
+    margin: 0
+0 0 12px;
+    width: 652px;
+}
+#ikipedia .battleLayouts
+.header {
+    background-position:  -4px 0;
+    border-bottom: 1px solid #f5d29e;
+    margin: 0
+0 8px 0;
+}
+#ikipedia
+ul.layoutSwitcher {
+    width: 130px;
+    background: #FDF7DD;
+    border: 1px
+solid #CB9B6B;
+    float: left;
+    margin: 0
+6px;
+}
+#ikipedia ul.layoutSwitcher
+li {
+    list-style-type: none !important;
+    padding: 1px;
+}
+#ikipedia
+.currentBattleLayout {
+    background: url(../../img/cdn/all/both/ikipedia/battlefield_city_1.jpg) no-repeat;
+    float: left;
+    width: 500px;
+    height: 255px;
+}
+#ikipedia ul.layoutSwitcher
+.mouseoverHighlight {
+    background: #EBCD81;
+}
+#ikipedia ul.layoutSwitcher
+.selectionHighlight {
+    background: #DCB383;
+}
+#buildingDetail .contentBox01h, 
+#unitdescription .contentBox01h, 
+#wonderDetail
+.contentBox01h {
+    background: none;
+}
+#buildingDetail .contentBox01h .content, 
+#unitdescription .contentBox01h .content, 
+#wonderDetail .contentBox01h
+.content {
+    background-image: url(../../img/cdn/all/both/layout/bg_contentBox01.png);
+}
+#buildingDetail
+.building_nav {
+    margin: 0
+auto;
+}
+#buildingDetail .building_nav
+td {
+    padding-bottom: 3px;
+}
+#buildingDetail .building_nav .button_building, 
+#buildingDetail .building_nav
+.button_building.selected {
+    background-repeat: no-repeat;
+    cursor: pointer;
+    float: left;
+    height: 41px;
+    margin: 0
+1px;
+    text-align: center;
+    width: 43px;
+}
+#buildingDetail .building_nav
+.button_building {
+    background-image: url(../../img/cdn/all/both/buildings/buildingbutton_sprite.jpg);
+}
+#buildingDetail .building_nav
+.button_building.townHall {
+    background-position: 0 0;
+}
+#buildingDetail .building_nav
+.button_building.academy {
+    background-position:   -43px 0;
+}
+#buildingDetail .building_nav
+.button_building.warehouse {
+    background-position:   -86px 0;
+}
+#buildingDetail .building_nav
+.button_building.tavern {
+    background-position:  -129px 0;
+}
+#buildingDetail .building_nav
+.button_building.palace {
+    background-position:  -172px 0;
+}
+#buildingDetail .building_nav
+.button_building.palaceColony {
+    background-position:  -215px 0;
+}
+#buildingDetail .building_nav
+.button_building.museum {
+    background-position:  -258px 0;
+}
+#buildingDetail .building_nav
+.button_building.port {
+    background-position:  -301px 0;
+}
+#buildingDetail .building_nav
+.button_building.shipyard {
+    background-position:  -345px 0;
+}
+#buildingDetail .building_nav
+.button_building.barracks {
+    background-position:  -388px 0;
+}
+#buildingDetail .building_nav
+.button_building.wall {
+    background-position:  -431px 0;
+}
+#buildingDetail .building_nav
+.button_building.embassy {
+    background-position:  -474px 0;
+}
+#buildingDetail .building_nav
+.button_building.branchOffice {
+    background-position:  -517px 0;
+}
+#buildingDetail .building_nav
+.button_building.workshop {
+    background-position:  -560px 0;
+}
+#buildingDetail .building_nav
+.button_building.safehouse {
+    background-position:  -603px 0;
+}
+#buildingDetail .building_nav
+.button_building.forester {
+    background-position:  -646px 0;
+}
+#buildingDetail .building_nav
+.button_building.glassblowing {
+    background-position:  -689px 0;
+}
+#buildingDetail .building_nav
+.button_building.alchemist {
+    background-position:  -733px 0;
+}
+#buildingDetail .building_nav
+.button_building.winegrower {
+    background-position:  -776px 0;
+}
+#buildingDetail .building_nav
+.button_building.stonemason {
+    background-position:  -819px 0;
+}
+#buildingDetail .building_nav
+.button_building.carpentering {
+    background-position:  -862px 0;
+}
+#buildingDetail .building_nav
+.button_building.optician {
+    background-position:  -905px 0;
+}
+#buildingDetail .building_nav
+.button_building.fireworker {
+    background-position:  -948px 0;
+}
+#buildingDetail .building_nav
+.button_building.vineyard {
+    background-position:  -991px 0;
+}
+#buildingDetail .building_nav
+.button_building.architect {
+    background-position: -1034px 0;
+}
+#buildingDetail .building_nav
+.button_building.temple {
+    background-position: -1077px 0;
+}
+#buildingDetail .building_nav
+.button_building.dump {
+    background-position: -1121px 0;
+}
+#buildingDetail .building_nav
+.button_building.pirateFortress {
+    background-position: -1164px 0;
+}
+#buildingDetail .building_nav
+.button_building.blackMarket {
+    background-position: -1207px 0;
+}
+#buildingDetail .building_nav
+.button_building.marineChartArchive {
+    background-position: -1297px 0;
+}
+#buildingDetail .building_nav
+.button_building.dockyard {
+    background-position: -1339px 0;
+}
+#buildingDetail .building_nav
+.button_building.shrineOfOlympus {
+    background-position: -1383px 0;
+}
+#buildingDetail .building_nav .button_building.hover.townHall, 
+#buildingDetail .building_nav
+.button_building.selected.townHall {
+    background-position: 0 -41px;
+}
+#buildingDetail .building_nav .button_building.hover.academy, 
+#buildingDetail .building_nav
+.button_building.selected.academy {
+    background-position:   -43px -41px;
+}
+#buildingDetail .building_nav .button_building.hover.warehouse, 
+#buildingDetail .building_nav
+.button_building.selected.warehouse {
+    background-position:   -86px -41px;
+}
+#buildingDetail .building_nav .button_building.hover.tavern, 
+#buildingDetail .building_nav
+.button_building.selected.tavern {
+    background-position:  -129px -41px;
+}
+#buildingDetail .building_nav .button_building.hover.palace, 
+#buildingDetail .building_nav
+.button_building.selected.palace {
+    background-position:  -172px -41px;
+}
+#buildingDetail .building_nav .button_building.hover.palaceColony
+, #buildingDetail .building_nav
+.button_building.selected.palaceColony {
+    background-position:  -215px -41px;
+}
+#buildingDetail .building_nav .button_building.hover.museum, 
+#buildingDetail .building_nav
+.button_building.selected.museum {
+    background-position:  -258px -41px;
+}
+#buildingDetail .building_nav .button_building.hover.port, 
+#buildingDetail .building_nav
+.button_building.selected.port {
+    background-position:  -301px -41px;
+}
+#buildingDetail .building_nav .button_building.hover.shipyard, 
+#buildingDetail .building_nav
+.button_building.selected.shipyard {
+    background-position:  -345px -41px;
+}
+#buildingDetail .building_nav .button_building.hover.barracks, 
+#buildingDetail .building_nav
+.button_building.selected.barracks {
+    background-position:  -388px -41px;
+}
+#buildingDetail .building_nav .button_building.hover.wall, 
+#buildingDetail .building_nav
+.button_building.selected.wall {
+    background-position:  -431px -41px;
+}
+#buildingDetail .building_nav .button_building.hover.embassy, 
+#buildingDetail .building_nav
+.button_building.selected.embassy {
+    background-position:  -474px -41px;
+}
+#buildingDetail .building_nav .button_building.hover.branchOffice, 
+#buildingDetail .building_nav
+.button_building.selected.branchOffice {
+    background-position:  -517px -41px;
+}
+#buildingDetail .building_nav .button_building.hover.workshop, 
+#buildingDetail .building_nav
+.button_building.selected.workshop {
+    background-position:  -560px -41px;
+}
+#buildingDetail .building_nav .button_building.hover.safehouse, 
+#buildingDetail .building_nav
+.button_building.selected.safehouse {
+    background-position:  -603px -41px;
+}
+#buildingDetail .building_nav .button_building.hover.forester, 
+#buildingDetail .building_nav
+.button_building.selected.forester {
+    background-position:  -646px -41px;
+}
+#buildingDetail .building_nav .button_building.hover.glassblowing, 
+#buildingDetail .building_nav
+.button_building.selected.glassblowing {
+    background-position:  -689px -41px;
+}
+#buildingDetail .building_nav .button_building.hover.alchemist, 
+#buildingDetail .building_nav
+.button_building.selected.alchemist {
+    background-position:  -733px -41px;
+}
+#buildingDetail .building_nav .button_building.hover.winegrower, 
+#buildingDetail .building_nav
+.button_building.selected.winegrower {
+    background-position:  -776px -41px;
+}
+#buildingDetail .building_nav .button_building.hover.stonemason, 
+#buildingDetail .building_nav
+.button_building.selected.stonemason {
+    background-position:  -819px -41px;
+}
+#buildingDetail .building_nav .button_building.hover.carpentering, 
+#buildingDetail .building_nav
+.button_building.selected.carpentering {
+    background-position:  -862px -41px;
+}
+#buildingDetail .building_nav .button_building.hover.optician, 
+#buildingDetail .building_nav
+.button_building.selected.optician {
+    background-position:  -905px -41px;
+}
+#buildingDetail .building_nav .button_building.hover.fireworker, 
+#buildingDetail .building_nav
+.button_building.selected.fireworker {
+    background-position:  -948px -41px;
+}
+#buildingDetail .building_nav .button_building.hover.vineyard, 
+#buildingDetail .building_nav
+.button_building.selected.vineyard {
+    background-position:  -991px -41px;
+}
+#buildingDetail .building_nav .button_building.hover.architect, 
+#buildingDetail .building_nav
+.button_building.selected.architect {
+    background-position: -1034px -41px;
+}
+#buildingDetail .building_nav .button_building.hover.temple, 
+#buildingDetail .building_nav
+.button_building.selected.temple {
+    background-position: -1077px -41px;
+}
+#buildingDetail .building_nav .button_building.hover.dump, 
+#buildingDetail .building_nav
+.button_building.selected.dump {
+    background-position: -1121px -41px;
+}
+#buildingDetail .building_nav .button_building.hover.pirateFortress, 
+#buildingDetail .building_nav
+.button_building.selected.pirateFortress {
+    background-position: -1164px -41px;
+}
+#buildingDetail .building_nav .button_building.hover.blackMarket, 
+#buildingDetail .building_nav
+.button_building.selected.blackMarket {
+    background-position: -1207px -41px;
+}
+#buildingDetail .building_nav .button_building.hover.marineChartArchive, 
+#buildingDetail .building_nav
+.button_building.selected.marineChartArchive {
+    background-position: -1297px -41px;
+}
+#buildingDetail .building_nav .button_building.hover.dockyard, 
+#buildingDetail .building_nav
+.button_building.selected.dockyard {
+    background-position: -1339px -41px;
+}
+#buildingDetail .building_nav .button_building.hover.shrineOfOlympus, 
+#buildingDetail .building_nav
+.button_building.selected.shrineOfOlympus {
+    background-position: -1383px -41px;
+}
+#buildingDetail .warehouseCapacity
+div {
+    margin-bottom: 3px;
+}
+#wonderDetail
+.wonder_nav {
+    margin: 0
+auto;
+}
+#wonderDetail .wonder_nav .button_wonder, 
+#wonderDetail .wonder_nav
+.button_wonder.selected {
+    background-repeat: no-repeat;
+    cursor: pointer;
+    float: left;
+    height: 72px;
+    margin: 0
+3px;
+    text-align: center;
+    width: 74px;
+}
+#wonderDetail .wonder_nav
+.button_wonder {
+    background-image: url(../../img/cdn/all/both/wonder/wonderbutton_sprite.jpg);
+}
+#wonderDetail .wonder_nav
+.button_wonder.wonder1 {
+    background-position: 0 0;
+}
+#wonderDetail .wonder_nav
+.button_wonder.wonder2 {
+    background-position: -76px 0;
+}
+#wonderDetail .wonder_nav
+.button_wonder.wonder3 {
+    background-position: -151px 0;
+}
+#wonderDetail .wonder_nav
+.button_wonder.wonder4 {
+    background-position: -226px 0;
+}
+#wonderDetail .wonder_nav
+.button_wonder.wonder5 {
+    background-position: -300px 0;
+}
+#wonderDetail .wonder_nav
+.button_wonder.wonder6 {
+    background-position: -375px 0;
+}
+#wonderDetail .wonder_nav
+.button_wonder.wonder7 {
+    background-position: -450px 0;
+}
+#wonderDetail .wonder_nav
+.button_wonder.wonder8 {
+    background-position: -525px 0;
+}
+#wonderDetail .wonder_nav .button_wonder.wonder1.hover,  #wonderDetail .wonder_nav
+.button_wonder.wonder1.selected {
+    background-position: 0 -72px;
+}
+#wonderDetail .wonder_nav .button_wonder.wonder2.hover,  #wonderDetail .wonder_nav
+.button_wonder.wonder2.selected {
+    background-position: -76px -72px;
+}
+#wonderDetail .wonder_nav .button_wonder.wonder3.hover,  #wonderDetail .wonder_nav
+.button_wonder.wonder3.selected {
+    background-position: -151px -72px;
+}
+#wonderDetail .wonder_nav .button_wonder.wonder4.hover,  #wonderDetail .wonder_nav
+.button_wonder.wonder4.selected {
+    background-position: -226px -72px;
+}
+#wonderDetail .wonder_nav .button_wonder.wonder5.hover,  #wonderDetail .wonder_nav
+.button_wonder.wonder5.selected {
+    background-position: -300px -72px;
+}
+#wonderDetail .wonder_nav .button_wonder.wonder6.hover,  #wonderDetail .wonder_nav
+.button_wonder.wonder6.selected {
+    background-position: -375px -72px;
+}
+#wonderDetail .wonder_nav .button_wonder.wonder7.hover,  #wonderDetail .wonder_nav
+.button_wonder.wonder7.selected {
+    background-position: -450px -72px;
+}
+#wonderDetail .wonder_nav .button_wonder.wonder8.hover,  #wonderDetail .wonder_nav
+.button_wonder.wonder8.selected {
+    background-position: -525px -72px;
+}
+#friendListEdit
+.invite {
+    margin-top:  -20px;
+}
+#friendListEdit
+.bright_box {
+    width: 310px;
+    padding: 10px;
+}
+#friendListEdit
+.friendsLink {
+    padding-top: 20px;
+    background: url(../../img/cdn/all/both/img/button-bg_large.png) no-repeat;
+    width: 100%;
+    resize: none;
+    border: none;
+}
+#sendMessageBox
+.message_subject {
+    margin-left: 32px;
+    width: 596px;
+}
+#sendMessageBox p
+strong {
+    font-weight: bold;
+    color: #900;
+}
+#sendMessageBox
+form {
+    margin: 10px;
+}
+#sendMessageBox
+.mailSubject {
+    margin: 10px
+0;
+}
+#sendMessageBox
+.dropdown.size500 {
+    margin: 3px
+0 10px 20px;
+}
+#sendMessageBox
+input.textfield {
+    font-weight: bold;
+    font-size: 11px;
+    width: 250px;
+    margin-bottom: 10px;
+}
+#sendMessageBox
+.maillabels {
+    font-weight: bold;
+    margin: 10px
+10px 3px 32px;
+}
+#sendMessageBox
+textarea {
+    height: 140px;
+    margin-left: 32px;
+    width: 90%;
+    resize: none;
+}
+#sendMessageBox
+h3 {
+    font-weight: bold;
+    font-size: 12px;
+    margin: 0px
+0px 25px 0px;
+    padding: 8px
+0px 0px 0px;
+}
+#sendMessageBox
+.nr_chars_div {
+    display: none;
+    position: relative;
+    top:  -20px;
+    left: 0;
+    width: 240px;
+}
+#finances
+hr {
+    background-color: transparent;
+}
+#finances .table01
+tr {
+    height: 32px;
+}
+#finances
+.result {
+    border-top: 1px dotted #CCA569;
+}
+#finances .result
+img {
+    margin-top: 4px;
+}
+#finances
+.barBorder {
+    border: 1px
+solid #CCA569;
+}
+#finances
+.greenBarDiv {
+    background-image: url(../../img/cdn/all/both/bars/20px/bg_24px_lightgreen.png);
+    height: 20px;
+}
+#finances
+.redBarDiv {
+    background-image: url(../../img/cdn/all/both/bars/20px/bg_24px_red.png);
+    height: 20px;
+}
+#finances
+.brownBarDiv {
+    background-image: url(../../img/cdn/all/both/bars/20px/bg_24px_lightbrown.png);
+    height: 20px;
+}
+#finances .upkeepReductionTable
+td.reason {
+    width: 25%}
+#finances .upkeepReductionTable
+td.value {
+    width: 5%}
+#finances .upkeepReductionTable
+td.costs {
+    width: 10%}
+#finances .upkeepReductionTable
+td.hidden {
+    background-color: #FDF7DD;
+    border-left: 1px solid #CCA569;
+    width: 10%}
+#optionsInviteFriends
+.linkField {
+    margin: 12px;
+}
+#optionsInviteFriends .linkField
+.upperImg {
+    background: url(../../img/cdn/all/both/options/invitefriends_small.jpg) no-repeat top right;
+    height: 100px;
+}
+#optionsInviteFriends .linkField div
+p {
+    width: 528px;
+    margin: 0px;
+}
+#optionsInviteFriends
+textarea.friendsLink {
+    padding-top: 9px;
+    text-align: center;
+    background: url(../../img/cdn/all/both/img/button-bg_large.png) no-repeat;
+    width: 530px;
+    height: 58px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #811b0b;
+    border: none;
+    overflow: auto;
+}
+.notificationsTable
+.textDisabled {
+    color: #aaa;
+}
+#options .notificationsTable
+td {
+    width: 100%}
+#overview_rewind {
+    background: url(../../img/cdn/all/both/interface/arrow_first.png) no-repeat center center;
+    left: 8px;
+}
+#overview_prev {
+    background: url(../../img/cdn/all/both/interface/arrow_back.png) no-repeat center center;
+    left: 27px;
+}
+#overview_category {
+    background: url(../../img/cdn/all/both/interface/btn_increase.png) no-repeat center center;
+    left: 27px;
+}
+#overview_next {
+    background: url(../../img/cdn/all/both/interface/arrow_fore.png)  no-repeat center center;
+    right: 8px;
+}
+.overview_arrow {
+    position: absolute;
+    display: inline-block;
+    width: 15px;
+    height: 14px;
+}
+#overview_label {
+    margin-left: 40px;
+}
+.categoryHeader {
+    width: 135px;
+}
+.achievementIcon {
+    width: 80px;
+    height: 80px;
+    margin: 0px
+auto;
+}
+.achievementFrame {
+    width: 80px;
+    height: 80px;
+}
+.achievementIcon.level0 {
+    opacity: 0.5;
+    filter: alpha(opacity = 50);
+    zoom: 1;
+}
+.level0
+.achievementFrame {
+    background: url(../../img/cdn/all/both/achievements/rahmen_01.png) no-repeat center center;
+}
+.level1
+.achievementFrame {
+    background: url(../../img/cdn/all/both/achievements/rahmen_01.png) no-repeat center center;
+}
+.level2
+.achievementFrame {
+    background: url(../../img/cdn/all/both/achievements/rahmen_02.png) no-repeat center center;
+}
+.level3
+.achievementFrame {
+    background: url(../../img/cdn/all/both/achievements/rahmen_03.png) no-repeat center center;
+}
+.level4
+.achievementFrame {
+    background: url(../../img/cdn/all/both/achievements/rahmen_04.png) no-repeat center center;
+}
+.level5
+.achievementFrame {
+    background: url(../../img/cdn/all/both/achievements/rahmen_05.png) no-repeat center center;
+}
+.level6
+.achievementFrame {
+    background: url(../../img/cdn/all/both/achievements/rahmen_06.png) no-repeat center center;
+}
+.achievementIcon.test {
+    background: url(../../img/cdn/all/both/achievements/items_002.png) no-repeat center center;
+}
+.achievementIcon.expansion {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_besitze_kolonien.png) no-repeat center center;
+}
+.achievementIcon.activity {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_spiele_tage.png) no-repeat center center;
+}
+.achievementIcon.highscore2 {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_platz_highscore.png) no-repeat center center;
+}
+.achievementIcon.achievements {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_erreiche_achievements.png) no-repeat center center;
+}
+.achievementIcon.ally {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_spiele_in_allianz.png) no-repeat center center;
+}
+.achievementIcon.resource {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Rohstoffminen_holz.png) no-repeat center center;
+}
+.achievementIcon.wine {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Rohstoffminen_wein.png) no-repeat center center;
+}
+.achievementIcon.marble {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Rohstoffminen_stein.png) no-repeat center center;
+}
+.achievementIcon.crystal {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Rohstoffminen_crystal.png) no-repeat center center;
+}
+.achievementIcon.sulfur {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Rohstoffminen_sulfur.png) no-repeat center center;
+}
+.achievementIcon.barbarians {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Landeinheiten_barbar.png) no-repeat center center;
+}
+.achievementIcon.barbarianKings {
+    background: url(../../img/cdn/all/both/achievements/2015-12-02_IK_chievement_Grafik_Barbaren_ezekiel.png) no-repeat center center;
+}
+.achievementIcon.research {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Forschungen_abgeschlossen.png) no-repeat center center;
+}
+.achievementIcon.piracy {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Landeinheiten_pirat.png) no-repeat center center;
+}
+.achievementIcon.culture {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Kulturgueterabkommen.png) no-repeat center center;
+}
+.achievementIcon.wonder {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_wunder_ausloesen.png) no-repeat center center;
+}
+.achievementIcon.produceSlingshooter {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Landeinheiten_steinschleuderer.png) no-repeat center center;
+}
+.achievementIcon.produceArcher {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Landeinheiten_bogenschuetze.png) no-repeat center center;
+}
+.achievementIcon.produceGunner {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Landeinheiten_musketier.png) no-repeat center center;
+}
+.achievementIcon.produceSpearman {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Landeinheiten_soldat.png) no-repeat center center;
+}
+.achievementIcon.produceSwordman {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Landeinheiten_schwert.png) no-repeat center center;
+}
+.achievementIcon.producePhalanx {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Landeinheiten_phalanx.png) no-repeat center center;
+}
+.achievementIcon.produceSteamgiant {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Landeinheiten_dampfgigant.png) no-repeat center center;
+}
+.achievementIcon.produceGyrocopter {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Landeinheiten_gyrocopter.png) no-repeat center center;
+}
+.achievementIcon.produceBombardier {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Landeinheiten_ballon.png) no-repeat center center;
+}
+.achievementIcon.produceRam {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Landeinheiten_rammbock.png) no-repeat center center;
+}
+.achievementIcon.produceCatapult {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Landeinheiten_katapult.png) no-repeat center center;
+}
+.achievementIcon.produceMortar {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Landeinheiten_moerser.png) no-repeat center center;
+}
+.achievementIcon.produceMedic {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Landeinheiten_medic.png) no-repeat center center;
+}
+.achievementIcon.produceCook {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Landeinheiten_koch.png) no-repeat center center;
+}
+.achievementIcon.tradeship {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Schiffe_transport.png) no-repeat center center;
+}
+.achievementIcon.produceRamship {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Schiffe_ram.png) no-repeat center center;
+}
+.achievementIcon.produceSpartan {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Landeinheiten_phalanx2x.png) no-repeat center center;
+}
+.achievementIcon.produceBallista {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Schiffe_ballista.png) no-repeat center center;
+}
+.achievementIcon.produceFlamer {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Schiffe_flamethrower.png) no-repeat center center;
+}
+.achievementIcon.produceCatapultShip {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Schiffe_catapult.png) no-repeat center center;
+}
+.achievementIcon.produceMortarShip {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Schiffe_mortar.png) no-repeat center center;
+}
+.achievementIcon.produceSteamram {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Schiffe_steamboat.png) no-repeat center center;
+}
+.achievementIcon.produceRocketship {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Schiffe_raketenschiff.png) no-repeat center center;
+}
+.achievementIcon.produceSubmarine {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Schiffe_submarine.png) no-repeat center center;
+}
+.achievementIcon.producePaddlespeedship {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Schiffe_schaufelradboot.png) no-repeat center center;
+}
+.achievementIcon.produceBallooncarrier {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Schiffe_ballontraeger.png) no-repeat center center;
+}
+.achievementIcon.produceTender {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Schiffe_tender.png) no-repeat center center;
+}
+.achievementIcon.townhall {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Gebaeude_rathaus.png) no-repeat center center;
+}
+.achievementIcon.academy {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Gebaeude_akademie.png) no-repeat center center;
+}
+.achievementIcon.warehouse {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Gebaeude_lagerhaus.png) no-repeat center center;
+}
+.achievementIcon.tavern {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Gebaeude_taverne.png) no-repeat center center;
+}
+.achievementIcon.palace {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Gebaeude_palast.png) no-repeat center center;
+}
+.achievementIcon.palaceColony {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Gebaeude_stadthalter.png) no-repeat center center;
+}
+.achievementIcon.museum {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Gebaeude_museum.png) no-repeat center center;
+}
+.achievementIcon.port {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Gebaeude_hafen.png) no-repeat center center;
+}
+.achievementIcon.shipyard {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Gebaeude_werft.png) no-repeat center center;
+}
+.achievementIcon.barracks {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Gebaeude_kaserne.png) no-repeat center center;
+}
+.achievementIcon.wall {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Gebaeude_stadtmauer.png) no-repeat center center;
+}
+.achievementIcon.embassy {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Gebaeude_botschaft.png) no-repeat center center;
+}
+.achievementIcon.branchOffice {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Gebaeude_kontor.png) no-repeat center center;
+}
+.achievementIcon.workshop {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Gebaeude_erfinderwerkstatt.png) no-repeat center center;
+}
+.achievementIcon.safehouse {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Gebaeude_versteck.png) no-repeat center center;
+}
+.achievementIcon.forester {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Gebaeude_foerster.png) no-repeat center center;
+}
+.achievementIcon.glassblowing {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Gebaeude_glasblaeser.png) no-repeat center center;
+}
+.achievementIcon.alchemist {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Gebaeude_alchemist.png) no-repeat center center;
+}
+.achievementIcon.winegrower {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Gebaeude_winzer.png) no-repeat center center;
+}
+.achievementIcon.stonemason {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Gebaeude_steinmetz.png) no-repeat center center;
+}
+.achievementIcon.carpentering {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Gebaeude_zimmermann.png) no-repeat center center;
+}
+.achievementIcon.optician {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Gebaeude_optiker.png) no-repeat center center;
+}
+.achievementIcon.fireworker {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Gebaeude_feuerwerker.png) no-repeat center center;
+}
+.achievementIcon.vineyard {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Gebaeude_kelterei.png) no-repeat center center;
+}
+.achievementIcon.architect {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Gebaeude_architekt.png) no-repeat center center;
+}
+.achievementIcon.temple {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Gebaeude_tempel.png) no-repeat center center;
+}
+.achievementIcon.dump {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Gebaeude_baustofflager.png) no-repeat center center;
+}
+.achievementIcon.pirateFortress {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Gebaeude_piratenfestung.png) no-repeat center center;
+}
+.achievementIcon.blackMarket {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Gebaeude_unittrader.png) no-repeat center center;
+}
+.achievementIcon.destroySlingshooter {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Besiegte_Landeinheiten_steinschleuderer.png) no-repeat center center;
+}
+.achievementIcon.destroyArcher {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Besiegte_Landeinheiten_bogenschuetze.png) no-repeat center center;
+}
+.achievementIcon.destroyGunner {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Besiegte_Landeinheiten_musketier.png) no-repeat center center;
+}
+.achievementIcon.destroySpearman {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Besiegte_Landeinheiten_soldat.png) no-repeat center center;
+}
+.achievementIcon.destroySwordman {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Besiegte_Landeinheiten_schwert.png) no-repeat center center;
+}
+.achievementIcon.destroyPhalanx {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Besiegte_Landeinheiten_phalanx.png) no-repeat center center;
+}
+.achievementIcon.destroySteamgiant {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Besiegte_Landeinheiten_dampfgigant.png) no-repeat center center;
+}
+.achievementIcon.destroyGyrocopter {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Besiegte_Landeinheiten_gyrocopter.png) no-repeat center center;
+}
+.achievementIcon.destroyBombardier {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Besiegte_Landeinheiten_ballon.png) no-repeat center center;
+}
+.achievementIcon.destroyRam {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Besiegte_Landeinheiten_rammbock.png) no-repeat center center;
+}
+.achievementIcon.destroyCatapult {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Besiegte_Landeinheiten_katapult.png) no-repeat center center;
+}
+.achievementIcon.destroyMortar {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Besiegte_Landeinheiten_moerser.png) no-repeat center center;
+}
+.achievementIcon.destroyRamship {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Besiegte_Schiffe_ram.png) no-repeat center center;
+}
+.achievementIcon.destroyBallista {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Besiegte_Schiffe_ballista.png) no-repeat center center;
+}
+.achievementIcon.destroyFlamer {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Besiegte_Schiffe_flamethrower.png) no-repeat center center;
+}
+.achievementIcon.destroyCatapultShip {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Besiegte_Schiffe_katapult.png) no-repeat center center;
+}
+.achievementIcon.destroyMortarShip {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Besiegte_Schiffe_mortar.png) no-repeat center center;
+}
+.achievementIcon.destroySteamram {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Besiegte_Schiffe_steamboat.png) no-repeat center center;
+}
+.achievementIcon.destroyRocketship {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Besiegte_Schiffe_raketenschiff.png) no-repeat center center;
+}
+.achievementIcon.destroySubmarine {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Besiegte_Schiffe_submarine.png) no-repeat center center;
+}
+.achievementIcon.destroyPaddlespeedship {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Besiegte_Schiffe_schaufelradboot.png) no-repeat center center;
+}
+.achievementIcon.destroyBallooncarrier {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Besiegte_Schiffe_ballontraeger.png) no-repeat center center;
+}
+.achievementIcon.buyGoods {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_kaufe_rohstoffe.png) no-repeat center center;
+}
+.achievementIcon.sellGoods {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_verkaufe_rohstoffe.png) no-repeat center center;
+}
+.achievementIcon.upgrades {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_verbessere_einheiten.png) no-repeat center center;
+}
+.achievementIcon.storageCapacity {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_erreiche_lagerkapazitaet.png) no-repeat center center;
+}
+.achievementIcon.experiments {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_fuehre_experimente_durch.png) no-repeat center center;
+}
+.achievementIcon.plunder {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_pluendere_rohstoffe.png) no-repeat center center;
+}
+.achievementIcon.buyMilitary {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_kaufe_einheiten.png) no-repeat center center;
+}
+.achievementIcon.sellMilitary {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_verkaufe_einheiten.png) no-repeat center center;
+}
+.achievementIcon.government {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_aendere_herrschaftsform.png) no-repeat center center;
+}
+.achievementIcon.heliosTowerAchi {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_spende_lampenoel.png) no-repeat center center;
+}
+.achievementIcon.gold {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_habe_gold.png) no-repeat center center;
+}
+.achievementIcon.spy {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_spionageaktion_.png) no-repeat center center;
+}
+.achievementIcon.piracyRaid {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_ueberfalle_staedte_piraten.png) no-repeat center center;
+}
+.achievementIcon.messages {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_erhalte_nachrichten.png) no-repeat center center;
+}
+.achievementIcon.priests {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Landeinheiten_templer.png) no-repeat center center;
+}
+.achievementIcon.marineArchive {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Gebaeude_seekartenarchiv.png) no-repeat center center;
+}
+.achievementIcon.highscore {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_erreiche_punkte_.png) no-repeat center center;
+}
+.achievementIcon.espionage {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Landeinheiten_spy.png) no-repeat center center;
+}
+.achievementIcon.groundfight {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_gewinne_landkaempfe.png) no-repeat center center;
+}
+.achievementIcon.seafight {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_gewinne_seekaempfe.png) no-repeat center center;
+}
+.achievementIcon.liberator {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_befreie_stadt_anderer_spieler.png) no-repeat center center;
+}
+.achievementIcon.occupier {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_erobere_stadte.png) no-repeat center center;
+}
+.achievementIcon.blocker {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_erobere_haefen.png) no-repeat center center;
+}
+.achievementIcon.specialistPhalanx {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Einheitengewinner_phalanx.png) no-repeat center center;
+}
+.achievementIcon.specialistSlingshooter {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Einheitengewinner_steinschleuderer.png) no-repeat center center;
+}
+.achievementIcon.specialistSwordman {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Einheitengewinner_schwert.png) no-repeat center center;
+}
+.achievementIcon.specialistGunner {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Einheitengewinner_musketier.png) no-repeat center center;
+}
+.achievementIcon.specialistSteamgiant {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Einheitengewinner_dampfgigant.png) no-repeat center center;
+}
+.achievementIcon.specialistArcher {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Einheitengewinner_bogenschuetze.png) no-repeat center center;
+}
+.achievementIcon.specialistSpearman {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Einheitengewinner_soldat.png) no-repeat center center;
+}
+.achievementIcon.specialistSpartan {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Einheitengewinner_phalanx2.png) no-repeat center center;
+}
+.achievementIcon.specialistRamShip {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Einheitengewinner_ram.png) no-repeat center center;
+}
+.achievementIcon.specialistFlamer {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Einheitengewinner_flamethrower.png) no-repeat center center;
+}
+.achievementIcon.specialistBallista {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Einheitengewinner_ballista.png) no-repeat center center;
+}
+.achievementIcon.specialistCatapultShip {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Einheitengewinner_catapult.png) no-repeat center center;
+}
+.achievementIcon.specialistMortarShip {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Einheitengewinner_mortar.png) no-repeat center center;
+}
+.achievementIcon.specialistSteamram {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_Einheitengewinner_steamboat.png) no-repeat center center;
+}
+.achievementIcon.lastManStanding {
+    background: url(../../img/cdn/all/both/achievements/IK_Achievements_gewinne_kampf_einheit.png) no-repeat center center;
+}
+.achievementIcon.barbarianTreasureMap {
+    background: url(../../img/cdn/all/both/achievements/archivar.png) no-repeat center center;
+}
+.achievementIcon.barbarianFleet {
+    background: url(../../img/cdn/all/both/achievements/seeungeheuer.png) no-repeat center center;
+}
+.achievementIcon.barbarianFleetHidden {
+    background: url(../../img/cdn/all/both/achievements/2016-05-18_IK_Achievement_Grafik_Barbarenflotte.png) no-repeat center center;
+}
+#avatarProfile
+.bright_box {
+    width: auto;
+    padding: 10px;
+    min-height: 160px;
+}
+.searchLinkRight {
+    position: absolute;
+    top: 41px;
+    right: 18px;
+}
+#container #achievementsTable
+td {
+    padding: 4px;
+}
+#container #achievementsTable
+tr.greenBorder {
+    border: 1px
+solid lightgreen;
+}
+#container #achievementsTable
+tr.redBorder {
+    border: 1px
+solid red;
+}
+#container #achievementsTable
+tr.separation {
+    height: 3px;
+}
+#container
+.highscoreCompareTable {
+    width: 100%}
+#container .highscoreCompareTable
+.better {
+    background-color: #ddf6a1;
+}
+#container .highscoreCompareTable
+.worse {
+    background-color: #ffaea8;
+}
+.achievementName {
+    font-weight: bold;
+    display: table-cell;
+    vertical-align: middle;
+}
+#achievementsTable
+.magnify_icon {
+    display: table-cell;
+    padding-left: 5px;
+}
+.selectAvatar {
+    background: url(../../img/cdn/all/both/interface/icon_select.png) repeat-y scroll 0 0 rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 9px;
+    width: 13px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.reportPlayer {
+    background: url(../../img/cdn/all/both/interface/icon_report.png) repeat-y scroll 0 0 rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 9px;
+    width: 13px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.reportPlayer:hover, .selectAvatar:hover {
+    background-position: 0 9px;
+}
+.achievementRequirenmentList {
+    min-height: 70px;
+    padding-top: 5px;
+    margin-bottom: 13px;
+}
+.achievementRequirenmentList
+div {
+    margin-bottom: 15px;
+}
+.achievementRequirenmentList
+li {
+    list-style: disc inside;
+}
+.bar_cell
+.barBorder2 {
+    clear: both;
+    margin-top: 15px;
+    border: 1px
+solid #c99868;
+    height: 12px;
+}
+.bar_cell
+.progressText {
+    position: relative;
+    top:  -12px;
+    text-align: center;
+    font-size: 10px;
+}
+#container .bright_box
+tr {
+    background-color: #fffbec;
+}
+#container
+.profileTable {
+    border-right: 1px solid #c99868;
+    width: 50%}
+#container #popupMessage
+.myPopupClass {
+    width: 309px;
+}
+#container #popupMessage .myPopupClass
+.headerLeft {
+    background-image: url(../../img/cdn/all/both/layout/achievementPopup_top_left.png);
+}
+#container #popupMessage .myPopupClass
+.headerMiddle {
+    width: 250px;
+}
+.rewardBox
+.pageButton {
+    display: block;
+    height: 35px;
+    position: absolute;
+    top: 62px;
+    width: 13px;
+    cursor: pointer;
+}
+.rewardBox
+.prev {
+    background: url(../../img/cdn/all/both/friends/button_left.png) no-repeat scroll;
+    left: 20px;
+}
+.rewardBox .pageButton:hover {
+    background-position:  -13px 0px;
+}
+.rewardBox .pageButton:active {
+    background-position:  -26px 0px;
+}
+.rewardBox
+.next {
+    background: url(../../img/cdn/all/both/friends/button_right.png) no-repeat scroll;
+    right: 20px;
+}
+.achievementPageHeader {
+    font-weight: bold;
+    text-align: center;
+    width: 270px;
+    font-size: 14px;
+}
+.achievementPageSubHeader {
+    font-weight: bold;
+}
+#container .popupMessage
+img.achievementCheck {
+    margin: 0;
+    float: none;
+    padding: 0;
+}
+#category_sum_points {
+    white-space: nowrap;
+}
+#container #achievementsTable
+.itemIcon {
+    display: inline-block;
+    margin: 5px
+5px -13px 0;
+}
+.achievementCollectForm {
+    position: relative;
+    clear: both;
+    top:  -30px;
+}
+#container
+.popupMessage {
+    z-index: 20000;
+    background-color: transparent;
+    position: absolute;
+    top: 180px;
+    left: 320px;
+    width: 480px;
+}
+#container .popupMessage
+.header {
+    float: left;
+    height: 39px;
+    margin-top: -10px;
+    padding: 0;
+    cursor: move;
+}
+#container .popupMessage .header
+h3 {
+    line-height: 39px;
+    color: #811709;
+    font-weight: bold;
+}
+#container .popupMessage
+h4 {
+    font-weight: bold;
+    margin-left: 0px;
+}
+#container .popupMessage
+.headerMiddle {
+    background: url(../../img/cdn/all/both/layout/notes_top.png) repeat-x left top transparent;
+    width: 421px;
+}
+#container
+#js_tutorialRewardMessage {
+    width: 309px;
+}
+#container #js_tutorialRewardMessage
+.headerMiddle {
+    width: 250px;
+}
+#container .popupMessage
+.headerLeft {
+    background: url(../../img/cdn/all/both/layout/notes_top_left.png) no-repeat left top transparent;
+    width: 39px;
+}
+#container .popupMessage
+.headerRight {
+    background: url(../../img/cdn/all/both/layout/notes_top_right.png) no-repeat right top transparent;
+    width: 20px;
+}
+#container .popupMessage
+.popupContent {
+    background: #f7e7c5;
+    border: 3px
+solid #d2ac61;
+    border-top: none;
+    margin: 0
+1px;
+    padding: 39px
+12px 12px 12px;
+}
+#container .popupMessage
+.buttons {
+    height: 50px;
+}
+#container .popupMessage .buttonLeft, 
+#container .popupMessage .buttonLeftBuy, 
+#container .popupMessage
+.buttonRight {
+    text-align: center;
+    float: left;
+    padding: 20px;
+}
+#container .popupMessage
+.buttonLeft {
+    margin-left: 110px;
+}
+#container .popupMessage
+.buttonLeftBuy {
+    margin-left: 80px;
+}
+#container .popupMessage
+.buttonSingle {
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 5px;
+}
+#container .popupMessage
+.resizablepanel_h {
+    background-color: transparent;
+    height: 39px;
+    padding: 0;
+    margin: 0;
+}
+#container .popupMessage
+.chars {
+    padding: 0
+0 0 10px;
+}
+#container .popupMessage
+img {
+    float: left;
+    margin-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+#container .popupMessage
+img.promoImage {
+    float: inherit;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+#container .popupMessage img.close_img,  #container .popupMessage
+img.no_style {
+    float: none;
+    margin: 0;
+    padding: 0;
+}
+#container .popupMessage
+.error {
+    background: url(../../img/cdn/all/both/townhall_warning.png) no-repeat scroll 10px 4px #FCDDD2;
+    border: 1px
+solid #F1D198;
+    margin: 0px
+0px;
+    min-height: 50px;
+    padding: 10px
+10px 3px 80px;
+}
+#container .popupMessage
+.success {
+    background: url(../../img/cdn/all/both/layout/ok-neu.png) no-repeat scroll 10px 6px #E2FCD2;
+    border: 1px
+solid #F1D198;
+    margin: 0px
+0px;
+    min-height: 50px;
+    padding: 10px
+10px 3px 80px;
+}
+#container .popupMessage
+.diplomacy {
+    background: url(../../img/cdn/all/both/friends/email_ok.jpg) no-repeat scroll 10px 6px #E2FCD2;
+    border: 1px
+solid #F1D198;
+    margin: 0px
+0px;
+    min-height: 50px;
+    padding: 10px
+10px 3px 80px;
+}
+#container .popupMessage
+li {
+    list-style-type: disc;
+    margin-left: 15px;
+}
+#container
+.popup_window {
+    position: relative;
+    width: 0px;
+}
+#container .popup_window
+.messagebox {
+    background-image: none;
+    background-color: #f7e7c5;
+    margin: 0
+6px 6px 6px;
+    padding: 0
+10px 0 10px;
+}
+#container
+.notesTextBox {
+    height: 200px;
+}
+#container .popup_window
+.notes_box {
+    text-align: center;
+    padding: 0px
+0px 10px 0px;
+}
+#container
+.chat_box {
+    height: 300px;
+}
+#container .popup_window
+.popup_contentbox {
+    padding: 10px;
+}
+#container .popup_window textarea,  #container .popup_window select, 
+#container .popup_window
+.message_chat {
+    border: 1px
+dotted #C0C0C0;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    resize: none;
+    width: 100%}
+#container .popup_window
+.bd {
+    padding: 1px
+15px 0 15px !important;
+    text-align: left;
+}
+#container .popup_window
+.ft {
+    border: 0;
+    padding: 0
+!important;
+    margin: 0;
+    height: 0px;
+}
+#container .popup_window .resources
+li {
+    float: left;
+}
+#container .popup_window
+.rightborder {
+    background: url(../../img/cdn/all/both/layout/notes_right.png) right top repeat-y;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+#container .popup_window
+.div1 {
+    padding: 0;
+    margin: 0;
+    height: 39px;
+    background: url(../../img/cdn/all/both/layout/notes_top_left.png) left top no-repeat;
+}
+#container .popup_window
+.div2 {
+    padding: 0;
+    margin: 0;
+    height: 39px;
+    background: url(../../img/cdn/all/both/layout/notes_top_right.png) right top no-repeat;
+}
+#container .popup_window
+.bottom {
+    border-bottom: 3px solid #d2a860;
+    border-left: 2px solid #d2a860;
+    background-color: #f7e7c5;
+    height: 12px;
+    padding: 5px
+0 0 0;
+    margin: 0
+23px 0 3px;
+}
+#container .popup_window
+.floatingchars {
+    float: right;
+    font-size: 10px;
+    padding-right: 10px;
+}
+#container .popup_window .hd
+p {
+    color: #811709;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 12px
+0 0 0;
+    margin-left: 38px;
+    height: 39px;
+    background: url(../../img/cdn/all/both/layout/notes_top.png) repeat-x left top;
+}
+#container .popup_window .hd p
+span {
+    text-align: right;
+    display: block;
+    padding: 0;
+    margin:  -15px 0 0 0;
+}
+#container .popup_window
+#notesMessages {
+    height: 90%}
+#chatWindow
+td {
+    height: auto;
+}
+#chatWindow .yui-skin-sam .yui-resize .yui-resize-handle-br {
+    background-position: 8px 0;
+}
+#container .popup_window
+.chat_input {
+    width: 100%}
+#container .popup_window .chat_input:focus {
+    border-color: #5D4C2F #C9A584 #C9A584 #5D4C2F;
+    border-style: solid;
+    border-width: 1px;
+}
+#container .popup_window .userlist_select,  #container .popup_window
+.chat_send {
+    height: 100%;
+    margin: 0
+0 0 10px;
+    padding-bottom: 1px;
+    width: 130px;
+}
+#container .popup_window
+.chat_send {
+    width: auto;
+}
+#container .popup_window .chat_table
+.centerButton {
+    margin: 0px;
+}
+#container .popup_window
+.message_chat {
+    height: 222px;
+    width: 307px;
+    padding: 5px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+#container .popup_window
+.message_chat.userlist_chat {
+    width: 120px;
+    padding: 2px;
+    height: 228px;
+}
+#container .popup_window .message_chat
+li {
+    word-wrap: break-word;
+    text-align: left;
+}
+.chat_info {
+    position: absolute;
+    top: 50px;
+    left: 15px;
+    right: 15px;
+    background-color: #f7e7c5;
+    padding: 20px
+10px;
+    border: 1px
+solid #CFAB6C;
+}
+.chat_info
+p {
+    margin-bottom: 10px;
+}
+#container .popup_window
+.chat_table {
+    background-color: #f7e7c5;
+    margin: 0
+auto;
+    width: 95%}
+#container .popup_window .yui-nav_flexible {
+    background: url(../../img/cdn/all/both/layout/bg_tabs_repeat.jpg) repeat-x transparent;
+    margin: 0
+auto;
+    width: 98%}
+#container .popup_window  .yui-nav_flexible
+li {
+    margin: 0;
+    left: 0;
+    width: 150px;
+}
+#container .popup_window .yui-nav_flexible .selected a,  #container .popup_window  .yui-nav_flexible a:hover,  #container .popup_window  .yui-nav_flexible .yui-content {
+    background: url(../../img/cdn/all/both/layout/bg_tabs_small.jpg) no-repeat scroll 0 4px transparent;
+}
+#container .popup_window .yui-skin-sam .yui-resize .yui-resize-handle-br {
+    background-position: 8px 0;
+}
+#container .popup_window  .yui-panel
+.hd {
+    padding: 0;
+}
+#container .popup_window  .yui-resize-handle-br {
+    background: url(../../img/cdn/all/both/layout/notes_br.png) no-repeat;
+}
+#container .popup_window  .yui-resize-handle-br {
+    bottom: 0;
+    cursor: se-resize;
+    height: 20px;
+    right: 0;
+    width: 29px;
+    z-index: 2;
+}
+#container .popup_window  .yui-resize-handle {
+    font-size: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+#container #dailyActivityBonus
+.dailyActivityGraph {
+    height: 253px;
+    text-align: center;
+}
+#container #dailyActivityBonus .dailyActivityGraph
+.bonusLevel {
+    position: absolute;
+    top: 65px;
+    left: 40px;
+    width: 144px;
+}
+#container #dailyActivityBonus .dailyActivityGraph
+.days {
+    position: absolute;
+    color: #696969;
+}
+#container #dailyActivityBonus .bottomRow
+.left {
+    float: left;
+    line-height: 26px;
+    margin: 10px;
+}
+#container #dailyActivityBonus .bottomRow .left
+.button {
+    margin-top: 2px;
+}
+#container #dailyActivityBonus .dailyActivityGraph
+.days.green {
+    color: #0EAA03;
+}
+#container #dailyActivityBonus .dailyActivityGraph
+.day1 {
+    left: 29px;
+    width: 51px;
+}
+#container #dailyActivityBonus .dailyActivityGraph
+.day2 {
+    left: 95px;
+    width: 51px;
+}
+#container #dailyActivityBonus .dailyActivityGraph
+.day3 {
+    left: 162px;
+    width: 50px;
+}
+#container #dailyActivityBonus .dailyActivityGraph
+.day4 {
+    left: 227px;
+    width: 54px;
+}
+#container #dailyActivityBonus .dailyActivityGraph
+.day5 {
+    left: 297px;
+    width: 52px;
+}
+#container #dailyActivityBonus .dailyActivityGraph
+.day6 {
+    left: 365px;
+    width: 54px;
+}
+#container #dailyActivityBonus .dailyActivityGraph
+.day7 {
+    left: 438px;
+    width: 50px;
+}
+#container #dailyActivityBonus .dailyActivityGraph
+.bonusGold1 {
+    top: 176px;
+}
+#container #dailyActivityBonus .dailyActivityGraph
+.bonusGold2 {
+    top: 168px;
+}
+#container #dailyActivityBonus .dailyActivityGraph
+.bonusGold3 {
+    top: 157px;
+}
+#container #dailyActivityBonus .dailyActivityGraph
+.bonusGold4 {
+    top: 146px;
+}
+#container #dailyActivityBonus .dailyActivityGraph
+.bonusGold5 {
+    top: 133px;
+}
+#container #dailyActivityBonus .dailyActivityGraph
+.bonusGold6 {
+    top: 120px;
+}
+#container #dailyActivityBonus .dailyActivityGraph
+.bonusGold7 {
+    top: 107px;
+}
+#container #dailyActivityBonus .dailyActivityGraph
+.bonusWine {
+    top: 207px;
+}
+#container #dailyActivityBonus .dailyActivityGraph
+.bonusTransporter {
+    top: 156px;
+}
+#container #dailyActivityBonus .dailyActivityGraph
+.dayDescription {
+    top: 233px;
+}
+#container #dailyActivityBonus .dailyActivityGraph
+.bonusAmbrosia {
+    top: 156px;
+    width: 25px;
+    left: 435px;
+}
+#container #dailyActivityBonus .dailyActivityGraph
+.bonusTransporterAmbrosia {
+    top: 156px;
+    width: 25px;
+    left: 458px;
+}
+#container #dailyActivityBonus
+.noImage {
+    background: none;
+    background-color: #F3D3A0;
+    margin-top:  -24px;
+    margin-bottom: 10px;
+    min-height: 40px;
+}
+#container #dailyActivityBonus
+.cityImage {
+    background: url(../../img/cdn/all/both/buildings/x40_y40/townHall.png) 9px 14px no-repeat #F3D3A0;
+    margin-top: 10px;
+}
+#sidebar .buyTransporter .leftmenuTable
+.dailyActivityBonusSymbol {
+    width: 140px;
+}
+#sidebar
+.dailyActivityBonusSymbol {
+    background: url(../../img/cdn/all/both/dailyActivity/icon_daily_bonus.png) no-repeat center left;
+    width: 20px;
+    height: 20px;
+    padding-left: 29px;
+    vertical-align: middle;
+}
+#sidebar
+.dailyActivityBonus {
+    margin-left: 5px;
+    position: absolute;
+    top: 4px;
+}
+#container
+#dailyActivityBonus {
+    width: 610px;
+    z-index: 100;
+}
+#container #dailyActivityBonus
+.headerMiddle {
+    width: 551px;
+}
+#container #dailyActivityBonus
+.headerLeft {
+    background: url(../../img/cdn/all/both/dailyActivity/header_icon_daily_bonus.png) no-repeat scroll left top transparent;
+}
+#container #dailyActivityBonus .headerRight span a
+img {
+    padding-top: 11px;
+}
+#container #dailyActivityBonus .headerRight span a
+img {
+    padding-top: 11px;
+}
+#container #dailyActivityBonus
+.dailyActivityBonusSummaryTable {
+    width: 300px;
+}
+#container #dailyActivityBonus .dailyActivityBonusSummaryTable
+td {
+    text-align: center;
+}
+#container #specialPromotionMessageDefault
+p {
+    padding: 5px
+12px;
+}
+#container #specialPromotionMessageDefault
+.promoImage {
+    text-align: center;
+    float: none;
+}
+#container #sixDaysHappening
+.happeningText {
+    text-align: left;
+    margin: 0
+10px;
+}
+#container
+#sixDaysHappening {
+    z-index: 21000;
+}
+#container #sixDaysHappening p, 
+#container #happyHourPopup p.prolog,  #container #happyHourPopup p.epilog, 
+#container #genericPopup p.prolog,  #container #genericPopup
+p.epilog {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+#popupMessage
+.modalBackground {
+    display: block;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 19999;
+    opacity: 0.5;
+    background-color: rgb(0,  0,  0);
+}
+#container #individualOfferBuildingSpeedup
+.content {
+    width: 420px;
+    border: 1px
+solid #E4B773;
+    margin: 20px
+auto;
+    background-color: #FDF7DD;
+    height: 162px;
+}
+#container #individualOfferBuildingSpeedup
+.image {
+    display: inline-block;
+    height: 100px;
+    width: 190px;
+    border: 1px
+solid #E4B873;
+    margin: 10px;
+    padding: 20px
+0;
+}
+#container #individualOfferBuildingSpeedup .image
+img {
+    padding: 0;
+    margin: 0;
+}
+#container #individualOfferBuildingSpeedup
+.text {
+    display: inline-block;
+    height: 100px;
+    width: 190px;
+    position: absolute;
+    margin: 10px;
+}
+#container #individualOfferBuildingSpeedup
+.description {
+    height: 80px;
+    overflow: hidden;
+}
+#container #individualOfferBuildingSpeedup
+.description2 {
+    text-align: center;
+}
+#container #individualOfferBuildingSpeedup
+.costs {
+    font-weight: bold;
+}
+#container #individualOfferBuildingSpeedup
+.ambrosiaCosts {
+    background: url(../../img/cdn/all/both/premium/ambrosia_icon.png) no-repeat scroll left 0 transparent;
+    padding: 4px
+0 4px 28px;
+}
+#container #wineOutPopup
+.cityIcon {
+    background: url(../../img/cdn/all/both/layout/icon-city2.png) no-repeat center right;
+}
+#container
+.redVsBlueTable {
+    width: 100%;
+    text-align: center;
+    border: 1px
+solid #E4B873;
+    margin: 10px
+auto;
+}
+#container #redVsBlueAllies h4, 
+#container #redVsBlueTargets h4, 
+#container #redVsBlueFighting h4, 
+#container #redVsBlueInfo .orders
+h4 {
+    color: #811709;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 30px;
+    text-align: center;
+}
+#container #redVsBlueFighting
+img {
+    padding: 0;
+    margin: 0;
+    float: none;
+    border: 1px
+solid #E4B873;
+}
+#container #redVsBlueFighting
+.orders {
+    padding: 10px
+0;
+}
+#container #redVsBlueInfo .orders
+li {
+    list-style-type: disc;
+}
+#container #redVsBlueInfo
+.orders {
+    width: 650px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    overflow-y: auto;
+}
+#container .redVsBlueTable
+.action {
+    height: 34px;
+    width: 50px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+#container .redVsBlueTable
+.action.message {
+    background-image: url(../../img/cdn/all/both/actions/diplomacy.jpg);
+}
+#container .redVsBlueTable
+.action.plundering {
+    background-image: url(../../img/cdn/all/both/actions/plunder.jpg);
+}
+#container .redVsBlueTable
+.action.blockade {
+    background-image: url(../../img/cdn/all/both/actions/blockade.jpg);
+}
+#container .redVsBlueTable .action:hover {
+    background-position: 0 -34px;
+}
+#container .redVsBlueTable
+.action.disabled {
+    background-position: 0 -68px;
+}
+#container .redVsBlueTable
+.shield {
+    width: 25px;
+}
+#container .redVsBlueTable
+.koords {
+    width: 50px;
+}
+#container .redVsBlueTable
+.actions {
+    width: 120px;
+}
+#container .popupMessage .redVsBlueTable
+img {
+    margin: 0;
+    padding: 0;
+}
+#container #multiPopup .contentBox01h
+.header {
+    float: none;
+    cursor: pointer;
+}
+#container #multiPopup
+.headerMiddle {
+    width: 469px;
+}
+#container #multiPopup
+.popupContent {
+    background: #f7e7c5;
+    border: 3px
+solid #d2ac61;
+    border-top: none;
+    margin: 0
+1px;
+    padding: 0px
+3px 5px 3px;
+}
+#multiPopup {
+    width: 528px !important;
+}
+#multiPopup
+.tabmenu {
+    width: 506px;
+    clear: both;
+}
+#multiPopup
+.contentBox01h {
+    width: 578px;
+}
+#container #multiPopup
+.contentBox01h {
+    background-image: url(../../img/cdn/all/both/layout/bg_contentBox01_multi.png);
+    position: relative;
+    width: 512px;
+    margin-bottom: 10px;
+}
+#container #multiPopup
+#dailyActivityBonus {
+    width: 492px;
+}
+#multiPopup .contentBox01h
+.tabContent {
+    padding: 4px
+10px 1px 10px;
+}
+#container #multiPopup
+h4 {
+    margin-left: 10px;
+}
+#container
+.popupItemList {
+    width: 100%}
+#container .popupItemList .itemIcon, 
+#container .popupItemList
+.itemImage {
+    margin: 5px;
+    display: inline-block;
+    border: 2px
+solid #946c39;
+}
+#container .popupMessage .popupItemList .itemIcon, 
+#container .popupMessage .popupItemList
+.itemImage {
+    margin: 3px;
+}
+#container .popupItemList
+.itemImage {
+    width: 98px;
+    height: 98px;
+}
+#container .popupItemList .itemImage
+img {
+    display: block;
+    float: none;
+    margin: 0;
+    padding: 0;
+}
+#container #accountTransfer
+.table01.serverList {
+    margin-top: 5px;
+    width: 330px;
+}
+#container #accountTransfer .serverList
+.checkbox {
+    height: 24px;
+    background-position: left center;
+}
+#container #accountTransfer #checkResults ul
+li {
+    list-style: disc;
+    margin: 0
+10px;
+}
+.serverListContainer {
+    background-color: #FFFAE8;
+    border: 1px
+solid #E4B873;
+    margin: 20px
+auto;
+    padding: 5px;
+    text-align: center;
+    width: 500px;
+    min-height: 165px;
+}
+.serverListContainer
+.chosenflag {
+    display: inline-block;
+    position: relative;
+    top: 3px;
+}
+.serverListContainer
+.checkbox_label {
+    width: 125px;
+}
+.serverListContainer
+.noItem {
+    width: 150px;
+    height: 150px;
+    display: table-cell;
+    vertical-align: middle;
+    border: 1px
+solid #E4B873;
+}
+.serverListContainer
+.listDisplay {
+    padding-left: 160px;
+    text-align: left;
+}
+.serverListContainer
+#js_selectLanguageContainer {
+    margin-top: 5px;
+}
+.serverListContainer
+#js_selectServerContainer {
+    margin-top: 10px;
+}
+#container #servermergeReservation
+.listElement {
+    background-color: #FFFAE8;
+    line-height: 25px;
+}
+#container #servermergeReservation
+.listElement.alt {
+    background-color: #FDF7DD;
+}
+.changeHints {
+    width: 50%;
+    font-size: 10px;
+    padding: 3px;
+    vertical-align: top;
+}
+.chosenflag {
+    background: url(../../img/cdn/all/both/icons/flags.png) no-repeat scroll 0 0 transparent;
+    height: 14px;
+    padding-left: 23px;
+}
+.dropdownContainer li.flag a, 
+#js_selectLanguageContainer .flag
+a {
+    background: url(../../img/cdn/all/both/icons/flags.png) no-repeat scroll 0 0 transparent;
+    height: 14px;
+    padding-left: 23px;
+    line-height: 14px;
+    position: relative;
+    top: 5px;
+}
+.chosenflag.ar, 
+.dropdownContainer li.ar a, 
+#js_selectLanguageContainer .ar
+a {
+    background-position: left -14px !important;
+}
+.chosenflag.au, 
+.dropdownContainer li.au a, 
+#js_selectLanguageContainer .au
+a {
+    background-position: left -868px !important;
+}
+.chosenflag.br, 
+.dropdownContainer li.br a, 
+#js_selectLanguageContainer .br
+a {
+    background-position: left -56px !important;
+}
+.chosenflag.bg, 
+.dropdownContainer li.bg a, 
+#js_selectLanguageContainer .bg
+a {
+    background-position: left -42px !important;
+}
+.chosenflag.cl, 
+.dropdownContainer li.cl a, 
+#js_selectLanguageContainer .cl
+a {
+    background-position: left -112px !important;
+}
+.chosenflag.de, 
+.dropdownContainer li.de a, 
+#js_selectLanguageContainer .de
+a {
+    background-position: left -168px !important;
+}
+.chosenflag.dk, 
+.dropdownContainer li.dk a, 
+#js_selectLanguageContainer .dk
+a {
+    background-position: left -182px !important;
+}
+.chosenflag.fi, 
+.dropdownContainer li.fi a, 
+#js_selectLanguageContainer .fi
+a {
+    background-position: left -266px !important;
+}
+.chosenflag.fr, 
+.dropdownContainer li.fr a, 
+#js_selectLanguageContainer .fr
+a {
+    background-position: left -280px !important;
+}
+.chosenflag.gr, 
+.dropdownContainer li.gr a, 
+#js_selectLanguageContainer .gr
+a {
+    background-position: left -294px !important;
+}
+.chosenflag.en, 
+.dropdownContainer li.en a, 
+#js_selectLanguageContainer .en
+a {
+    background-position: left -224px !important;
+}
+.chosenflag.hk, 
+.dropdownContainer li.hk a, 
+#js_selectLanguageContainer .hk
+a {
+    background-position: left -308px !important;
+}
+.chosenflag.ir, 
+.dropdownContainer li.ir a, 
+#js_selectLanguageContainer .ir
+a {
+    background-position: left -406px !important;
+}
+.chosenflag.il, 
+.dropdownContainer li.il a, 
+#js_selectLanguageContainer .il
+a {
+    background-position: left -364px !important;
+}
+.chosenflag.it, 
+.dropdownContainer li.it a, 
+#js_selectLanguageContainer .it
+a {
+    background-position: left -420px !important;
+}
+.chosenflag.co, 
+.dropdownContainer li.co a, 
+#js_selectLanguageContainer .co
+a {
+    background-position: left -140px !important;
+}
+.chosenflag.lv, 
+.dropdownContainer li.lv a, 
+#js_selectLanguageContainer .lv
+a {
+    background-position: left -490px !important;
+}
+.chosenflag.lt, 
+.dropdownContainer li.lt a, 
+#js_selectLanguageContainer .lt
+a {
+    background-position: left -476px !important;
+}
+.chosenflag.mx, 
+.dropdownContainer li.mx a, 
+#js_selectLanguageContainer .mx
+a {
+    background-position: left -532px !important;
+}
+.chosenflag.nl, 
+.dropdownContainer li.nl a, 
+#js_selectLanguageContainer .nl
+a {
+    background-position: left -546px !important;
+}
+.chosenflag.no, 
+.dropdownContainer li.no a, 
+#js_selectLanguageContainer .no
+a {
+    background-position: left -560px !important;
+}
+.chosenflag.pe, 
+.dropdownContainer li.pe a, 
+#js_selectLanguageContainer .pe
+a {
+    background-position: left -574px !important;
+}
+.chosenflag.pl, 
+.dropdownContainer li.pl a, 
+#js_selectLanguageContainer .pl
+a {
+    background-position: left -616px !important;
+}
+.chosenflag.pt, 
+.dropdownContainer li.pt a, 
+#js_selectLanguageContainer .pt
+a {
+    background-position: left -630px !important;
+}
+.chosenflag.ro, 
+.dropdownContainer li.ro a, 
+#js_selectLanguageContainer .ro
+a {
+    background-position: left -644px !important;
+}
+.chosenflag.ru, 
+.dropdownContainer li.ru a, 
+#js_selectLanguageContainer .ru
+a {
+    background-position: left -672px !important;
+}
+.chosenflag.se, 
+.dropdownContainer li.se a, 
+#js_selectLanguageContainer .se
+a {
+    background-position: left -686px !important;
+}
+.chosenflag.rs, 
+.dropdownContainer li.rs a, 
+#js_selectLanguageContainer .rs
+a {
+    background-position: left -658px !important;
+}
+.chosenflag.sk, 
+.dropdownContainer li.sk a, 
+#js_selectLanguageContainer .sk
+a {
+    background-position: left -714px !important;
+}
+.chosenflag.si, 
+.dropdownContainer li.si a, 
+#js_selectLanguageContainer .si
+a {
+    background-position: left -700px !important;
+}
+.chosenflag.es, 
+.dropdownContainer li.es a, 
+#js_selectLanguageContainer .es
+a {
+    background-position: left -238px !important;
+}
+.chosenflag.rs, 
+.dropdownContainer li.rs a, 
+#js_selectLanguageContainer .rs
+a {
+    background-position: left -658px !important;
+}
+.chosenflag.tw, 
+.dropdownContainer li.tw a, 
+#js_selectLanguageContainer .tw
+a {
+    background-position: left -756px !important;
+}
+.chosenflag.cz, 
+.dropdownContainer li.cz a, 
+#js_selectLanguageContainer .cz
+a {
+    background-position: left -154px !important;
+}
+.chosenflag.tr, 
+.dropdownContainer li.tr a, 
+#js_selectLanguageContainer .tr
+a {
+    background-position: left -742px !important;
+}
+.chosenflag.hu, 
+.dropdownContainer li.hu a, 
+#js_selectLanguageContainer .hu
+a {
+    background-position: left -336px !important;
+}
+.chosenflag.us, 
+.dropdownContainer li.us a, 
+#js_selectLanguageContainer .us
+a {
+    background-position: left -798px !important;
+}
+.chosenflag.ve, 
+.dropdownContainer li.ve a, 
+#js_selectLanguageContainer .ve
+a {
+    background-position: left -812px !important;
+}
+.chosenflag.ae, 
+.dropdownContainer li.ae a, 
+#js_selectLanguageContainer .ae
+a {
+    background-position: left 0px !important;
+}
+.chosenflag.yu, 
+.dropdownContainer li.yu a, 
+#js_selectLanguageContainer .yu
+a {
+    background-position: left -882px !important;
+}
+.boniList {
+    margin: 5px
+23px;
+    line-height: 20px;
+}
+.boniList
+li {
+    list-style: disc;
+}
+.tutorialSpeedupButton {
+    width: 14px;
+    height: 14px;
+    background: url(../../img/cdn/all/both/buttons/fast_fordward_14_blue_orange.png) no-repeat center center;
+    display: inline-block;
+}
+.tutorialSpeedupButton.normal {
+    background: url(../../img/cdn/all/both/buttons/fast_fordward_14_normal.png) no-repeat center center;
+}
+.tutorialSpeedupButton.finish {
+    background: url(../../img/cdn/all/both/buttons/fertigstellen_14_blue_orange.png) no-repeat center center;
+}
+#container .buildingSpeedupButton
+.aniArrow {
+    right:  -5px;
+}
+#retentionQuestPopup {
+}
+#retentionQuestPopup
+.main_title {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+    margin: 5px
+0 10px 0;
+}
+#retentionQuestPopup
+.reward_title {
+    border-bottom: 2px solid #f3ddb5;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 24px;
+    margin: 20px
+0 10px 0;
+}
+#retentionQuestPopup
+.contentBox01h {
+    margin: 20px
+0 0 0;
+}
+#retentionQuestPopup .contentBox01h
+.content {
+    padding: 10px;
+}
+.retentionQuestPopup {
+    width: 720px!important;
+}
+.retentionQuestPopup
+.headerMiddle {
+    width: 661px!important;
+}
+.retentionQuestPopup .contentBox01h
+.header {
+    background: url(../../img/cdn/all/both/layout/bg_contentBox01h_header.png) no-repeat!important;
+    float: none!important;
+    font-size: 12px!important;
+    height: 20px!important;
+    margin: 0!important;
+    padding: 10px
+6px 0px 6px!important;
+}
+#container .popup_window .retentionQuestPopup
+.bd {
+    padding: 5px!important;
+}
+#retentionQuestTable {
+    width: 100%}
+#retentionQuestTable
+.left {
+    line-height: 35px;
+    text-align: left;
+}
+#retentionQuestTable
+.right {
+    line-height: 35px;
+    text-align: right;
+}
+#retentionQuestTable .right
+img {
+    float: right;
+    display: inline-block;
+    margin: 0
+0 0 10px;
+}
+#retentionQuestTable
+.retention_premium {
+    line-height: 14px;
+    text-align: center;
+    margin: 0
+0 20px 0;
+}
+#retentionQuestTable .retention_premium
+img {
+    clear: both;
+    float: none;
+    display: block;
+    margin: 0
+auto;
+    padding: 0;
+}
+#retentionQuestTable
+td {
+    line-height: 35px;
+    vertical-align: middle;
+}
+#retentionQuestTable
+tr {
+    min-height: 108px;
+}
+#retentionQuestTable
+br {
+    display: block;
+    clear: both;
+}
+#container
+.emailValidationReminderPopupContent {
+    text-align: center;
+    margin-bottom:  -10px;
+}
+#container .emailValidationReminderPopupContent
+p {
+    text-align: left;
+}
+#container .emailValidationReminderPopupContent p
+img {
+    display: inline;
+    float: none;
+    margin: 0;
+    padding: 0;
+}
+#container .emailValidationReminderPopupContent
+.checkbox_label {
+    margin-top: 1px;
+}
+#relatedCities
+.rowAction {
+    width: 65px;
+}
+#relatedCities
+.rowInfo {
+    border-right: 1px solid #faeac6;
+    width: 166px;
+}
+#relatedCities
+.rowTroop {
+    border-left: 1px solid #faeac6;
+    border-right: 1px solid #faeac6;
+}
+#relatedCities  .city,  #relatedCities
+.dropper {
+    background: url(../../img/cdn/all/both/layout/icon-city2.png) no-repeat left center;
+    padding: 5px
+0px 5px 30px;
+}
+#relatedCities
+.general {
+    background: url(../../img/cdn/all/both/relatedCities/general.png) no-repeat left center;
+    padding: 5px
+0px 5px 39px;
+}
+#relatedCities
+.gold {
+    background: url(../../img/cdn/all/both/resources/icon_upkeep.png) no-repeat left center;
+    padding: 5px
+0px 5px 39px;
+}
+#relatedCities .troops .armybutton,  #relatedCities .troops
+.fleetbutton {
+    background: url(../../img/cdn/all/both/characters/military/buttons_sprite.png) no-repeat;
+    width: 50px;
+    height: 15px;
+    padding-top: 50px;
+    margin: 2px
+1px 16px 0;
+    text-align: center;
+    font-weight: bold;
+    float: left;
+}
+#relatedCities .troops
+.fleetbutton {
+    background-image: url(../../img/cdn/all/both/characters/fleet/buttons_sprite.png);
+}
+#relatedCities .content .table01 div.troops
+.armybutton.swordsman {
+    background-position: -50px 0px;
+}
+#relatedCities .content .table01 div.troops
+.armybutton.phalanx {
+    background-position: -100px 0px;
+}
+#relatedCities .content .table01 div.troops
+.armybutton.archer {
+    background-position: -150px 0px;
+}
+#relatedCities .content .table01 div.troops
+.armybutton.marksman {
+    background-position: -200px 0px;
+}
+#relatedCities .content .table01 div.troops
+.armybutton.medic {
+    background-position: -250px 0px;
+}
+#relatedCities .content .table01 div.troops
+.armybutton.cook {
+    background-position: -300px 0px;
+}
+#relatedCities .content .table01 div.troops
+.armybutton.steamgiant {
+    background-position: -350px 0px;
+}
+#relatedCities .content .table01 div.troops
+.armybutton.gyrocopter {
+    background-position: -400px 0px;
+}
+#relatedCities .content .table01 div.troops
+.armybutton.bombardier {
+    background-position: -450px 0px;
+}
+#relatedCities .content .table01 div.troops
+.armybutton.catapult {
+    background-position: -500px 0px;
+}
+#relatedCities .content .table01 div.troops
+.armybutton.mortar {
+    background-position: -550px 0px;
+}
+#relatedCities .content .table01 div.troops
+.armybutton.ram {
+    background-position: -600px 0px;
+}
+#relatedCities .content .table01 div.troops
+.armybutton.spearman {
+    background-position: -750px 0px;
+}
+#relatedCities .content .table01 div.troops
+.armybutton.spartan {
+    background-position: -900px 0px;
+}
+#relatedCities .content .table01 div.troops
+.fleetbutton.ship_ram {
+    background-position: -50px 0px;
+}
+#relatedCities .content .table01 div.troops
+.fleetbutton.ship_ballista {
+    background-position: -100px 0px;
+}
+#relatedCities .content .table01 div.troops
+.fleetbutton.ship_flamethrower {
+    background-position: -150px 0px;
+}
+#relatedCities .content .table01 div.troops
+.fleetbutton.ship_catapult {
+    background-position: -200px 0px;
+}
+#relatedCities .content .table01 div.troops
+.fleetbutton.ship_steamboat {
+    background-position: -250px 0px;
+}
+#relatedCities .content .table01 div.troops
+.fleetbutton.ship_mortar {
+    background-position: -300px 0px;
+}
+#relatedCities .content .table01 div.troops
+.fleetbutton.ship_submarine {
+    background-position: -350px 0px;
+}
+#relatedCities .content .table01 div.troops
+.fleetbutton.ship_tender {
+    background-position: -400px 0px;
+}
+#relatedCities .content .table01 div.troops
+.fleetbutton.ship_ballooncarrier {
+    background-position: -450px 0px;
+}
+#relatedCities .content .table01 div.troops
+.fleetbutton.ship_paddlespeedship {
+    background-position: -500px 0px;
+}
+#relatedCities .content .table01 div.troops
+.fleetbutton.ship_rocketship {
+    background-position: -550px 0px;
+}
+#wonder #wonderOtherPlayers a:hover {
+    color: #B03937;
+    text-decoration: none;
+}
+#wonder tr.own
+td {
+    font-weight: bold;
+    color: #060;
+}
+#wonder #wonderBox85h,  #temple
+#wonderBox85h {
+    position: relative;
+    height: 100px;
+    text-align: center;
+}
+.wonder_BarPos1 {
+    margin-left: 240px !important;
+}
+.wonder_BarPos2 {
+    margin-left: 170px !important;
+}
+.wonder_BarPos3 {
+    margin-left: 140px !important;
+}
+.wonder_BarPos4 {
+    margin-left: 90px !important;
+}
+.wonder_BarPos5 {
+    margin-left: 45px !important;
+}
+.wonder_bar {
+    position: absolute;
+    height: 71px;
+    width: 512px;
+    background: url(../../img/cdn/all/both/wonder/belief_bar2.png);
+    margin: 0;
+}
+.leftInfo {
+    position: absolute;
+    left:  -185px;
+    top: 56px;
+    width: 180px;
+    padding: 4px;
+    text-align: right;
+}
+.rightInfo {
+    position: absolute;
+    left: 16px;
+    top: 60px;
+    width: 180px;
+}
+div.contentBox01h #wonderBox85h
+.wonderBar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 71px;
+    background: url(../../img/cdn/all/both/wonder/belief_bar2.png);
+    margin: 10px
+0 10px 40px;
+}
+.wonder_level {
+    background-position: left -71px;
+    float: left;
+    position: relative;
+}
+.wonder_l1 {
+    width: 110px;
+}
+.wonder_l2 {
+    width: 210px;
+}
+.wonder_l3 {
+    width: 310px;
+}
+.wonder_l4 {
+    width: 410px;
+}
+.wonder_l5 {
+    width: 512px;
+}
+.wonder_belief {
+    position: absolute;
+    background-position: left -142px;
+}
+.wonder_belife_info_display {
+    position: relative;
+    height: 25px;
+    text-align: center;
+    margin-left: 35px;
+}
+.wonder_belief_info {
+    position: absolute;
+    height: 78px;
+    width: 24px;
+    background: url(../../img/cdn/all/both/wonder/icon_arrow.png) no-repeat bottom right;
+    z-index: 30000;
+}
+.wonder_level_display {
+    position: relative;
+    background: url(../../img/cdn/all/both/wonder/belief_bar_level.png) no-repeat;
+    width: 53px;
+    float: left;
+    left: 10px;
+    height: 71px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #580404;
+    text-align: center;
+}
+#wonder
+.wonderPic1 {
+    background: url(../../img/cdn/all/both/wonder/wonder1_active.png) no-repeat scroll 10px -20px transparent;
+}
+#wonder
+.wonderPic2 {
+    background: url(../../img/cdn/all/both/wonder/wonder2_active.png) no-repeat scroll 10px -20px transparent;
+}
+#wonder
+.wonderPic3 {
+    background: url(../../img/cdn/all/both/wonder/wonder3_active.png) no-repeat scroll 10px -20px transparent;
+}
+#wonder
+.wonderPic4 {
+    background: url(../../img/cdn/all/both/wonder/wonder4_active.png) no-repeat scroll 10px -20px transparent;
+}
+#wonder
+.wonderPic5 {
+    background: url(../../img/cdn/all/both/wonder/wonder5_active.png) no-repeat scroll 10px -20px transparent;
+}
+#wonder
+.wonderPic6 {
+    background: url(../../img/cdn/all/both/wonder/wonder6_active.png) no-repeat scroll 10px -20px transparent;
+}
+#wonder
+.wonderPic7 {
+    background: url(../../img/cdn/all/both/wonder/wonder7_active.png) no-repeat scroll 10px -20px transparent;
+}
+#wonder
+.wonderPic8 {
+    background: url(../../img/cdn/all/both/wonder/wonder8_active.png) no-repeat scroll 10px -20px transparent;
+}
+#wonder
+.wonderRays {
+    background: url(../../img/cdn/all/both/wonder/rays2.jpg) no-repeat 10px 10px;
+}
+#wonder
+.wonderDeity {
+    background: url(../../img/cdn/all/both/wonder/deity.jpg) no-repeat;
+}
+#wonder .contentBox01h .content
+p {
+    margin: 0px
+25px 0px 190px;
+    padding: 20px
+3px;
+}
+#wonderOtherPlayers
+.actions {
+    border-left: 2px solid #faeac6;
+}
+#militaryAdvisorDetailedReportView
+#header {
+    background-image: url(../../img/cdn/all/both/combatreport/bg_header.jpg);
+}
+#militaryAdvisorDetailedReportView
+#footer {
+    background-image: url(../../img/cdn/all/both/combatreport/bg_footer.jpg);
+}
+#militaryAdvisorDetailedReportView
+#battlefield {
+    height: 398px;
+    margin-left:  -12px;
+    width: 905px;
+}
+#militaryAdvisorDetailedReportView
+.battlefield_sea_A_D {
+    background-image: url(../../img/cdn/all/both/combatreport/battlefield_sea_A_D.jpg);
+}
+#militaryAdvisorDetailedReportView
+.battlefield_land_A_D {
+    background-image: url(../../img/cdn/all/both/combatreport/battlefield_land_A_D.jpg);
+}
+#militaryAdvisorDetailedReportView
+.battlefield_city_A_D {
+    background-image: url(../../img/cdn/all/both/combatreport/battlefield_city_A_D.jpg);
+}
+#militaryAdvisorDetailedReportView
+.battlefield_city_city {
+    background-image: url(../../img/cdn/all/both/combatreport/battlefield_city_city.jpg);
+}
+#militaryAdvisorDetailedReportView
+.battlefield_barb_olaf {
+    background-image: url(../../img/cdn/all/both/combatreport/2015-10-07_IK_Barbarenschlachtfelder_menue_Olaf.jpg);
+}
+#militaryAdvisorDetailedReportView
+.battlefield_barb_mattis {
+    background-image: url(../../img/cdn/all/both/combatreport/2015-10-07_IK_Barbarenschlachtfelder_menue_Mattis.jpg);
+}
+#militaryAdvisorDetailedReportView
+.battlefield_barb_latu {
+    background-image: url(../../img/cdn/all/both/combatreport/2015-10-07_IK_Barbarenschlachtfelder_menue_Latu.jpg);
+}
+#militaryAdvisorDetailedReportView
+.battlefield_barb_neon {
+    background-image: url(../../img/cdn/all/both/combatreport/2015-10-07_IK_Barbarenschlachtfelder_menue_Neon.jpg);
+}
+#militaryAdvisorDetailedReportView
+.battlefield_barb_sina {
+    background-image: url(../../img/cdn/all/both/combatreport/2015-10-07_IK_Barbarenschlachtfelder_menue_Sina.jpg);
+}
+#militaryAdvisorDetailedReportView
+.battlefield_barb_ezekiel {
+    background-image: url(../../img/cdn/all/both/combatreport/2015-10-07_IK_Barbarenschlachtfelder_menue_Ezekiel.jpg);
+}
+#militaryAdvisorDetailedReportView
+#resAttacker {
+    width: 125px;
+    height: 183px;
+    position: relative;
+    top: 5px;
+    left: 4px;
+    float: left;
+}
+#militaryAdvisorDetailedReportView
+#resDefender {
+    width: 125px;
+    height: 183px;
+    position: relative;
+    left: 4px;
+    top: 8px;
+    float: left;
+}
+#militaryAdvisorDetailedReportView .nav
+ul {
+    list-style: none;
+    padding: 3px
+0 0 10px;
+    margin: 0;
+}
+#militaryAdvisorDetailedReportView .nav
+li {
+    font-size: 11px;
+    font-weight: bold;
+    color: #612d04;
+    float: left;
+}
+#militaryAdvisorDetailedReportView .nav
+li.res {
+    padding: 0
+18px;
+}
+#militaryAdvisorDetailedReportView .units
+ul {
+    list-style: none;
+    margin: 25px
+0 0 5px;
+    padding: 0;
+}
+#militaryAdvisorDetailedReportView .units ul
+li {
+    padding: 2px;
+    text-align: center;
+    float: left;
+    font-size: 11px;
+    color: #612d04;
+}
+#militaryAdvisorDetailedReportView .units ul li
+div {
+    width: 36px;
+    height: 36px;
+    background-repeat: no-repeat;
+}
+#militaryAdvisorDetailedReportView
+.container_attacker {
+    background: url(../../img/cdn/all/both/unitdesc/unit_attack.png) left 0 no-repeat;
+    padding: 0
+0 0 50px;
+    min-height: 30px;
+}
+#militaryAdvisorDetailedReportView
+#rounds {
+    padding: 0;
+    color: #612d04;
+    position: absolute;
+    width: 400px;
+    right: 32px;
+    top: 57px;
+    text-align: right;
+    vertical-align: middle;
+}
+#militaryAdvisorDetailedReportView
+.container_defender {
+    background: url(../../img/cdn/all/both/unitdesc/unit_defend.png) left 2px  no-repeat;
+    padding-left: 50px;
+    min-height: 50px;
+}
+#militaryAdvisorDetailedReportView
+.container_events {
+    background: url(../../img/cdn/all/both/combatreport/resultbg.png) repeat-x #f9e3aa;
+    border: 1px
+solid #FEDC9C;
+    margin: 10px
+0;
+    padding: 10px;
+    width: 825px;
+}
+#militaryAdvisorDetailedReportView
+.container_morale {
+    margin: 10px
+0;
+    width: 845px;
+}
+#militaryAdvisorDetailedReportView .container_events
+.description {
+    margin:  -15px 10px 8px 150px;
+}
+#militaryAdvisorDetailedReportView
+.hitpoints {
+    position: absolute;
+    background-image: url(../../img/cdn/all/both/combatreport/hitpoints1.png);
+    width: 5px;
+    height: 32px;
+    margin: 0
+0 0 36px;
+}
+#militaryAdvisorDetailedReportView
+.ammo {
+    position: absolute;
+    background-image: url(../../img/cdn/all/both/combatreport/ammo1.png);
+    width: 5px;
+    height: 32px;
+    margin: 0
+0 0 42px;
+}
+#militaryAdvisorDetailedReportView
+.ammoLoss {
+    position: absolute;
+    background-image: url(../../img/cdn/all/both/combatreport/ammo2.png);
+    width: 5px;
+    height: 32px;
+    margin: 0
+0 0 42px;
+}
+#militaryAdvisorDetailedReportView
+.loss {
+    position: absolute;
+    background-image: url(../../img/cdn/all/both/combatreport/hitpoints2.png);
+    width: 5px;
+    height: 32px;
+    margin: 0
+0 0 36px;
+}
+#militaryAdvisorDetailedReportView
+.field {
+    width: 765px;
+    height: 195px;
+    margin: 0
+0 0 133px;
+}
+#militaryAdvisorDetailedReportView .field
+.location {
+    position: absolute;
+    list-style: none;
+}
+#militaryAdvisorDetailedReportView #fieldAttacker
+.flankRight {
+    margin: 130px
+0 0 595px;
+}
+#militaryAdvisorDetailedReportView #fieldAttacker
+.flankLeft {
+    margin: 130px
+0 0 15px;
+}
+#militaryAdvisorDetailedReportView #fieldAttacker
+.special {
+    margin: 22px
+0 0 20px;
+}
+#militaryAdvisorDetailedReportView #fieldAttacker
+.air {
+    margin: 22px
+0 0 15px;
+}
+#militaryAdvisorDetailedReportView #fieldAttacker
+.airfighter {
+    margin: 22px
+0 0 565px;
+    width: 168px;
+}
+#militaryAdvisorDetailedReportView #fieldAttacker
+.small.artillery {
+    margin: 22px
+0 0 345px;
+}
+#militaryAdvisorDetailedReportView #fieldAttacker
+.medium.artillery {
+    margin: 22px
+0 0 324px;
+}
+#militaryAdvisorDetailedReportView #fieldAttacker
+.large.artillery {
+    margin: 22px
+0 0 261px;
+}
+#militaryAdvisorDetailedReportView #fieldAttacker
+.small.longRange {
+    margin: 77px
+0 0 300px;
+}
+#militaryAdvisorDetailedReportView #fieldAttacker
+.medium.longRange {
+    margin: 77px
+0 0 255px;
+}
+#militaryAdvisorDetailedReportView #fieldAttacker
+.large.longRange {
+    margin: 77px
+0 0 215px;
+}
+#militaryAdvisorDetailedReportView #fieldAttacker
+.small.main {
+    margin: 130px
+0 0 300px;
+}
+#militaryAdvisorDetailedReportView #fieldAttacker
+.medium.main {
+    margin: 130px
+0 0 255px;
+}
+#militaryAdvisorDetailedReportView #fieldAttacker
+.large.main {
+    margin: 130px
+0 0 215px;
+}
+#militaryAdvisorDetailedReportView #fieldDefender
+.flankRight {
+    margin: 22px
+0 0 595px;
+}
+#militaryAdvisorDetailedReportView #fieldDefender
+.flankLeft {
+    margin: 22px
+0 0 15px;
+}
+#militaryAdvisorDetailedReportView #fieldDefender
+.special {
+    margin: 135px
+0 0 20px;
+}
+#militaryAdvisorDetailedReportView #fieldDefender
+.air {
+    margin: 135px
+0 0 15px;
+}
+#militaryAdvisorDetailedReportView #fieldDefender
+.airfighter {
+    margin: 135px
+0 0 565px;
+    width: 168px;
+}
+#militaryAdvisorDetailedReportView #fieldDefender
+.small.artillery {
+    margin: 135px
+0 0 345px;
+}
+#militaryAdvisorDetailedReportView #fieldDefender
+.medium.artillery {
+    margin: 135px
+0 0 324px;
+}
+#militaryAdvisorDetailedReportView #fieldDefender
+.large.artillery {
+    margin: 135px
+0 0 261px;
+}
+#militaryAdvisorDetailedReportView #fieldDefender
+.small.longRange {
+    margin: 77px
+0 0 300px;
+}
+#militaryAdvisorDetailedReportView #fieldDefender
+.medium.longRange {
+    margin: 77px
+0 0 255px;
+}
+#militaryAdvisorDetailedReportView #fieldDefender
+.large.longRange {
+    margin: 77px
+0 0 215px;
+}
+#militaryAdvisorDetailedReportView #fieldDefender
+.small.main {
+    margin: 22px
+0 0 300px;
+}
+#militaryAdvisorDetailedReportView #fieldDefender
+.medium.main {
+    margin: 22px
+0 0 255px;
+}
+#militaryAdvisorDetailedReportView #fieldDefender
+.large.main {
+    margin: 22px
+0 0 215px;
+}
+#militaryAdvisorDetailedReportView .field .location
+.slot {
+    margin: 5px;
+    float: left;
+}
+#militaryAdvisorDetailedReportView .field .airfighter
+.slot {
+    float: right;
+}
+#militaryAdvisorDetailedReportView .field .special
+.slot {
+    float: left;
+    display: block;
+}
+#militaryAdvisorDetailedReportView .field .slot
+.number {
+    font-size: 10px;
+    height: 13px;
+    background-color: #f6ebbd;
+    border: 1pt solid #c39363;
+    margin-top: 35px;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+    filter: alpha(opacity=70);
+    opacity:  .7;
+    white-space: nowrap;
+}
+#militaryAdvisorDetailedReportView .field .location .slot.empty, 
+#militaryAdvisorDetailedReportView .field.seafight .location
+.slot.empty {
+    background: url(../../img/cdn/all/both/combatreport/empty.png) no-repeat;
+}
+#militaryAdvisorDetailedReportView .field .location
+.slot.hidden {
+    background: none transparent;
+}
+#militaryAdvisorDetailedReportView .field .location
+.slot {
+    width: 36px;
+    height: 36px;
+}
+#militaryAdvisorDetailedReportView
+.unitlist {
+    height: 48px;
+    margin: 0
+0 6px 150px;
+}
+#militaryAdvisorDetailedReportView .unitlist
+li {
+    width: 36px;
+    float: left;
+    text-align: center;
+    padding-top: 34px;
+    margin-right: 4px;
+    height: 0px;
+}
+#militaryAdvisorDetailedReportView
+.s301 {
+}
+#militaryAdvisorDetailedReportView
+.s302 {
+    background-position:  -36px 0;
+}
+#militaryAdvisorDetailedReportView
+.s303 {
+    background-position:  -72px 0;
+}
+#militaryAdvisorDetailedReportView
+.s304 {
+    background-position:  -144px 0;
+}
+#militaryAdvisorDetailedReportView
+.s305 {
+    background-position:  -396px 0;
+}
+#militaryAdvisorDetailedReportView
+.s306 {
+    background-position:  -360px 0;
+}
+#militaryAdvisorDetailedReportView
+.s307 {
+    background-position:  -432px 0;
+}
+#militaryAdvisorDetailedReportView
+.s308 {
+    background-position:  -252px 0;
+}
+#militaryAdvisorDetailedReportView
+.s309 {
+    background-position:  -324px 0;
+}
+#militaryAdvisorDetailedReportView
+.s310 {
+    background-position:  -216px 0;
+}
+#militaryAdvisorDetailedReportView
+.s311 {
+    background-position:  -180px 0;
+}
+#militaryAdvisorDetailedReportView
+.s312 {
+    background-position:  -288px 0;
+}
+#militaryAdvisorDetailedReportView
+.s313 {
+    background-position:  -108px 0;
+}
+#militaryAdvisorDetailedReportView
+.s314 {
+    background-position:  -468px 0px;
+}
+#militaryAdvisorDetailedReportView
+.s315 {
+    background-position:  -540px 0px;
+}
+#militaryAdvisorDetailedReportView
+.s316 {
+    background-position:  -504px 0px;
+}
+#militaryAdvisorDetailedReportView
+.s317 {
+    background-position:  -576px 0px;
+}
+#militaryAdvisorDetailedReportView
+.s318 {
+    background-position:  -576px 0px;
+}
+#militaryAdvisorDetailedReportView
+.s301d {
+    background-position: 0 -36px;
+}
+#militaryAdvisorDetailedReportView
+.s302d {
+    background-position:  -36px -36px;
+}
+#militaryAdvisorDetailedReportView
+.s303d {
+    background-position:  -72px -36px;
+}
+#militaryAdvisorDetailedReportView
+.s304d {
+    background-position:  -144px -36px;
+}
+#militaryAdvisorDetailedReportView
+.s305d {
+    background-position:  -396px -36px;
+}
+#militaryAdvisorDetailedReportView
+.s306d {
+    background-position:  -360px -36px;
+}
+#militaryAdvisorDetailedReportView
+.s307d {
+    background-position:  -432px -36px;
+}
+#militaryAdvisorDetailedReportView
+.s308d {
+    background-position:  -252px -36px;
+}
+#militaryAdvisorDetailedReportView
+.s309d {
+    background-position:  -324px -36px;
+}
+#militaryAdvisorDetailedReportView
+.s310d {
+    background-position:  -216px -36px;
+}
+#militaryAdvisorDetailedReportView
+.s311d {
+    background-position:  -180px -36px;
+}
+#militaryAdvisorDetailedReportView
+.s312d {
+    background-position:  -288px -36px;
+}
+#militaryAdvisorDetailedReportView
+.s313d {
+    background-position:  -108px -36px;
+}
+#militaryAdvisorDetailedReportView
+.s314d {
+    background-position:  -468px -36px;
+}
+#militaryAdvisorDetailedReportView
+.s315d {
+    background-position:  -540px -36px;
+}
+#militaryAdvisorDetailedReportView
+.s316d {
+    background-position:  -504px -36px;
+}
+#militaryAdvisorDetailedReportView
+.s317d {
+    background-position:  -576px -36px;
+}
+#militaryAdvisorDetailedReportView
+.s318d {
+    background-position:  -576px -36px;
+}
+#militaryAdvisorDetailedReportView
+.s201 {
+}
+#militaryAdvisorDetailedReportView
+.s210 {
+    background-position:  -36px 0;
+}
+#militaryAdvisorDetailedReportView
+.s211 {
+    background-position:  -108px 0;
+}
+#militaryAdvisorDetailedReportView
+.s212 {
+    background-position:  -252px 0;
+}
+#militaryAdvisorDetailedReportView
+.s213 {
+    background-position:  -72px 0;
+}
+#militaryAdvisorDetailedReportView
+.s214 {
+    background-position:  -144px 0;
+}
+#militaryAdvisorDetailedReportView
+.s215 {
+    background-position:  -216px 0;
+}
+#militaryAdvisorDetailedReportView
+.s216 {
+    background-position:  -180px 0;
+}
+#militaryAdvisorDetailedReportView
+.s217 {
+    background-position:  -396px 0;
+}
+#militaryAdvisorDetailedReportView
+.s218 {
+    background-position:  -360px 0;
+}
+#militaryAdvisorDetailedReportView
+.s219 {
+    background-position:  -324px 0;
+}
+#militaryAdvisorDetailedReportView
+.s220 {
+    background-position:  -288px 0;
+}
+#militaryAdvisorDetailedReportView
+.s201d {
+}
+#militaryAdvisorDetailedReportView
+.s210d {
+    background-position:  -36px -36px;
+}
+#militaryAdvisorDetailedReportView
+.s211d {
+    background-position:  -108px -36px;
+}
+#militaryAdvisorDetailedReportView
+.s212d {
+    background-position:  -252px -36px;
+}
+#militaryAdvisorDetailedReportView
+.s213d {
+    background-position:  -72px -36px;
+}
+#militaryAdvisorDetailedReportView
+.s214d {
+    background-position:  -144px -36px;
+}
+#militaryAdvisorDetailedReportView
+.s215d {
+    background-position:  -216px -36px;
+}
+#militaryAdvisorDetailedReportView
+.s216d {
+    background-position:  -180px -36px;
+}
+#militaryAdvisorDetailedReportView
+.s217d {
+    background-position:  -396px -36px;
+}
+#militaryAdvisorDetailedReportView
+.s218d {
+    background-position:  -360px -36px;
+}
+#militaryAdvisorDetailedReportView
+.s219d {
+    background-position:  -324px -36px;
+}
+#militaryAdvisorDetailedReportView
+.s220d {
+    background-position:  -288px -36px;
+}
+#militaryAdvisorDetailedReportView
+.info_box {
+    position: absolute;
+    margin:  -36px 0 0 36px;
+    display: none;
+    background-color: #FAE0AE;
+    border: 1px
+solid #E4B873;
+    padding: 0;
+    text-align: left;
+}
+#militaryAdvisorDetailedReportView .info_box
+h2 {
+    font-weight: bold;
+}
+#militaryAdvisorDetailedReportView .info_box
+h2 {
+    font-size: 11px;
+}
+#militaryAdvisorDetailedReportView .container_events .fleets
+li {
+    background-image: url(../../img/cdn/all/both/premium/unitfleets_x34_y34.png);
+}
+#militaryAdvisorDetailedReportView .container_morale
+.atter {
+    background: url(../../img/cdn/all/both/unitdesc/unit_attack.png) no-repeat 3px 3px #FAEAC6;
+    height: 34px;
+}
+#militaryAdvisorDetailedReportView .container_morale
+.deffer {
+    background: url(../../img/cdn/all/both/unitdesc/unit_defend.png) no-repeat 3px 3px #FAEAC6;
+    height: 34px;
+}
+#militaryAdvisorDetailedReportView .table01 .avatarName,  #militaryAdvisorDetailedReportView .table01
+.militaryName {
+    width: 150px;
+}
+#militaryAdvisorDetailedReportView .table01
+.militarySize {
+    width: 100px;
+}
+#militaryAdvisorDetailedReportView .table01
+.militaryMorale {
+    width: 220px;
+}
+#militaryAdvisorDetailedReportView .table01
+.morale {
+    width: 150px;
+}
+#militaryAdvisorDetailedReportView .militaryMorale
+.morale_bar {
+    background-color: #FEFBE8;
+    border: 1px
+solid #775726;
+    height: 10px;
+    margin: 4px
+0;
+    text-align: left;
+    width: 200px;
+}
+#militaryAdvisorDetailedReportView .militaryMorale .morale_bar
+.bar {
+    background-color: #73443E;
+    height: 100%}
+#militaryAdvisorDetailedReportView
+.round_nav {
+    margin: 10px
+auto;
+}
+#militaryAdvisorDetailedReportView .round_nav
+td {
+    padding: 5px;
+    text-align: center;
+    vertical-align: top;
+}
+#militaryAdvisorDetailedReportView .round_nav
+.navArrow {
+    width: 20px;
+    padding-top: 9px;
+}
+.allypage
+img {
+    max-width: 100%}
+.btn-login {
+    background: url(../../img/cdn/all/both/defaultStartpageTemplate/img/sp-bg-content.png) no-repeat 0 -241px;
+    border: none;
+    color: #F6EBBC;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    height: 23px;
+    line-height: 25px;
+    padding: 0
+0 4px;
+    text-align: center;
+    text-shadow:  -1px -1px #000;
+    width: 190px;
+    display: block;
+}
+.btn-login:hover {
+    background-position: 0 -268px;
+    text-decoration: none;
+}
+input.btn-login {
+    height: 27px;
+    margin-bottom: 200px;
+}
+.returnToStartPage {
+    bottom: 10px;
+    right: 10px;
+    position: absolute;
+    font-weight: bold;
+    color: #861b0d;
+}
+#container
+#tutorialAdvisor {
+    cursor: pointer;
+    left: 300px;
+    position: absolute;
+    top: 205px;
+    z-index: 50000000;
+}
+#container #tutorialAdvisor
+#advisorImage {
+    background-image: url(../../img/cdn/all/both/tutorial/advisors.png);
+    width: 66px;
+    height: 67px;
+}
+#container #tutorialAdvisor
+#advisorImage.lighten {
+    background-image: url(../../img/cdn/all/both/tutorial/advisors_lighten.png);
+}
+#container #tutorialAdvisor #advisorImage
+a {
+    display: block;
+    width: 66px;
+    height: 67px;
+}
+#container
+.aniArrow {
+    position: absolute;
+    width: 40px;
+    height: 48px;
+    z-index: 10000;
+    background-image: url(../../img/cdn/all/both/tutorial/arrow.png);
+    display: none;
+}
+#container .mainContentBox
+.aniArrow.on_close_button {
+    right: 5px;
+    z-index: 100000;
+}
+#container
+#tutorialAdvisorCloseLink {
+    background-image: url(../../img/cdn/all/both/layout/notice_close.png);
+    position: absolute;
+    left: 535px;
+    top: 9px;
+    height: 18px;
+    width: 18px;
+    cursor: pointer;
+    display: none;
+}
+#popupMessage
+.questText {
+    margin: 10px;
+    text-align: left;
+}
+#popupMessage
+.questText.quest_10 {
+    margin: 0
+10px 0;
+}
+#popupMessage
+.smallNotice {
+    margin: 0
+10px 13px 120px;
+}
+#popupMessage
+.additionalParagraph {
+    margin: 0
+10px 0 120px;
+}
+#popupMessage
+.allAdvisors {
+    background: url(../../img/cdn/all/both/tutorial/alladvisors_city.jpg) no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 100px;
+    margin: 0
+10px;
+    width: 100px;
+}
+#popupMessage
+.advisor_city {
+    background: url(../../img/cdn/all/both/tutorial/advisor_city.jpg) no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 100px;
+    margin: 0
+10px;
+    width: 100px;
+}
+#popupMessage
+.advisor_science {
+    background: url(../../img/cdn/all/both/tutorial/advisor_science.jpg) no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 100px;
+    margin: 0
+10px;
+    width: 100px;
+}
+#popupMessage
+.questSteps {
+    text-align: left;
+    padding: 10px
+10px 10px 135px;
+}
+#popupMessage .questSteps
+li {
+    display: list-item;
+    list-style-type: disc;
+}
+#popupMessage
+.questHint {
+    margin: 15px
+10px 10px;
+}
+#popupMessage
+.tutorial_ok {
+    display: block;
+    margin: 0
+auto;
+    width: 60px;
+}
+#popupMessage
+.rewardHeader {
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+    border-bottom: 1px solid #C39969;
+    padding-left: 10px;
+    margin-top: 15px;
+}
+.rewardBox {
+    border: 1px
+solid #E4B773;
+    margin-top: 25px;
+    padding-bottom: 5px;
+    background-color: papayawhip;
+}
+#popupMessage
+.questReward {
+    padding: 0px
+10px;
+    margin: 0;
+}
+#popupMessage .questReward
+li {
+    display: block;
+    float: left;
+    text-align: left;
+    width: 150px;
+    padding: 15px
+15px 0 45px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-position: left 10px;
+}
+#js_tutorialRewardMessage .questReward
+li {
+    width: 174px;
+}
+.registeredName {
+    background-image: url(../../img/cdn/all/both/transport/board_buttons_sprite.png);
+    width: 18px;
+    height: 18px;
+    top: 2px;
+    right:  -21px;
+    position: absolute;
+}
+.registeredName.unchanged {
+    background: none;
+}
+.registeredName.valid {
+    background-position: 18px 0;
+}
+.registeredName.invalid {
+    background-position: 0 0;
+    cursor: help;
+}
+.registeredNameInputContainer {
+    display: inline-block;
+    position: relative;
+}
+.registeredNameInputContainer
+input {
+    width: 105px;
+    margin: 2px
+0;
+    padding: 1px
+1px 1px 3px;
+}
+#container #tutorialAdvisorCloseLink:hover {
+    background-image: url(../../img/cdn/all/both/layout/notice_close_hover.png);
+}
+#container #tutorialAdvisor
+.allAdvisors {
+    background-position: 0px 0px;
+}
+#container #tutorialAdvisor
+.researchAdvisor {
+    background-position:  -66px 0px;
+}
+#container #tutorialAdvisor
+.cityAdvisor {
+    background-position:  -132px 0px;
+}
+#container #tutorialAdvisor
+.diplomacyAdvisor {
+    background-position:  -198px 0px;
+}
+#container #tutorialAdvisor
+.militaryAdvisor {
+    background-position:  -264px 0px;
+}
+#container
+#TutorialCheckboxImg {
+    float: none;
+    vertical-align: top;
+    margin-top:  -5px;
+}
+#container
+a.tutorialLink {
+    font-weight: bold;
+}
+#container .rewardContainer
+.hint {
+    margin: 10px
+0 0 -100px;
+}
+#container ul.questReward
+li.wood {
+    background-image: url(../../img/cdn/all/both/resources/icon_wood.png);
+}
+#container ul.questReward
+li.wine {
+    background-image: url(../../img/cdn/all/both/resources/icon_wine.png);
+}
+#container ul.questReward
+li.marble {
+    background-image: url(../../img/cdn/all/both/resources/icon_marble.png);
+}
+#container ul.questReward
+li.crystal {
+    background-image: url(../../img/cdn/all/both/resources/icon_crystal.png);
+}
+#container ul.questReward
+li.sulfur {
+    background-image: url(../../img/cdn/all/both/resources/icon_sulfur.png);
+}
+#container ul.questReward
+li.gold {
+    background-image: url(../../img/cdn/all/both/resources/icon_gold.png);
+}
+#container ul.questReward
+li.townhall {
+    background-image: url(../../img/cdn/all/both/buildings/x40_y40/townHall.png);
+    background-position: left center;
+    padding-left: 45px;
+}
+#container ul.questReward
+li.barracks {
+    background-image: url(../../img/cdn/all/both/buildings/x40_y40/barracks.png);
+    background-position: left center;
+    padding-left: 45px;
+}
+#container ul.questReward
+li.warehouse {
+    background-image: url(../../img/cdn/all/both/buildings/x40_y40/warehouse.png);
+    background-position: left center;
+    padding-left: 45px;
+}
+#container ul.questReward
+li.academy {
+    background-image: url(../../img/cdn/all/both/buildings/x40_y40/academy.png);
+    background-position: left center;
+    padding-left: 45px;
+}
+#container ul.questReward
+li.wall {
+    background-image: url(../../img/cdn/all/both/buildings/x40_y40/wall.png);
+    background-position: left center;
+    padding-left: 45px;
+}
+#container ul.questReward
+li.researchPoints {
+    background-image: url(../../img/cdn/all/both/resources/icon_research.png);
+}
+#container ul.questReward
+li.spearman {
+    background-image: url(../../img/cdn/all/both/characters/military/x40_y40/y40_spearman_faceright.png);
+}
+#container ul.questReward
+li.transporter {
+    background-image: url(../../img/cdn/all/both/characters/fleet/40x40/ship_transport_l_40x40.png);
+    background-position: left center;
+}
+#container ul.questReward
+li.premiumCurrency {
+    background-image: url(../../img/cdn/all/both/premium/ambrosia_icon.png);
+    width: 185px;
+}
+#js_tutorialMessage
+.checkbox {
+    margin-top:  -2px;
+}
+#container
+.tutorialAdvisorInMessage {
+    left: 15px;
+    top: 40px;
+    position: absolute;
+}
+#js_tabBuyTransporter
+#js_tutorialArrow {
+    margin-left: 20px;
+}
+#js_tabBuyTransporter {
+    position: relative;
+}
+#js_GlobalMenu_ambrosia
+#js_tutorialArrow {
+    margin-left: 70px;
+    margin-top: 10px;
+}
+#js_researchAdvisorConservationLink
+#js_tutorialArrow {
+    margin-top: 80px;
+    left: 260px;
+}
+#js_researchAdvisorChangeResearchType1
+#js_tutorialArrow {
+    margin-top: 175px;
+}
+#js_barbarianActionPanel {
+    position: relative;
+}
+#buildingSpeedup
+#js_tutorialArrow {
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.retention_quest_view
+.padded_content {
+    padding: 15px;
+}
+.retention_quest_view
+.right {
+    text-align: right;
+}
+.retention_quest_view
+.bar {
+    width: 30%}
+.retention_quest_view
+img {
+    display: block;
+    float: left;
+    margin: 0
+10px 0 0;
+    padding: 5px
+0 10px 0;
+}
+.retention_quest_view
+.building_img {
+    line-height: 55px;
+}
+.retention_quest_view
+.bar_border {
+    border: 1px
+solid #CCA569;
+    background: #FFF;
+    margin: 5px
+0;
+    min-height: 15px!important;
+    line-height: 15px;
+}
+.retention_quest_view .bar_border
+.bold {
+    text-align: center;
+}
+.retention_quest_view
+.green_bar {
+    background-image: url(../../img/cdn/all/both/bars/20px/bg_24px_lightgreen.png);
+    height: 20px;
+}
+.retention_quest_view
+.progressbar {
+    background: #FFFFFF!important;
+    margin: 5px
+0;
+    height: 15px!important;
+    width: 100%!important;
+}
+.retention_quest_view .progressbar
+.bold {
+    position: relative;
+    top:  -13px;
+    text-align: center;
+}
+#container #registrationGifts ul.resources
+li {
+    padding-left: 43px;
+    float: left;
+    width: auto;
+    padding-right: 20px;
+}
+#container #registrationGifts ul.resources
+.gold {
+    background-position: 10px 2px;
+}
+#container #registrationGifts ul.resources
+.researchPoints {
+    background-position: 14px 2px;
+}
+#container #registrationGifts ul.resources
+.wine {
+    background-position: 9px 2px;
+}
+#container #registrationGifts ul.resources
+.glass {
+    background-position: 9px 2px;
+}
+#container #registrationGifts
+.registrationGiftsFirstColumn {
+    text-align: left;
+    font-weight: bold;
+    font-size: 16px;
+    border-right: solid 1px #f3ddb2;
+}
+#container #registrationGifts
+.button {
+    min-width: 100px;
+}
+#container #registrationGifts
+tr {
+    line-height: 30px;
+}
+.retention_banner {
+    margin: 10px
+0;
+}
+.popup_contentbox
+.retention_banner {
+    float: none!important;
+    clear: both!important;
+    display: block!important;
+    margin: 10px
+0 -20px 0!important;
+}
+.dailyTaskDifficultyPassive {
+    background-color: #d1d1fb;
+}
+.dailyTaskDifficultyEasy {
+    background-color: #b1cdb1;
+}
+.dailyTaskDifficultyDifficult {
+    background-color: #f1b649;
+}
+.dailyTaskDifficultyBonus {
+    background-color: #f7e45c;
+}
+#container .table01
+td.sectionHeader {
+    text-align: left;
+    font-weight: bold;
+}
+#dailyTasks
+a {
+    position: relative;
+}
+#dailyTasks
+.claimFavorBackground {
+    background: url(../../img/cdn/all/both/resources/favour.png) no-repeat;
+    background-position: 30px 0;
+    width: 70px;
+    height: 25px;
+}
+#dailyTasks .claimFavorBackground>span {
+    display: inline-block;
+    position: absolute;
+    top: 7px;
+    right: 53px;
+}
+#container .table01
+td.centeredColumn {
+    text-align: center;
+}
+.dailyTasksFavorWarning {
+    text-align: center;
+    font-size: 15px;
+    padding-top: 15px;
+}
+#container .dailyTasksFavorWarning
+img {
+    float: none;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.dailyTaskDifficultyPassive
+a {
+    margin-left: 10px;
+}
+#dailyTasks
+.army_small {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../../img/cdn/all/both/characters/military/units_or_ships.png) no-repeat 0 0;
+}
